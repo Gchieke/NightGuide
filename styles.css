@@ -251,6 +251,91 @@ body {
   border: 1px dashed var(--border); border-radius: 18px; font-size: 15px;
 }
 
+/* ---------- view toggle: Clubs / Tonight ---------- */
+.view-toggle {
+  display: flex; gap: 10px; padding: 14px 16px 2px;
+  max-width: 900px; margin: 0 auto;
+}
+.view-btn {
+  flex: 1; min-height: 50px; border-radius: 16px; cursor: pointer;
+  border: 1px solid var(--border); background: rgba(20,10,44,.55);
+  color: var(--text); font-size: 15px; font-weight: 700; letter-spacing: 1px;
+  font-family: var(--font-display); text-transform: uppercase;
+  transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+}
+.view-btn:hover { transform: translateY(-1px); box-shadow: 0 0 16px rgba(34,211,238,.3); }
+.view-btn.active {
+  background: linear-gradient(135deg, var(--neon-pink), var(--neon-violet));
+  border-color: transparent; color: #fff;
+  box-shadow: 0 0 20px rgba(255,46,196,.6), 0 0 50px rgba(139,92,246,.3);
+}
+.hidden { display: none !important; }
+
+/* ---------- Tonight / events view ---------- */
+.events-view {
+  display: grid; gap: 18px; padding: 14px 16px 8px;
+  max-width: 900px; margin: 0 auto;
+}
+.events-section-title {
+  font-family: var(--font-display); font-size: 22px; letter-spacing: 2px;
+  text-transform: uppercase; margin-bottom: 10px;
+  background: linear-gradient(90deg, var(--neon-cyan), var(--neon-pink));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+  filter: drop-shadow(0 0 10px rgba(255,46,196,.35));
+}
+.events-section-title .date-sub { font-family: var(--font-body); font-size: 13px; letter-spacing: 1px; color: var(--muted); display: block; margin-top: 4px; -webkit-text-fill-color: var(--muted); filter: none; }
+.event-row {
+  position: relative; overflow: hidden;
+  display: grid; grid-template-columns: 1fr auto; gap: 12px; align-items: center;
+  background: var(--card); border: 1px solid var(--border); border-radius: 18px;
+  padding: 16px; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.event-row::before {
+  content: ""; position: absolute; top: 0; left: 12%; right: 12%; height: 2px; border-radius: 2px;
+  background: linear-gradient(90deg, transparent, var(--neon-cyan), var(--neon-pink), transparent);
+  opacity: .85;
+}
+.event-row:hover { transform: translateY(-2px); border-color: rgba(34,211,238,.55); box-shadow: 0 10px 32px rgba(0,0,0,.5), 0 0 20px rgba(34,211,238,.22); }
+.event-name { font-family: var(--font-display); font-size: 19px; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px; }
+.event-meta { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 13px; color: var(--muted); }
+.event-time {
+  color: var(--neon-cyan); font-weight: 700; letter-spacing: 1px;
+  text-shadow: 0 0 10px rgba(34,211,238,.8);
+}
+.event-club-btn {
+  background: none; border: none; padding: 0; cursor: pointer;
+  color: var(--neon-pink); font-size: 13px; font-weight: 700;
+  text-shadow: 0 0 10px rgba(255,46,196,.5); text-align: left;
+}
+.event-club-btn:hover { text-decoration: underline; }
+.tickets-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 46px; padding: 12px 20px; border-radius: 12px; white-space: nowrap;
+  background: linear-gradient(135deg, var(--neon-pink), var(--neon-violet));
+  color: #fff; font-size: 13px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase;
+  text-decoration: none; box-shadow: 0 0 16px rgba(255,46,196,.45);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.tickets-btn:hover { transform: translateY(-1px); box-shadow: 0 0 26px rgba(255,46,196,.7); }
+.events-empty { text-align: center; padding: 30px 20px; }
+.events-empty .big { font-family: var(--font-display); font-size: 24px; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px; }
+.events-empty p { color: var(--muted); font-size: 14px; margin-bottom: 18px; }
+.events-fallback-title {
+  font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px;
+  color: var(--muted); margin: 6px 0 10px;
+}
+.fallback-club {
+  display: flex; justify-content: space-between; align-items: center; gap: 10px;
+  width: 100%; text-align: left; cursor: pointer;
+  background: rgba(20,10,44,.5); border: 1px solid var(--border); border-radius: 14px;
+  color: var(--text); padding: 14px 16px; margin-bottom: 8px; font-size: 14px;
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+.fallback-club:hover { border-color: rgba(255,46,196,.5); box-shadow: 0 0 14px rgba(255,46,196,.2); }
+.fallback-club .fname { font-weight: 700; }
+.fallback-club .fhours { color: var(--muted); font-size: 12px; }
+
 /* ---------- reduced motion ---------- */
 @media (prefers-reduced-motion: reduce) {
   .blob, .moon, .detail { animation: none !important; }

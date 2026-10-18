@@ -61,6 +61,11 @@
   </svg>
 </header>
 
+<div class="view-toggle" role="tablist" aria-label="Switch between clubs and events">
+  <button id="view-clubs" class="view-btn active" role="tab" aria-selected="true">🌙 Clubs</button>
+  <button id="view-tonight" class="view-btn" role="tab" aria-selected="false">🎟 Tonight</button>
+</div>
+
 <nav class="city-bar" id="city-bar" aria-label="Choose a city"></nav>
 
 <div class="search-row">
@@ -81,6 +86,8 @@
 <p id="result-count" class="result-count" aria-live="polite"></p>
 
 <main id="club-list" class="club-list"></main>
+
+<section id="events-view" class="events-view hidden" aria-label="What's on tonight"></section>
 
 <div id="detail" class="detail hidden" role="dialog" aria-modal="true" aria-label="Club details">
   <button id="btn-back" class="back-btn">← All clubs</button>

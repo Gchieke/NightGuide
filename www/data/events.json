@@ -1,0 +1,372 @@
+{
+ "generated_at": "2026-10-18T09:12:03.667758+00:00",
+ "cities": [
+  {
+   "cityId": "london",
+   "timezone": "Europe/London",
+   "events": [
+    {
+     "id": "LvZ18QC_1Q1eK-OZ0xg4p",
+     "name": "SPORTS",
+     "clubName": "Heaven",
+     "clubIndex": 7,
+     "localDate": "2026-10-24",
+     "localTime": "18:00:00",
+     "timezone": "Europe/London",
+     "venue": "Heaven",
+     "url": "https://www.universe.com/events/sports-tickets-G3CJS2?ref=ticketmaster",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "LvZ18QJIEv82Agy5gq-L1",
+     "name": "Amtrac, CRi (DJ Set), Dmitry Molosh & more",
+     "clubName": "Ministry of Sound",
+     "clubIndex": 1,
+     "localDate": "2026-10-24",
+     "localTime": "22:00:00",
+     "timezone": "Europe/London",
+     "venue": "Ministry Of Sound",
+     "url": "https://www.universe.com/events/amtrac-cri-dj-set-dmitry-molosh-more-tickets-XV1506?ref=ticketmaster",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "LvZ18QlAkXopTGxJ9AZRs",
+     "name": "The Halloween House of Horrors",
+     "clubName": "Egg London",
+     "clubIndex": 6,
+     "localDate": "2026-10-29",
+     "localTime": "23:00:00",
+     "timezone": "Europe/London",
+     "venue": "Egg, London",
+     "url": "https://www.universe.com/events/the-halloween-house-of-horrors-tickets-10FDJZ?ref=ticketmaster",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "1AwZkfkGkeV08-1",
+     "name": "Chloe Qisha",
+     "clubName": "Heaven",
+     "clubIndex": 7,
+     "localDate": "2026-10-30",
+     "localTime": "18:30:00",
+     "timezone": "Europe/London",
+     "venue": "Heaven",
+     "url": "https://www.ticketweb.uk/event/chloe-qisha-heaven-tickets/15017873?REFERRAL_ID=tmfeed",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "LvZ18QIDy8b2eE0wucnDb",
+     "name": "Garage Nation Indoor Festival",
+     "clubName": "Ministry of Sound",
+     "clubIndex": 1,
+     "localDate": "2026-10-31",
+     "localTime": "14:00:00",
+     "timezone": "Europe/London",
+     "venue": "Ministry Of Sound",
+     "url": "https://www.universe.com/events/garage-nation-indoor-festival-tickets-Q81K23?ref=ticketmaster",
+     "source": "ticketmaster"
+    }
+   ]
+  },
+  {
+   "cityId": "lagos",
+   "timezone": "Africa/Lagos",
+   "events": []
+  },
+  {
+   "cityId": "dubai",
+   "timezone": "Asia/Dubai",
+   "events": [
+    {
+     "id": "Z698xZ52Z1kGOFbbO",
+     "name": "HOUSE RULES | Jan Blomqvist",
+     "clubName": "The Penthouse",
+     "clubIndex": 4,
+     "localDate": "2026-10-24",
+     "localTime": "22:00:00",
+     "timezone": "Asia/Dubai",
+     "venue": "The Penthouse | FIVE Palm",
+     "url": "https://www.ticketmaster.ae/event/house-rules-%7C-jan-blomqvist-tickets/320218620",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z698xZ52Z1kbt1_J9",
+     "name": "HOUSE RULES | Sam Shure",
+     "clubName": "The Penthouse",
+     "clubIndex": 4,
+     "localDate": "2026-10-31",
+     "localTime": "22:00:00",
+     "timezone": "Asia/Dubai",
+     "venue": "The Penthouse | FIVE Palm",
+     "url": "https://www.ticketmaster.ae/event/house-rules-%7C-sam-shure-tickets/629299997",
+     "source": "ticketmaster"
+    }
+   ]
+  },
+  {
+   "cityId": "nyc",
+   "timezone": "America/New_York",
+   "events": [
+    {
+     "id": "Z7r9jZ1AAeFaM",
+     "name": "Rebecca Black",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-10-18",
+     "localTime": "19:30:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeFaM",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AAvx7A",
+     "name": "Open Air Season Closing ft. Marco Carola, PAWSA - Ages 21+",
+     "clubName": "Pacha New York",
+     "clubIndex": 7,
+     "localDate": "2026-10-18",
+     "localTime": "20:00:00",
+     "timezone": "America/New_York",
+     "venue": "Pacha New York",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvx7A",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1A70MAv",
+     "name": "The Tallest Man on Earth",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-10-20",
+     "localTime": "21:00:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70MAv",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1A7Pd-w",
+     "name": "Castle Rat w/ Unto Others",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-10-21",
+     "localTime": "19:30:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pd-w",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AAvx7k",
+     "name": "Pixies w/ Amanda Petrusich",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-10-24",
+     "localTime": "20:00:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvx7k",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AAvpbv",
+     "name": "Conan O'Brien w/ David Remnick",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-10-25",
+     "localTime": "17:30:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1A7PbZ_",
+     "name": "Judah & The Lion (16+ Event)",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-10-27",
+     "localTime": "20:00:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PbZ_",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AAe7CZ",
+     "name": "DJ Meredith Marks - Ages 18+",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-10-28",
+     "localTime": "20:00:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe7CZ",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1A7xaAk",
+     "name": "Grateful Shred",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-10-29",
+     "localTime": "20:00:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xaAk",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AAvp4b",
+     "name": "Vintage Culture - Ages 21+",
+     "clubName": "Pacha New York",
+     "clubIndex": 7,
+     "localDate": "2026-10-29",
+     "localTime": "22:00:00",
+     "timezone": "America/New_York",
+     "venue": "Pacha New York",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvp4b",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1A70U7_",
+     "name": "Mico",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-10-30",
+     "localTime": "19:30:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70U7_",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AAZgCF",
+     "name": "Kaytranada - Ages 21+",
+     "clubName": "Pacha New York",
+     "clubIndex": 7,
+     "localDate": "2026-10-30",
+     "localTime": "22:00:00",
+     "timezone": "America/New_York",
+     "venue": "Pacha New York",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgCF",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1A7PUF6",
+     "name": "Halloween Rock Show and DJ Masquerade - KAMIJO (16 and Over)",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-10-31",
+     "localTime": "21:00:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PUF6",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AAZYj9",
+     "name": "Purple Disco Machine - Ages 21+",
+     "clubName": "Pacha New York",
+     "clubIndex": 7,
+     "localDate": "2026-10-31",
+     "localTime": "22:00:00",
+     "timezone": "America/New_York",
+     "venue": "Pacha New York",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZYj9",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AAv63o",
+     "name": "Two Friends (21 and Over)",
+     "clubName": "Marquee New York",
+     "clubIndex": 2,
+     "localDate": "2026-10-31",
+     "localTime": "23:00:00",
+     "timezone": "America/New_York",
+     "venue": "Marquee New York",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv63o",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1A7PUF8",
+     "name": "Halloween Rock Show and DJ Masquerade: AFTER PARTY - KAMIJO (16 and Over)",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-10-31",
+     "localTime": "23:30:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PUF8",
+     "source": "ticketmaster"
+    }
+   ]
+  },
+  {
+   "cityId": "berlin",
+   "timezone": "Europe/Berlin",
+   "events": [
+    {
+     "id": "Z698xZC2Z16vfxrora",
+     "name": "Charlie Jeer",
+     "clubName": "Berghain",
+     "clubIndex": 0,
+     "localDate": "2026-10-18",
+     "localTime": "20:00:00",
+     "timezone": "Europe/Berlin",
+     "venue": "Kantine am Berghain",
+     "url": "https://www.ticketmaster.de/event/charlie-jeer-tickets/1522791789?language=en-us",
+     "source": "ticketmaster"
+    }
+   ]
+  },
+  {
+   "cityId": "ibiza",
+   "timezone": "Europe/Madrid",
+   "events": []
+  },
+  {
+   "cityId": "miami",
+   "timezone": "America/New_York",
+   "events": []
+  },
+  {
+   "cityId": "vegas",
+   "timezone": "America/Los_Angeles",
+   "events": []
+  },
+  {
+   "cityId": "paris",
+   "timezone": "Europe/Paris",
+   "events": []
+  },
+  {
+   "cityId": "amsterdam",
+   "timezone": "Europe/Amsterdam",
+   "events": []
+  },
+  {
+   "cityId": "tokyo",
+   "timezone": "Asia/Tokyo",
+   "events": []
+  },
+  {
+   "cityId": "bangkok",
+   "timezone": "Asia/Bangkok",
+   "events": []
+  },
+  {
+   "cityId": "saopaulo",
+   "timezone": "America/Sao_Paulo",
+   "events": []
+  },
+  {
+   "cityId": "joburg",
+   "timezone": "Africa/Johannesburg",
+   "events": []
+  },
+  {
+   "cityId": "sydney",
+   "timezone": "Australia/Sydney",
+   "events": []
+  }
+ ]
+}
