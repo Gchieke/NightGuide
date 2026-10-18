@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>NightGuide — Find your night, anywhere</title>
+<meta name="description" content="Discover nightclubs city by city. Hours, DJs, dress codes, prices and entry rules — know before you go.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="app-header">
+  <div class="brand">🌃 NightGuide</div>
+  <p class="tagline">Know before you go</p>
+</header>
+
+<nav class="city-bar" id="city-bar" aria-label="Choose a city"></nav>
+
+<div class="search-row">
+  <input id="search" type="search" placeholder="Search clubs, areas, genres…" autocomplete="off">
+</div>
+
+<div class="filters" id="filters">
+  <select id="filter-genre" aria-label="Filter by music genre">
+    <option value="">All genres</option>
+  </select>
+  <select id="filter-price" aria-label="Filter by price">
+    <option value="">Any price</option>
+    <option value="1">$ Budget</option>
+    <option value="2">$$ Moderate</option>
+    <option value="3">$$$ Premium</option>
+  </select>
+</div>
+
+<main id="club-list" class="club-list"></main>
+
+<div id="detail" class="detail hidden">
+  <button id="btn-back" class="back-btn">← All clubs</button>
+  <div id="detail-body"></div>
+</div>
+
+<footer class="app-footer">
+  <p>Club details are curated from public sources. Hours, lineups and prices change — check the club before heading out.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
