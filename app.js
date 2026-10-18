@@ -69,6 +69,10 @@ function priceLabel(tier) {
 function renderList() {
   const list = $("club-list");
   const clubs = filteredClubs();
+  const rc = $("result-count");
+  if (rc) rc.textContent = clubs.length
+    ? `${clubs.length} spot${clubs.length === 1 ? "" : "s"} · ${activeCity?.name || ""}`
+    : "";
   if (!clubs.length) {
     list.innerHTML = `<div class="empty">No clubs match your filters in ${esc(activeCity?.name || "")}.</div>`;
     return;

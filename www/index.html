@@ -5,18 +5,66 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>NightGuide — Find your night, anywhere</title>
 <meta name="description" content="Discover nightclubs city by city. Hours, DJs, dress codes, prices and entry rules — know before you go.">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#070310">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<div class="aurora" aria-hidden="true"><span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span></div>
+
 <header class="app-header">
-  <div class="brand">🌃 NightGuide</div>
-  <p class="tagline">Know before you go</p>
+  <div class="moon-wrap" aria-hidden="true">
+    <svg class="moon" viewBox="0 0 64 64">
+      <defs>
+        <radialGradient id="moong" cx="35%" cy="35%" r="80%">
+          <stop offset="0%" stop-color="#ffffff"/>
+          <stop offset="55%" stop-color="#ffd7f2"/>
+          <stop offset="100%" stop-color="#ff7ad9"/>
+        </radialGradient>
+        <mask id="cresc">
+          <rect width="64" height="64" fill="#fff"/>
+          <circle cx="42" cy="22" r="19" fill="#000"/>
+        </mask>
+        <filter id="moonglow" x="-60%" y="-60%" width="220%" height="220%">
+          <feGaussianBlur stdDeviation="2.6" result="b"/>
+          <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+      </defs>
+      <circle cx="30" cy="32" r="20" fill="url(#moong)" mask="url(#cresc)" filter="url(#moonglow)"/>
+    </svg>
+  </div>
+  <h1 class="brand">NIGHT<span>GUIDE</span></h1>
+  <p class="tagline">Know before you go <span class="dot">·</span> 15 cities <span class="dot">·</span> 144 clubs</p>
+  <svg class="skyline" viewBox="0 0 360 52" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+    <g fill="#150b28">
+      <rect x="0" y="28" width="26" height="24"/><rect x="30" y="16" width="20" height="36"/>
+      <rect x="54" y="24" width="30" height="28"/><rect x="88" y="10" width="18" height="42"/>
+      <rect x="110" y="20" width="24" height="32"/><rect x="138" y="30" width="34" height="22"/>
+      <rect x="176" y="12" width="22" height="40"/><rect x="202" y="22" width="28" height="30"/>
+      <rect x="234" y="6" width="16" height="46"/><rect x="254" y="26" width="30" height="26"/>
+      <rect x="288" y="18" width="22" height="34"/><rect x="314" y="28" width="46" height="24"/>
+    </g>
+    <g fill="#22d3ee" opacity=".9">
+      <rect x="34" y="22" width="3" height="4"/><rect x="41" y="30" width="3" height="4"/>
+      <rect x="92" y="16" width="3" height="4"/><rect x="180" y="18" width="3" height="4"/>
+      <rect x="187" y="28" width="3" height="4"/><rect x="238" y="12" width="3" height="4"/>
+      <rect x="292" y="24" width="3" height="4"/><rect x="58" y="30" width="3" height="4"/>
+    </g>
+    <g fill="#ff2ec4" opacity=".9">
+      <rect x="114" y="26" width="3" height="4"/><rect x="206" y="28" width="3" height="4"/>
+      <rect x="258" y="32" width="3" height="4"/><rect x="318" y="34" width="3" height="4"/>
+      <rect x="6" y="34" width="3" height="4"/><rect x="142" y="36" width="3" height="4"/>
+    </g>
+  </svg>
 </header>
 
 <nav class="city-bar" id="city-bar" aria-label="Choose a city"></nav>
 
 <div class="search-row">
-  <input id="search" type="search" placeholder="Search clubs, areas, genres…" autocomplete="off">
+  <input id="search" type="search" placeholder="Search clubs, areas, genres…" autocomplete="off" aria-label="Search clubs">
 </div>
 
 <div class="filters" id="filters">
@@ -30,17 +78,18 @@
     <option value="3">$$$ Premium</option>
   </select>
 </div>
+<p id="result-count" class="result-count" aria-live="polite"></p>
 
 <main id="club-list" class="club-list"></main>
 
-<div id="detail" class="detail hidden">
+<div id="detail" class="detail hidden" role="dialog" aria-modal="true" aria-label="Club details">
   <button id="btn-back" class="back-btn">← All clubs</button>
   <div id="detail-body"></div>
 </div>
 
 <footer class="app-footer">
   <p>Club details are curated from public sources. Hours, lineups and prices change — check the club before heading out.</p>
-  <p><a href="privacy.html" style="color:#c724b1">Privacy Policy</a></p>
+  <p><a href="privacy.html">Privacy Policy</a></p>
 </footer>
 
 <script src="app.js"></script>
