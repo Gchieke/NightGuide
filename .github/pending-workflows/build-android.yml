@@ -1,0 +1,91 @@
+# Builds the NightGuide Android app on every push to main.
+# - Without signing secrets: builds a debug APK (validates the project compiles).
+# - With signing secrets set: builds a signed release AAB ready for Google Play.
+#
+# To enable signed Play builds, add these repository secrets
+# (Settings → Secrets and variables → Actions):
+#   ANDROID_KEYSTORE_BASE64  — your upload keystore, base64-encoded
+#   ANDROID_KEYSTORE_PASSWORD
+#   ANDROID_KEY_ALIAS
+#   ANDROID_KEY_PASSWORD
+# Generate a keystore once with:
+#   keytool -genkeypair -v -keystore nightguide-upload.keystore -alias nightguide \
+#     -keyalg RSA -keysize 2048 -validity 10000
+#
+# NOTE: GitHub Actions rejects the `secrets` context in any `if:` condition
+# ("Unrecognized named-value: 'secrets'") and refuses to parse the whole file.
+# Secrets are mapped to job-level env vars first; steps gate on `env.*` instead.
+name: Build Android
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'app.js'
+      - 'styles.css'
+      - 'privacy.html'
+      - 'data/**'
+      - 'capacitor.config.ts'
+      - 'android/**'
+      - 'package.json'
+      - '.github/workflows/build-android.yml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+      - run: npm run cap:sync
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - uses: android-actions/setup-android@v3
+
+      # The runner's default SDK setup lacks the platform and build-tools this
+      # project targets (compileSdk 36), and SDK licenses are not accepted on a
+      # fresh runner, so install them explicitly before Gradle runs.
+      - name: Install Android SDK 36 platform and build-tools
+        run: |
+          yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses > /dev/null || true
+          "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "platforms;android-36" "build-tools;36.0.0"
+
+      - name: Decode upload keystore
+        if: ${{ env.ANDROID_KEYSTORE_BASE64 != '' }}
+        run: echo "${{ secrets.ANDROID_KEYSTORE_BASE64 }}" | base64 -d > android/app/release.keystore
+
+      - name: Build signed release AAB
+        if: ${{ env.ANDROID_KEYSTORE_BASE64 != '' }}
+        working-directory: android
+        run: >
+          ./gradlew bundleRelease
+          -Pandroid.injected.signing.store.file=app/release.keystore
+          -Pandroid.injected.signing.store.password=${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          -Pandroid.injected.signing.key.alias=${{ secrets.ANDROID_KEY_ALIAS }}
+          -Pandroid.injected.signing.key.password=${{ secrets.ANDROID_KEY_PASSWORD }}
+
+      - name: Build debug APK (no signing secrets configured yet)
+        if: ${{ env.ANDROID_KEYSTORE_BASE64 == '' }}
+        working-directory: android
+        run: ./gradlew assembleDebug
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: android-build
+          path: |
+            android/app/build/outputs/bundle/release/*.aab
+            android/app/build/outputs/apk/debug/*.apk
+          if-no-files-found: error
