@@ -48,6 +48,13 @@ ALIASES = {
 # Statuses we never want to show (event isn't happening).
 DEAD_STATUSES = {"cancelled", "postponed"}
 
+# Affiliate tracking for ticket links. Empty = links go out exactly as
+# Ticketmaster provides them. Once approved for an affiliate program (e.g.
+# Ticketmaster via Impact), set this to the full query-string fragment the
+# program gives you, e.g. "utm_source=nightguide&utm_medium=affiliate" —
+# the daily sweep then tags every ticket URL automatically.
+TM_AFFILIATE_TAG = ""
+
 
 def log(msg):
     print(msg, flush=True)
@@ -75,6 +82,15 @@ def venue_matches(club_name, venue_name):
         if a and (a in vn or vn in a):
             return True
     return False
+
+
+def affiliate_url(url):
+    """Append TM_AFFILIATE_TAG to a ticket URL; no-op when the tag is empty."""
+    if not url or not TM_AFFILIATE_TAG:
+        return url
+    base, sep, frag = url.partition("#")
+    joiner = "&" if "?" in base else "?"
+    return f"{base}{joiner}{TM_AFFILIATE_TAG}{sep}{frag}"
 
 
 def tm_search(keyword, city, country, start, end):
@@ -118,7 +134,7 @@ def to_record(ev, club_name, club_idx):
         "localTime": start.get("localTime") or None,
         "timezone": tz,
         "venue": venue_name,
-        "url": ev.get("url", ""),
+        "url": affiliate_url(ev.get("url", "")),
         "source": "ticketmaster",
     }
 
