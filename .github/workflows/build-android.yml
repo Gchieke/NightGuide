@@ -51,7 +51,7 @@ jobs:
       - uses: actions/setup-java@v5
         with:
           distribution: temurin
-          java-version: 17
+          java-version: 21
 
       # The runner's default SDK setup lacks the platform and build-tools this
       # project targets (compileSdk 36), and SDK licenses are not accepted on a
