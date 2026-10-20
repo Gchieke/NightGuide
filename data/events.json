@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T06:16:35.778019+00:00",
+ "generated_at": "2026-10-20T06:16:30.690898+00:00",
  "cities": [
   {
    "cityId": "london",
@@ -151,7 +151,7 @@
      "localTime": "17:30:00",
      "timezone": "America/New_York",
      "venue": "Webster Hall",
-     "url": "",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvpbv",
      "source": "ticketmaster"
     },
     {
@@ -273,6 +273,18 @@
      "venue": "Webster Hall",
      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PUF8",
      "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1A70E18",
+     "name": "She Wants Revenge w/ Rosegarden Funeral Party",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-11-02",
+     "localTime": "20:00:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70E18",
+     "source": "ticketmaster"
     }
    ]
   },
@@ -294,7 +306,92 @@
   {
    "cityId": "vegas",
    "timezone": "America/Los_Angeles",
-   "events": []
+   "events": [
+    {
+     "id": "Z7r9jZ1AA77fy",
+     "name": "DJ E-Rock - Worship Thursdays - Ages 21+",
+     "clubName": "TAO Nightclub",
+     "clubIndex": 5,
+     "localDate": "2026-10-22",
+     "localTime": "22:30:00",
+     "timezone": "America/Los_Angeles",
+     "venue": "TAO Nightclub",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA77fy",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AA7748",
+     "name": "Al Tamar - Ages 21+",
+     "clubName": "TAO Nightclub",
+     "clubIndex": 5,
+     "localDate": "2026-10-23",
+     "localTime": "22:30:00",
+     "timezone": "America/Los_Angeles",
+     "venue": "TAO Nightclub",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7748",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AA77fo",
+     "name": "Beatbreaker - Ages 21+",
+     "clubName": "TAO Nightclub",
+     "clubIndex": 5,
+     "localDate": "2026-10-24",
+     "localTime": "22:30:00",
+     "timezone": "America/Los_Angeles",
+     "venue": "TAO Nightclub",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA77fo",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AA77ft",
+     "name": "Murda Beatz - Murda Mystery - Halloween Weekend - Ages 21+",
+     "clubName": "TAO Nightclub",
+     "clubIndex": 5,
+     "localDate": "2026-10-29",
+     "localTime": "22:30:00",
+     "timezone": "America/Los_Angeles",
+     "venue": "TAO Nightclub",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA77ft",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AA77fY",
+     "name": "Simp City - Halloween Weekend - Ages 21+",
+     "clubName": "TAO Nightclub",
+     "clubIndex": 5,
+     "localDate": "2026-10-30",
+     "localTime": "22:30:00",
+     "timezone": "America/Los_Angeles",
+     "venue": "TAO Nightclub",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA77fY",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AA77fs",
+     "name": "Justin Credible - Halloween Weekend - Ages 21+",
+     "clubName": "TAO Nightclub",
+     "clubIndex": 5,
+     "localDate": "2026-10-31",
+     "localTime": "22:30:00",
+     "timezone": "America/Los_Angeles",
+     "venue": "TAO Nightclub",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA77fs",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AA77fw",
+     "name": "Ritual Sundays - DJ Franzen - Halloween Weekend - Ages 21+",
+     "clubName": "TAO Nightclub",
+     "clubIndex": 5,
+     "localDate": "2026-11-01",
+     "localTime": "22:30:00",
+     "timezone": "America/Los_Angeles",
+     "venue": "TAO Nightclub",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA77fw",
+     "source": "ticketmaster"
+    }
+   ]
   },
   {
    "cityId": "paris",
