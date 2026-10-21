@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T06:16:30.690898+00:00",
+ "generated_at": "2026-10-21T06:16:35.946843+00:00",
  "cities": [
   {
    "cityId": "london",
@@ -64,6 +64,18 @@
      "venue": "Ministry Of Sound",
      "url": "https://www.universe.com/events/garage-nation-indoor-festival-tickets-Q81K23?ref=ticketmaster",
      "source": "ticketmaster"
+    },
+    {
+     "id": "LvZ18QlCPp4RN8ujx2uJP",
+     "name": "PIXY",
+     "clubName": "Phonox",
+     "clubIndex": 4,
+     "localDate": "2026-11-04",
+     "localTime": "19:00:00",
+     "timezone": "Europe/London",
+     "venue": "Phonox",
+     "url": "https://www.universe.com/events/pixy-tickets-ML07VN?ref=ticketmaster",
+     "source": "ticketmaster"
     }
    ]
   },
@@ -106,18 +118,6 @@
    "cityId": "nyc",
    "timezone": "America/New_York",
    "events": [
-    {
-     "id": "Z7r9jZ1A70MAv",
-     "name": "The Tallest Man on Earth",
-     "clubName": "Webster Hall",
-     "clubIndex": 0,
-     "localDate": "2026-10-20",
-     "localTime": "21:00:00",
-     "timezone": "America/New_York",
-     "venue": "Webster Hall",
-     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70MAv",
-     "source": "ticketmaster"
-    },
     {
      "id": "Z7r9jZ1A7Pd-w",
      "name": "Castle Rat w/ Unto Others",
@@ -285,6 +285,18 @@
      "venue": "Webster Hall",
      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70E18",
      "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1A7Pg-e",
+     "name": "The Wrecks (16 and Over)",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-11-03",
+     "localTime": "19:00:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pg-e",
+     "source": "ticketmaster"
     }
    ]
   },
@@ -301,7 +313,20 @@
   {
    "cityId": "miami",
    "timezone": "America/New_York",
-   "events": []
+   "events": [
+    {
+     "id": "Z7r9jZ1AAvo-M",
+     "name": "Riordan - DJ",
+     "clubName": "Club Space",
+     "clubIndex": 0,
+     "localDate": "2026-10-24",
+     "localTime": "23:00:00",
+     "timezone": "America/New_York",
+     "venue": "Club Space",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvo-M",
+     "source": "ticketmaster"
+    }
+   ]
   },
   {
    "cityId": "vegas",
