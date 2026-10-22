@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T06:16:35.946843+00:00",
+ "generated_at": "2026-10-22T06:16:32.118135+00:00",
  "cities": [
   {
    "cityId": "london",
@@ -118,18 +118,6 @@
    "cityId": "nyc",
    "timezone": "America/New_York",
    "events": [
-    {
-     "id": "Z7r9jZ1A7Pd-w",
-     "name": "Castle Rat w/ Unto Others",
-     "clubName": "Webster Hall",
-     "clubIndex": 0,
-     "localDate": "2026-10-21",
-     "localTime": "19:30:00",
-     "timezone": "America/New_York",
-     "venue": "Webster Hall",
-     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pd-w",
-     "source": "ticketmaster"
-    },
     {
      "id": "Z7r9jZ1AAvx7k",
      "name": "Pixies w/ Amanda Petrusich",
@@ -296,6 +284,18 @@
      "timezone": "America/New_York",
      "venue": "Webster Hall",
      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pg-e",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1A70E13",
+     "name": "Hovvdy",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-11-04",
+     "localTime": "20:00:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70E13",
      "source": "ticketmaster"
     }
    ]
