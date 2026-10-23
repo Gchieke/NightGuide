@@ -1,1 +1,38 @@
-{"author":"","bugs":{"url":"https://github.com/Gchieke/NightGuide/issues"},"dependencies":{"@capacitor/android":"^8.5.3","@capacitor/cli":"^8.5.3","@capacitor/core":"^8.5.3","@capacitor/ios":"^8.5.3"},"description":"NightGuide — worldwide nightclub discovery. Browse clubs city by city: hours, DJ lineups, dress codes, entry rules, and prices. Static web app, Capacitor native wrapper.","devDependencies":{"@capacitor/assets":"^3.0.5","typescript":"^7.0.2"},"homepage":"https://github.com/Gchieke/NightGuide#readme","keywords":["nightlife","clubs","travel","guide"],"license":"ISC","main":"app.js","name":"nightguide","repository":{"type":"git","url":"git+https://github.com/Gchieke/NightGuide.git"},"scripts":{"build:www":"rm -rf www && mkdir -p www && cp index.html app.js styles.css privacy.html www/ && cp -r data www/ && echo www built","cap:open:android":"npx cap open android","cap:open:ios":"npx cap open ios","cap:sync":"npm run build:www && npx cap sync"},"version":"1.0.0"}
+{
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Gchieke/NightGuide/issues"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/cli": "^8.5.3",
+    "@capacitor/core": "^8.5.3",
+    "@capacitor/ios": "^8.5.3"
+  },
+  "description": "NightGuide \u2014 worldwide nightclub discovery. Browse clubs city by city: hours, DJ lineups, dress codes, entry rules, and prices. Static web app, Capacitor native wrapper.",
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "typescript": "^7.0.2"
+  },
+  "homepage": "https://github.com/Gchieke/NightGuide#readme",
+  "keywords": [
+    "nightlife",
+    "clubs",
+    "travel",
+    "guide"
+  ],
+  "license": "ISC",
+  "main": "app.js",
+  "name": "nightguide",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gchieke/NightGuide.git"
+  },
+  "scripts": {
+    "build:www": "rm -rf www && mkdir -p www && cp index.html app.js styles.css privacy.html terms.html manifest.json www/ && cp -r data www/ && echo www built",
+    "cap:open:android": "npx cap open android",
+    "cap:open:ios": "npx cap open ios",
+    "cap:sync": "npm run build:www && npx cap sync"
+  },
+  "version": "1.0.0"
+}
