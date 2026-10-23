@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T06:16:32.118135+00:00",
+ "generated_at": "2026-10-23T06:16:33.095651+00:00",
  "cities": [
   {
    "cityId": "london",
@@ -63,18 +63,6 @@
      "timezone": "Europe/London",
      "venue": "Ministry Of Sound",
      "url": "https://www.universe.com/events/garage-nation-indoor-festival-tickets-Q81K23?ref=ticketmaster",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "LvZ18QlCPp4RN8ujx2uJP",
-     "name": "PIXY",
-     "clubName": "Phonox",
-     "clubIndex": 4,
-     "localDate": "2026-11-04",
-     "localTime": "19:00:00",
-     "timezone": "Europe/London",
-     "venue": "Phonox",
-     "url": "https://www.universe.com/events/pixy-tickets-ML07VN?ref=ticketmaster",
      "source": "ticketmaster"
     }
    ]
@@ -303,7 +291,20 @@
   {
    "cityId": "berlin",
    "timezone": "Europe/Berlin",
-   "events": []
+   "events": [
+    {
+     "id": "Z698xZC2Z1kAZoKuV",
+     "name": "TRIBE CLUB SERIES  Funk Tribu, Supergloss, Linds, Tom Carroll & Karish",
+     "clubName": "RSO.BERLIN",
+     "clubIndex": 7,
+     "localDate": "2026-11-06",
+     "localTime": "23:00:00",
+     "timezone": "Europe/Berlin",
+     "venue": "RSO.BERLIN",
+     "url": "https://www.ticketmaster.de/event/tribe-club-series-funk-tribu-supergloss-linds-tom-carroll--karish-tickets/140453374?language=en-us",
+     "source": "ticketmaster"
+    }
+   ]
   },
   {
    "cityId": "ibiza",
@@ -332,18 +333,6 @@
    "cityId": "vegas",
    "timezone": "America/Los_Angeles",
    "events": [
-    {
-     "id": "Z7r9jZ1AA77fy",
-     "name": "DJ E-Rock - Worship Thursdays - Ages 21+",
-     "clubName": "TAO Nightclub",
-     "clubIndex": 5,
-     "localDate": "2026-10-22",
-     "localTime": "22:30:00",
-     "timezone": "America/Los_Angeles",
-     "venue": "TAO Nightclub",
-     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA77fy",
-     "source": "ticketmaster"
-    },
     {
      "id": "Z7r9jZ1AA7748",
      "name": "Al Tamar - Ages 21+",
@@ -414,6 +403,18 @@
      "timezone": "America/Los_Angeles",
      "venue": "TAO Nightclub",
      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA77fw",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AA77fS",
+     "name": "DJ CLA - Worship Thursdays - Ages 21+",
+     "clubName": "TAO Nightclub",
+     "clubIndex": 5,
+     "localDate": "2026-11-05",
+     "localTime": "22:30:00",
+     "timezone": "America/Los_Angeles",
+     "venue": "TAO Nightclub",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA77fS",
      "source": "ticketmaster"
     }
    ]
