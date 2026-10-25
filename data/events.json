@@ -1,22 +1,10 @@
 {
- "generated_at": "2026-10-24T06:16:18.565752+00:00",
+ "generated_at": "2026-10-25T06:16:19.628144+00:00",
  "cities": [
   {
    "cityId": "london",
    "timezone": "Europe/London",
    "events": [
-    {
-     "id": "LvZ18QC_1Q1eK-OZ0xg4p",
-     "name": "SPORTS",
-     "clubName": "Heaven",
-     "clubIndex": 7,
-     "localDate": "2026-10-24",
-     "localTime": "18:00:00",
-     "timezone": "Europe/London",
-     "venue": "Heaven",
-     "url": "https://www.universe.com/events/sports-tickets-G3CJS2?ref=ticketmaster",
-     "source": "ticketmaster"
-    },
     {
      "id": "LvZ18QJIEv82Agy5gq-L1",
      "name": "Amtrac, CRi (DJ Set), Dmitry Molosh & more",
@@ -77,18 +65,6 @@
    "timezone": "Asia/Dubai",
    "events": [
     {
-     "id": "Z698xZ52Z1kGOFbbO",
-     "name": "HOUSE RULES | Jan Blomqvist",
-     "clubName": "The Penthouse",
-     "clubIndex": 4,
-     "localDate": "2026-10-24",
-     "localTime": "22:00:00",
-     "timezone": "Asia/Dubai",
-     "venue": "The Penthouse | FIVE Palm",
-     "url": "https://www.ticketmaster.ae/event/house-rules-%7C-jan-blomqvist-tickets/320218620",
-     "source": "ticketmaster"
-    },
-    {
      "id": "Z698xZ52Z1kbt1_J9",
      "name": "HOUSE RULES | Sam Shure",
      "clubName": "The Penthouse",
@@ -118,18 +94,6 @@
    "cityId": "nyc",
    "timezone": "America/New_York",
    "events": [
-    {
-     "id": "Z7r9jZ1AAvx7k",
-     "name": "Pixies w/ Amanda Petrusich",
-     "clubName": "Webster Hall",
-     "clubIndex": 0,
-     "localDate": "2026-10-24",
-     "localTime": "20:00:00",
-     "timezone": "America/New_York",
-     "venue": "Webster Hall",
-     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvx7k",
-     "source": "ticketmaster"
-    },
     {
      "id": "Z7r9jZ1AAvpbv",
      "name": "Conan O'Brien w/ David Remnick",
