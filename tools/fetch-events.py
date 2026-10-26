@@ -27,6 +27,9 @@ CITY_COUNTRY = {
     "london": "GB", "berlin": "DE", "paris": "FR", "amsterdam": "NL",
     "ibiza": "ES", "dubai": "AE", "lagos": "NG", "joburg": "ZA",
     "saopaulo": "BR", "tokyo": "JP", "bangkok": "TH", "sydney": "AU",
+    "barcelona": "ES", "rome": "IT", "prague": "CZ", "lisbon": "PT",
+    "losangeles": "US", "neworleans": "US", "seoul": "KR",
+    "singapore": "SG", "bali": "ID", "mexicocity": "MX", "abuja": "NG",
 }
 CITY_TIMEZONE = {
     "nyc": "America/New_York", "miami": "America/New_York",
@@ -37,6 +40,12 @@ CITY_TIMEZONE = {
     "lagos": "Africa/Lagos", "joburg": "Africa/Johannesburg",
     "saopaulo": "America/Sao_Paulo", "tokyo": "Asia/Tokyo",
     "bangkok": "Asia/Bangkok", "sydney": "Australia/Sydney",
+    "barcelona": "Europe/Madrid", "rome": "Europe/Rome",
+    "prague": "Europe/Prague", "lisbon": "Europe/Lisbon",
+    "losangeles": "America/Los_Angeles", "neworleans": "America/Chicago",
+    "seoul": "Asia/Seoul", "singapore": "Asia/Singapore",
+    "bali": "Asia/Makassar", "mexicocity": "America/Mexico_City",
+    "abuja": "Africa/Lagos",
 }
 
 # Normalized club-name -> extra venue-name fragments that count as a match.
