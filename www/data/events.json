@@ -1,22 +1,10 @@
 {
- "generated_at": "2026-10-25T06:16:19.628144+00:00",
+ "generated_at": "2026-10-26T06:16:21.127342+00:00",
  "cities": [
   {
    "cityId": "london",
    "timezone": "Europe/London",
    "events": [
-    {
-     "id": "LvZ18QJIEv82Agy5gq-L1",
-     "name": "Amtrac, CRi (DJ Set), Dmitry Molosh & more",
-     "clubName": "Ministry of Sound",
-     "clubIndex": 1,
-     "localDate": "2026-10-24",
-     "localTime": "22:00:00",
-     "timezone": "Europe/London",
-     "venue": "Ministry Of Sound",
-     "url": "https://www.universe.com/events/amtrac-cri-dj-set-dmitry-molosh-more-tickets-XV1506?ref=ticketmaster",
-     "source": "ticketmaster"
-    },
     {
      "id": "LvZ18QlAkXopTGxJ9AZRs",
      "name": "The Halloween House of Horrors",
@@ -94,18 +82,6 @@
    "cityId": "nyc",
    "timezone": "America/New_York",
    "events": [
-    {
-     "id": "Z7r9jZ1AAvpbv",
-     "name": "Conan O'Brien w/ David Remnick",
-     "clubName": "Webster Hall",
-     "clubIndex": 0,
-     "localDate": "2026-10-25",
-     "localTime": "17:30:00",
-     "timezone": "America/New_York",
-     "venue": "Webster Hall",
-     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvpbv",
-     "source": "ticketmaster"
-    },
     {
      "id": "Z7r9jZ1A7PbZ_",
      "name": "Judah & The Lion (16+ Event)",
@@ -248,6 +224,18 @@
      "timezone": "America/New_York",
      "venue": "Webster Hall",
      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70E1K",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AAZIuV",
+     "name": "King of Drag - Ages 16+",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-11-08",
+     "localTime": "20:00:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIuV",
      "source": "ticketmaster"
     }
    ]
