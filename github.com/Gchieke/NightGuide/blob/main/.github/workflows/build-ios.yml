@@ -77,9 +77,11 @@ jobs:
         if: ${{ env.APPLE_CERTIFICATE_BASE64 != '' && env.APPLE_PROVISIONING_PROFILE_BASE64 != '' }}
         working-directory: ios/App
         run: >
-          xcodebuild -project App.xcodeproj -target App -configuration Release
+          xcodebuild -project App.xcodeproj -scheme App -configuration Release
           -archivePath build/NightGuide.xcarchive archive
           DEVELOPMENT_TEAM=${{ secrets.APPLE_TEAM_ID }}
+          CODE_SIGN_STYLE=Manual
+          PROVISIONING_PROFILE_SPECIFIER="NightGuide App Store"
           && xcodebuild -exportArchive
           -archivePath build/NightGuide.xcarchive
           -exportPath build/ipa
