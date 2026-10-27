@@ -29,7 +29,7 @@
     "url": "git+https://github.com/Gchieke/NightGuide.git"
   },
   "scripts": {
-    "build:www": "rm -rf www && mkdir -p www && cp index.html app.js styles.css privacy.html terms.html manifest.json www/ && cp -r data www/ && echo www built",
+    "build:www": "rm -rf www && mkdir -p www && cp index.html app.js styles.css privacy.html terms.html www/ && cp -r data www/ && echo www built",
     "cap:open:android": "npx cap open android",
     "cap:open:ios": "npx cap open ios",
     "cap:sync": "npm run build:www && npx cap sync"
