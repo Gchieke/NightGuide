@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T06:14:11.917636+00:00",
+ "generated_at": "2026-10-29T06:14:08.394525+00:00",
  "cities": [
   {
    "cityId": "london",
@@ -82,18 +82,6 @@
    "cityId": "nyc",
    "timezone": "America/New_York",
    "events": [
-    {
-     "id": "Z7r9jZ1AAe7CZ",
-     "name": "DJ Meredith Marks - Ages 18+",
-     "clubName": "Webster Hall",
-     "clubIndex": 0,
-     "localDate": "2026-10-28",
-     "localTime": "20:00:00",
-     "timezone": "America/New_York",
-     "venue": "Webster Hall",
-     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe7CZ",
-     "source": "ticketmaster"
-    },
     {
      "id": "Z7r9jZ1A7xaAk",
      "name": "Grateful Shred",
@@ -224,6 +212,18 @@
      "timezone": "America/New_York",
      "venue": "Webster Hall",
      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIuV",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1A7xeag",
+     "name": "Fruit Bats (16 and Over)",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-11-11",
+     "localTime": "20:00:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xeag",
      "source": "ticketmaster"
     }
    ]
