@@ -17,7 +17,10 @@ async function init() {
   } catch (e) { /* events are optional; the view degrades gracefully */ }
   buildCityBar();
   buildGenreFilter();
-  if (DATA.cities.length) selectCity(DATA.cities[0].id);
+  if (DATA.cities.length) {
+    const startCity = new URLSearchParams(location.search).get("city");
+    selectCity(DATA.cities.some(c => c.id === startCity) ? startCity : DATA.cities[0].id);
+  }
   wireEvents();
 }
 
