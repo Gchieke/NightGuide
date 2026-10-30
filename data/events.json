@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T06:14:08.394525+00:00",
+ "generated_at": "2026-10-30T06:14:30.945724+00:00",
  "cities": [
   {
    "cityId": "london",
@@ -39,6 +39,30 @@
      "timezone": "Europe/London",
      "venue": "Ministry Of Sound",
      "url": "https://www.universe.com/events/garage-nation-indoor-festival-tickets-Q81K23?ref=ticketmaster",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "LvZ18QmG0bxpaotv2SS1X",
+     "name": "NONAME",
+     "clubName": "Heaven",
+     "clubIndex": 7,
+     "localDate": "2026-11-07",
+     "localTime": "18:00:00",
+     "timezone": "Europe/London",
+     "venue": "Heaven",
+     "url": "https://www.universe.com/events/noname-tickets-P7BS6R?ref=ticketmaster",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "G5vHZ_3KOZ7ZV",
+     "name": "Digital Stars @ MIKU EXPO 2026 London",
+     "clubName": "Heaven",
+     "clubIndex": 7,
+     "localDate": "2026-11-13",
+     "localTime": "18:00:00",
+     "timezone": "Europe/London",
+     "venue": "Heaven",
+     "url": "https://www.ticketmaster.co.uk/digital-stars-miku-expo-2026-london-london-13-11-2026/event/1F006524E0004034",
      "source": "ticketmaster"
     }
    ]
@@ -82,18 +106,6 @@
    "cityId": "nyc",
    "timezone": "America/New_York",
    "events": [
-    {
-     "id": "Z7r9jZ1A7xaAk",
-     "name": "Grateful Shred",
-     "clubName": "Webster Hall",
-     "clubIndex": 0,
-     "localDate": "2026-10-29",
-     "localTime": "20:00:00",
-     "timezone": "America/New_York",
-     "venue": "Webster Hall",
-     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xaAk",
-     "source": "ticketmaster"
-    },
     {
      "id": "Z7r9jZ1A70U7_",
      "name": "Mico",
@@ -225,6 +237,18 @@
      "venue": "Webster Hall",
      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xeag",
      "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1A7Joup",
+     "name": "Protomartyr (16 and Over)",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-11-12",
+     "localTime": "20:00:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Joup",
+     "source": "ticketmaster"
     }
    ]
   },
@@ -286,20 +310,7 @@
   {
    "cityId": "barcelona",
    "timezone": "Europe/Madrid",
-   "events": [
-    {
-     "id": "Z698xZ2qZ1kPduJ8Y",
-     "name": "ElGrandeToto",
-     "clubName": "Razzmatazz",
-     "clubIndex": 0,
-     "localDate": "2026-11-03",
-     "localTime": "20:30:00",
-     "timezone": "Europe/Madrid",
-     "venue": "Sala Razzmatazz 2",
-     "url": "https://www.ticketmaster.es/event/elgrandetoto-tickets/943366430?language=en-us",
-     "source": "ticketmaster"
-    }
-   ]
+   "events": []
   },
   {
    "cityId": "rome",
