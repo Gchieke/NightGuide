@@ -1,34 +1,10 @@
 {
- "generated_at": "2026-10-30T06:14:30.945724+00:00",
+ "generated_at": "2026-10-31T06:14:12.286115+00:00",
  "cities": [
   {
    "cityId": "london",
    "timezone": "Europe/London",
    "events": [
-    {
-     "id": "LvZ18QlAkXopTGxJ9AZRs",
-     "name": "The Halloween House of Horrors",
-     "clubName": "Egg London",
-     "clubIndex": 6,
-     "localDate": "2026-10-29",
-     "localTime": "23:00:00",
-     "timezone": "Europe/London",
-     "venue": "Egg, London",
-     "url": "https://www.universe.com/events/the-halloween-house-of-horrors-tickets-10FDJZ?ref=ticketmaster",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "1AwZkfkGkeV08-1",
-     "name": "Chloe Qisha",
-     "clubName": "Heaven",
-     "clubIndex": 7,
-     "localDate": "2026-10-30",
-     "localTime": "18:30:00",
-     "timezone": "Europe/London",
-     "venue": "Heaven",
-     "url": "https://www.ticketweb.uk/event/chloe-qisha-heaven-tickets/15017873?REFERRAL_ID=tmfeed",
-     "source": "ticketmaster"
-    },
     {
      "id": "LvZ18QIDy8b2eE0wucnDb",
      "name": "Garage Nation Indoor Festival",
@@ -99,6 +75,18 @@
      "venue": "The Penthouse | FIVE Palm",
      "url": "https://www.ticketmaster.ae/event/skyline-saturdays-presents-jonas-blue-tickets/1704006531",
      "source": "ticketmaster"
+    },
+    {
+     "id": "Z698xZ52Z16vqf74rZ",
+     "name": "RICHY AHMED | House Rules",
+     "clubName": "The Penthouse",
+     "clubIndex": 4,
+     "localDate": "2026-11-14",
+     "localTime": "22:00:00",
+     "timezone": "Asia/Dubai",
+     "venue": "The Penthouse | FIVE Palm",
+     "url": "https://www.ticketmaster.ae/event/richy-ahmed-%7C-house-rules-tickets/1754115780",
+     "source": "ticketmaster"
     }
    ]
   },
@@ -106,18 +94,6 @@
    "cityId": "nyc",
    "timezone": "America/New_York",
    "events": [
-    {
-     "id": "Z7r9jZ1A70U7_",
-     "name": "Mico",
-     "clubName": "Webster Hall",
-     "clubIndex": 0,
-     "localDate": "2026-10-30",
-     "localTime": "19:30:00",
-     "timezone": "America/New_York",
-     "venue": "Webster Hall",
-     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70U7_",
-     "source": "ticketmaster"
-    },
     {
      "id": "Z7r9jZ1A7PUF6",
      "name": "Halloween Rock Show and DJ Masquerade - KAMIJO (16 and Over)",
@@ -249,6 +225,30 @@
      "venue": "Webster Hall",
      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Joup",
      "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AAvtqd",
+     "name": "Nia Archives (18 and Over)",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-11-13",
+     "localTime": "20:00:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtqd",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AAe7-z",
+     "name": "Electric Feels - Ages 18+",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-11-13",
+     "localTime": "23:00:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe7-z",
+     "source": "ticketmaster"
     }
    ]
   },
@@ -310,7 +310,44 @@
   {
    "cityId": "barcelona",
    "timezone": "Europe/Madrid",
-   "events": []
+   "events": [
+    {
+     "id": "Z698xZ2qZ1kPduJ8Y",
+     "name": "ElGrandeToto",
+     "clubName": "Razzmatazz",
+     "clubIndex": 0,
+     "localDate": "2026-11-03",
+     "localTime": "20:30:00",
+     "timezone": "Europe/Madrid",
+     "venue": "Sala Razzmatazz 2",
+     "url": "https://www.ticketmaster.es/event/elgrandetoto-tickets/943366430?language=en-us",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z698xZ2qZ1kfeQ4Jf",
+     "name": "ARLO PARKS - DESIRE TOUR",
+     "clubName": "Sala Apolo",
+     "clubIndex": 1,
+     "localDate": "2026-11-13",
+     "localTime": "20:30:00",
+     "timezone": "Europe/Madrid",
+     "venue": "Sala Apolo",
+     "url": "https://www.ticketmaster.es/event/arlo-parks-desire-tour-tickets/502695994?language=en-us",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "LvZ18Q2qtR4qtOOZlc9DR",
+     "name": "ELYELLA - Lo más importante - Barcelona",
+     "clubName": "Razzmatazz",
+     "clubIndex": 0,
+     "localDate": "2026-11-14",
+     "localTime": "19:30:00",
+     "timezone": "Europe/Madrid",
+     "venue": "Sala Razzmatazz 1",
+     "url": "https://www.universe.com/events/elyella-lo-mas-importante-barcelona-tickets-MRK0W1?ref=ticketmaster",
+     "source": "ticketmaster"
+    }
+   ]
   },
   {
    "cityId": "rome",
