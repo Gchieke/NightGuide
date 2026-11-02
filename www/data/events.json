@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T06:14:25.577418+00:00",
+ "generated_at": "2026-11-02T06:14:08.911398+00:00",
  "cities": [
   {
    "cityId": "london",
@@ -213,6 +213,18 @@
      "venue": "Marquee New York",
      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv4pb",
      "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1A7Pg08",
+     "name": "Stella Lefty - All Ages (under 16 with adult)",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-11-15",
+     "localTime": "20:00:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pg08",
+     "source": "ticketmaster"
     }
    ]
   },
@@ -309,6 +321,18 @@
      "timezone": "Europe/Madrid",
      "venue": "Sala Razzmatazz 1",
      "url": "https://www.universe.com/events/elyella-lo-mas-importante-barcelona-tickets-MRK0W1?ref=ticketmaster",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z698xZ2qZ1kjd0_ZM",
+     "name": "Jack & Jack: SYN/ANTI EUROPE 2026",
+     "clubName": "Razzmatazz",
+     "clubIndex": 0,
+     "localDate": "2026-11-16",
+     "localTime": "20:30:00",
+     "timezone": "Europe/Madrid",
+     "venue": "Sala Razzmatazz 2",
+     "url": "https://www.ticketmaster.es/event/jack--jack-syn-anti-europe-2026-tickets/703919037?language=en-us",
      "source": "ticketmaster"
     }
    ]
