@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T06:14:08.911398+00:00",
+ "generated_at": "2026-11-03T06:14:10.012863+00:00",
  "cities": [
   {
    "cityId": "london",
@@ -70,18 +70,6 @@
    "cityId": "nyc",
    "timezone": "America/New_York",
    "events": [
-    {
-     "id": "Z7r9jZ1A70E18",
-     "name": "She Wants Revenge w/ Rosegarden Funeral Party",
-     "clubName": "Webster Hall",
-     "clubIndex": 0,
-     "localDate": "2026-11-02",
-     "localTime": "20:00:00",
-     "timezone": "America/New_York",
-     "venue": "Webster Hall",
-     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70E18",
-     "source": "ticketmaster"
-    },
     {
      "id": "Z7r9jZ1A7Pg-e",
      "name": "The Wrecks (16 and Over)",
