@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T06:14:04.377464+00:00",
+ "generated_at": "2026-11-06T06:14:12.175964+00:00",
  "cities": [
   {
    "cityId": "london",
@@ -225,6 +225,18 @@
      "venue": "Webster Hall",
      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pg-b",
      "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AAvsAs",
+     "name": "Menahan Street Band - Ages 16+",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-11-19",
+     "localTime": "20:00:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsAs",
+     "source": "ticketmaster"
     }
    ]
   },
@@ -288,6 +300,18 @@
    "timezone": "Europe/Madrid",
    "events": [
     {
+     "id": "Z698xZ2qZ1kfeQ4Jf",
+     "name": "ARLO PARKS - DESIRE TOUR",
+     "clubName": "Sala Apolo",
+     "clubIndex": 1,
+     "localDate": "2026-11-13",
+     "localTime": "20:30:00",
+     "timezone": "Europe/Madrid",
+     "venue": "Sala Apolo",
+     "url": "https://www.ticketmaster.es/event/arlo-parks-desire-tour-tickets/502695994?language=en-us",
+     "source": "ticketmaster"
+    },
+    {
      "id": "LvZ18Q2qtR4qtOOZlc9DR",
      "name": "ELYELLA - Lo más importante - Barcelona",
      "clubName": "Razzmatazz",
@@ -309,6 +333,18 @@
      "timezone": "Europe/Madrid",
      "venue": "Sala Razzmatazz 2",
      "url": "https://www.ticketmaster.es/event/jack--jack-syn-anti-europe-2026-tickets/703919037?language=en-us",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z698xZ2qZ1kubf3pA",
+     "name": "Artemas - LOVERCORE / GETTING UP TO NO GOOD Tour",
+     "clubName": "Sala Apolo",
+     "clubIndex": 1,
+     "localDate": "2026-11-18",
+     "localTime": "20:30:00",
+     "timezone": "Europe/Madrid",
+     "venue": "Sala Apolo",
+     "url": "https://www.ticketmaster.es/event/artemas-lovercore-getting-up-to-no-good-tour-tickets/358512585?language=en-us",
      "source": "ticketmaster"
     }
    ]
