@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T06:14:12.175964+00:00",
+ "generated_at": "2026-11-07T06:14:06.203970+00:00",
  "cities": [
   {
    "cityId": "london",
@@ -87,6 +87,18 @@
      "venue": "The Penthouse | FIVE Palm",
      "url": "https://www.ticketmaster.ae/event/richy-ahmed-%7C-house-rules-tickets/1754115780",
      "source": "ticketmaster"
+    },
+    {
+     "id": "Z698xZ52Z16v48Qkrd",
+     "name": "HOUSE RULES | Ilario Alicante",
+     "clubName": "The Penthouse",
+     "clubIndex": 4,
+     "localDate": "2026-11-21",
+     "localTime": "22:00:00",
+     "timezone": "Asia/Dubai",
+     "venue": "The Penthouse | FIVE Palm",
+     "url": "https://www.ticketmaster.ae/event/house-rules-%7C-ilario-alicante-tickets/1550686783",
+     "source": "ticketmaster"
     }
    ]
   },
@@ -94,18 +106,6 @@
    "cityId": "nyc",
    "timezone": "America/New_York",
    "events": [
-    {
-     "id": "Z7r9jZ1A70EkK",
-     "name": "This Is Lorelei (16 and Over)",
-     "clubName": "Webster Hall",
-     "clubIndex": 0,
-     "localDate": "2026-11-06",
-     "localTime": "20:00:00",
-     "timezone": "America/New_York",
-     "venue": "Webster Hall",
-     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EkK",
-     "source": "ticketmaster"
-    },
     {
      "id": "Z7r9jZ1A70E1K",
      "name": "Saosin w/ Silent Planet",
@@ -236,6 +236,30 @@
      "timezone": "America/New_York",
      "venue": "Webster Hall",
      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsAs",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AAZ8jb",
+     "name": "Greg Freeman (16 and Over)",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-11-20",
+     "localTime": "19:30:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ8jb",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AA7Ffa",
+     "name": "Earlybirds Club (21 and Over)",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-11-21",
+     "localTime": "18:00:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Ffa",
      "source": "ticketmaster"
     }
    ]
