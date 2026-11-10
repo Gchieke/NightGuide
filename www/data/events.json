@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T06:14:09.636168+00:00",
+ "generated_at": "2026-11-10T06:14:08.762543+00:00",
  "cities": [
   {
    "cityId": "london",
@@ -357,6 +357,18 @@
      "timezone": "Europe/Madrid",
      "venue": "Sala Razzmatazz 1",
      "url": "https://www.ticketmaster.es/event/polyphia-be-not-afraid-world-tour-tickets/1150301783?language=en-us",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z698xZ2qZ16vvYJaee",
+     "name": "Kingfishr - Europe 2026",
+     "clubName": "Sala Apolo",
+     "clubIndex": 1,
+     "localDate": "2026-11-24",
+     "localTime": "20:30:00",
+     "timezone": "Europe/Madrid",
+     "venue": "Sala Apolo",
+     "url": "https://www.ticketmaster.es/event/kingfishr-europe-2026-tickets/1070989082?language=en-us",
      "source": "ticketmaster"
     }
    ]
