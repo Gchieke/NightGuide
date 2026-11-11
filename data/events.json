@@ -1,47 +1,10 @@
 {
- "generated_at": "2026-11-10T06:14:08.762543+00:00",
+ "generated_at": "2026-11-11T06:14:06.022000+00:00",
  "cities": [
   {
    "cityId": "london",
    "timezone": "Europe/London",
-   "events": [
-    {
-     "id": "G5vHZ_3KOZ7ZV",
-     "name": "Digital Stars @ MIKU EXPO 2026 London",
-     "clubName": "Heaven",
-     "clubIndex": 7,
-     "localDate": "2026-11-13",
-     "localTime": "18:00:00",
-     "timezone": "Europe/London",
-     "venue": "Heaven",
-     "url": "https://www.ticketmaster.co.uk/digital-stars-miku-expo-2026-london-london-13-11-2026/event/1F006524E0004034",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "G5vHZ_53UN7jk",
-     "name": "Haute & Freddy",
-     "clubName": "Heaven",
-     "clubIndex": 7,
-     "localDate": "2026-11-18",
-     "localTime": "19:00:00",
-     "timezone": "Europe/London",
-     "venue": "Heaven",
-     "url": "https://www.ticketmaster.co.uk/haute-freddy-london-18-11-2026/event/1F0064B4B68C4706",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "G5vHZ_5KpxJoq",
-     "name": "Haute & Freddy",
-     "clubName": "Heaven",
-     "clubIndex": 7,
-     "localDate": "2026-11-19",
-     "localTime": "19:00:00",
-     "timezone": "Europe/London",
-     "venue": "Heaven",
-     "url": "https://www.ticketmaster.co.uk/haute-freddy-london-19-11-2026/event/1F0064B4D68A645D",
-     "source": "ticketmaster"
-    }
-   ]
+   "events": []
   },
   {
    "cityId": "lagos",
@@ -51,194 +14,12 @@
   {
    "cityId": "dubai",
    "timezone": "Asia/Dubai",
-   "events": [
-    {
-     "id": "Z698xZ52Z16vqf74rZ",
-     "name": "RICHY AHMED | House Rules",
-     "clubName": "The Penthouse",
-     "clubIndex": 4,
-     "localDate": "2026-11-14",
-     "localTime": "22:00:00",
-     "timezone": "Asia/Dubai",
-     "venue": "The Penthouse | FIVE Palm",
-     "url": "https://www.ticketmaster.ae/event/richy-ahmed-%7C-house-rules-tickets/1754115780",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "Z698xZ52Z16v48Qkrd",
-     "name": "HOUSE RULES | Ilario Alicante",
-     "clubName": "The Penthouse",
-     "clubIndex": 4,
-     "localDate": "2026-11-21",
-     "localTime": "22:00:00",
-     "timezone": "Asia/Dubai",
-     "venue": "The Penthouse | FIVE Palm",
-     "url": "https://www.ticketmaster.ae/event/house-rules-%7C-ilario-alicante-tickets/1550686783",
-     "source": "ticketmaster"
-    }
-   ]
+   "events": []
   },
   {
    "cityId": "nyc",
    "timezone": "America/New_York",
-   "events": [
-    {
-     "id": "Z7r9jZ1A7xeag",
-     "name": "Fruit Bats (16 and Over)",
-     "clubName": "Webster Hall",
-     "clubIndex": 0,
-     "localDate": "2026-11-11",
-     "localTime": "20:00:00",
-     "timezone": "America/New_York",
-     "venue": "Webster Hall",
-     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xeag",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "Z7r9jZ1A7Joup",
-     "name": "Protomartyr (16 and Over)",
-     "clubName": "Webster Hall",
-     "clubIndex": 0,
-     "localDate": "2026-11-12",
-     "localTime": "20:00:00",
-     "timezone": "America/New_York",
-     "venue": "Webster Hall",
-     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Joup",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "Z7r9jZ1AAvtqd",
-     "name": "Nia Archives (18 and Over)",
-     "clubName": "Webster Hall",
-     "clubIndex": 0,
-     "localDate": "2026-11-13",
-     "localTime": "20:00:00",
-     "timezone": "America/New_York",
-     "venue": "Webster Hall",
-     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtqd",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "Z7r9jZ1AAe7-z",
-     "name": "Electric Feels - Ages 18+",
-     "clubName": "Webster Hall",
-     "clubIndex": 0,
-     "localDate": "2026-11-13",
-     "localTime": "23:00:00",
-     "timezone": "America/New_York",
-     "venue": "Webster Hall",
-     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe7-z",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "Z7r9jZ1A7P346",
-     "name": "Strawberry Guy (16 and Over)",
-     "clubName": "Webster Hall",
-     "clubIndex": 0,
-     "localDate": "2026-11-14",
-     "localTime": "19:30:00",
-     "timezone": "America/New_York",
-     "venue": "Webster Hall",
-     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P346",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "Z7r9jZ1AAv4pb",
-     "name": "Elderbrook",
-     "clubName": "Marquee New York",
-     "clubIndex": 2,
-     "localDate": "2026-11-14",
-     "localTime": "23:00:00",
-     "timezone": "America/New_York",
-     "venue": "Marquee New York",
-     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv4pb",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "Z7r9jZ1A7Pg08",
-     "name": "Stella Lefty - All Ages (under 16 with adult)",
-     "clubName": "Webster Hall",
-     "clubIndex": 0,
-     "localDate": "2026-11-15",
-     "localTime": "20:00:00",
-     "timezone": "America/New_York",
-     "venue": "Webster Hall",
-     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pg08",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "Z7r9jZ1A7Pg-b",
-     "name": "Ezra Collective (16 and Over)",
-     "clubName": "Webster Hall",
-     "clubIndex": 0,
-     "localDate": "2026-11-18",
-     "localTime": "20:00:00",
-     "timezone": "America/New_York",
-     "venue": "Webster Hall",
-     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pg-b",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "Z7r9jZ1AAvsAs",
-     "name": "Menahan Street Band - Ages 16+",
-     "clubName": "Webster Hall",
-     "clubIndex": 0,
-     "localDate": "2026-11-19",
-     "localTime": "20:00:00",
-     "timezone": "America/New_York",
-     "venue": "Webster Hall",
-     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsAs",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "Z7r9jZ1AAZ8jb",
-     "name": "Greg Freeman (16 and Over)",
-     "clubName": "Webster Hall",
-     "clubIndex": 0,
-     "localDate": "2026-11-20",
-     "localTime": "19:30:00",
-     "timezone": "America/New_York",
-     "venue": "Webster Hall",
-     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ8jb",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "Z7r9jZ1AA7Ffa",
-     "name": "Earlybirds Club (21 and Over)",
-     "clubName": "Webster Hall",
-     "clubIndex": 0,
-     "localDate": "2026-11-21",
-     "localTime": "18:00:00",
-     "timezone": "America/New_York",
-     "venue": "Webster Hall",
-     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Ffa",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "Z7r9jZ1AAZgrA",
-     "name": "Richard Finger - Ages 18+",
-     "clubName": "Webster Hall",
-     "clubIndex": 0,
-     "localDate": "2026-11-21",
-     "localTime": "23:00:00",
-     "timezone": "America/New_York",
-     "venue": "Webster Hall",
-     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgrA",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "Z7r9jZ1A7PE3o",
-     "name": "Yaelokre - All Ages (under 16 with adult)",
-     "clubName": "Webster Hall",
-     "clubIndex": 0,
-     "localDate": "2026-11-22",
-     "localTime": "20:00:00",
-     "timezone": "America/New_York",
-     "venue": "Webster Hall",
-     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PE3o",
-     "source": "ticketmaster"
-    }
-   ]
+   "events": []
   },
   {
    "cityId": "berlin",
@@ -298,80 +79,7 @@
   {
    "cityId": "barcelona",
    "timezone": "Europe/Madrid",
-   "events": [
-    {
-     "id": "Z698xZ2qZ1kfeQ4Jf",
-     "name": "ARLO PARKS - DESIRE TOUR",
-     "clubName": "Sala Apolo",
-     "clubIndex": 1,
-     "localDate": "2026-11-13",
-     "localTime": "20:30:00",
-     "timezone": "Europe/Madrid",
-     "venue": "Sala Apolo",
-     "url": "https://www.ticketmaster.es/event/arlo-parks-desire-tour-tickets/502695994?language=en-us",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "LvZ18Q2qtR4qtOOZlc9DR",
-     "name": "ELYELLA - Lo más importante - Barcelona",
-     "clubName": "Razzmatazz",
-     "clubIndex": 0,
-     "localDate": "2026-11-14",
-     "localTime": "19:30:00",
-     "timezone": "Europe/Madrid",
-     "venue": "Sala Razzmatazz 1",
-     "url": "https://www.universe.com/events/elyella-lo-mas-importante-barcelona-tickets-MRK0W1?ref=ticketmaster",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "Z698xZ2qZ1kjd0_ZM",
-     "name": "Jack & Jack: SYN/ANTI EUROPE 2026",
-     "clubName": "Razzmatazz",
-     "clubIndex": 0,
-     "localDate": "2026-11-16",
-     "localTime": "20:30:00",
-     "timezone": "Europe/Madrid",
-     "venue": "Sala Razzmatazz 2",
-     "url": "https://www.ticketmaster.es/event/jack--jack-syn-anti-europe-2026-tickets/703919037?language=en-us",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "Z698xZ2qZ1kubf3pA",
-     "name": "Artemas - LOVERCORE / GETTING UP TO NO GOOD Tour",
-     "clubName": "Sala Apolo",
-     "clubIndex": 1,
-     "localDate": "2026-11-18",
-     "localTime": "20:30:00",
-     "timezone": "Europe/Madrid",
-     "venue": "Sala Apolo",
-     "url": "https://www.ticketmaster.es/event/artemas-lovercore-getting-up-to-no-good-tour-tickets/358512585?language=en-us",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "Z698xZ2qZ16vA8Gvrd",
-     "name": "Polyphia: BE NOT AFRAID World Tour",
-     "clubName": "Razzmatazz",
-     "clubIndex": 0,
-     "localDate": "2026-11-22",
-     "localTime": "20:30:00",
-     "timezone": "Europe/Madrid",
-     "venue": "Sala Razzmatazz 1",
-     "url": "https://www.ticketmaster.es/event/polyphia-be-not-afraid-world-tour-tickets/1150301783?language=en-us",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "Z698xZ2qZ16vvYJaee",
-     "name": "Kingfishr - Europe 2026",
-     "clubName": "Sala Apolo",
-     "clubIndex": 1,
-     "localDate": "2026-11-24",
-     "localTime": "20:30:00",
-     "timezone": "Europe/Madrid",
-     "venue": "Sala Apolo",
-     "url": "https://www.ticketmaster.es/event/kingfishr-europe-2026-tickets/1070989082?language=en-us",
-     "source": "ticketmaster"
-    }
-   ]
+   "events": []
   },
   {
    "cityId": "rome",
@@ -391,7 +99,116 @@
   {
    "cityId": "losangeles",
    "timezone": "America/Los_Angeles",
-   "events": []
+   "events": [
+    {
+     "id": "rZ7HnEZ1A4vFod",
+     "name": "Infekt 360° w/ Leotrix + MVRDA",
+     "clubName": "Exchange LA",
+     "clubIndex": 0,
+     "localDate": "2026-11-13",
+     "localTime": "22:00:00",
+     "timezone": "America/Los_Angeles",
+     "venue": "Exchange LA",
+     "url": "https://www.ticketweb.com/event/infekt-360-w-leotrix-exchange-la-tickets/15048443",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "rZ7HnEZ1A4vkrd",
+     "name": "Angrybaby",
+     "clubName": "Academy LA",
+     "clubIndex": 1,
+     "localDate": "2026-11-13",
+     "localTime": "22:00:00",
+     "timezone": "America/Los_Angeles",
+     "venue": "Academy LA",
+     "url": "https://www.ticketweb.com/event/angrybaby-academy-la-tickets/15046783",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "rZ7HnEZ1A4ZV7S",
+     "name": "Massano with Special Guest: Township Rebellion [360° Set]",
+     "clubName": "Exchange LA",
+     "clubIndex": 0,
+     "localDate": "2026-11-14",
+     "localTime": "22:00:00",
+     "timezone": "America/Los_Angeles",
+     "venue": "Exchange LA",
+     "url": "https://www.ticketweb.com/event/massano-with-special-guest-township-exchange-la-tickets/15034133",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "rZ7HnEZ1Af1F7f",
+     "name": "Desert Hearts x Justin Martin: All Night Long",
+     "clubName": "Academy LA",
+     "clubIndex": 1,
+     "localDate": "2026-11-14",
+     "localTime": "22:00:00",
+     "timezone": "America/Los_Angeles",
+     "venue": "Academy LA",
+     "url": "https://www.ticketweb.com/event/desert-hearts-x-justin-martin-academy-la-tickets/14288114",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "rZ7HnEZ1Af1kp7",
+     "name": "Will Sparks",
+     "clubName": "Exchange LA",
+     "clubIndex": 0,
+     "localDate": "2026-11-20",
+     "localTime": "22:00:00",
+     "timezone": "America/Los_Angeles",
+     "venue": "Exchange LA",
+     "url": "https://www.ticketweb.com/event/will-sparks-exchange-la-tickets/14286584",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "rZ7HnEZ1AfGgqf",
+     "name": "Grave Rave",
+     "clubName": "Academy LA",
+     "clubIndex": 1,
+     "localDate": "2026-11-20",
+     "localTime": "22:00:00",
+     "timezone": "America/Los_Angeles",
+     "venue": "Academy LA",
+     "url": "https://www.ticketweb.com/event/grave-rave-academy-la-tickets/14335754",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "rZ7HnEZ1AfGK4f",
+     "name": "ONE MORE TIME: A DAFT PUNK TRIBUTE PARTY",
+     "clubName": "Exchange LA",
+     "clubIndex": 0,
+     "localDate": "2026-11-21",
+     "localTime": "22:00:00",
+     "timezone": "America/Los_Angeles",
+     "venue": "Exchange LA",
+     "url": "https://www.ticketweb.com/event/one-more-time-a-daft-exchange-la-tickets/14313554",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "rZ7HnEZ1AfGPG0",
+     "name": "Sunday Scaries",
+     "clubName": "Academy LA",
+     "clubIndex": 1,
+     "localDate": "2026-11-21",
+     "localTime": "22:00:00",
+     "timezone": "America/Los_Angeles",
+     "venue": "Academy LA",
+     "url": "https://www.ticketweb.com/event/sunday-scaries-academy-la-tickets/14325324",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AA7eQ7",
+     "name": "House Party",
+     "clubName": "1720",
+     "clubIndex": 5,
+     "localDate": "2026-11-21",
+     "localTime": "22:00:00",
+     "timezone": "America/Los_Angeles",
+     "venue": "1720",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7eQ7",
+     "source": "ticketmaster"
+    }
+   ]
   },
   {
    "cityId": "neworleans",
