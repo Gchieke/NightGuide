@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T06:14:06.022000+00:00",
+ "generated_at": "2026-11-12T06:14:07.716366+00:00",
  "cities": [
   {
    "cityId": "london",
@@ -39,7 +39,140 @@
   {
    "cityId": "vegas",
    "timezone": "America/Los_Angeles",
-   "events": []
+   "events": [
+    {
+     "id": "Z7r9jZ1AA7oGE",
+     "name": "SpydaT.E.K - Worship Thursdays - Ages 21+",
+     "clubName": "TAO Nightclub",
+     "clubIndex": 5,
+     "localDate": "2026-11-12",
+     "localTime": "22:30:00",
+     "timezone": "America/Los_Angeles",
+     "venue": "TAO Nightclub",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7oGE",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AAv9uY",
+     "name": "Kaskade",
+     "clubName": "XS Nightclub",
+     "clubIndex": 1,
+     "localDate": "2026-11-13",
+     "localTime": "22:30:00",
+     "timezone": "America/Los_Angeles",
+     "venue": "XS Nightclub at Wynn Las Vegas",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv9uY",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AA774v",
+     "name": "Beatbreaker - Ages 21+",
+     "clubName": "TAO Nightclub",
+     "clubIndex": 5,
+     "localDate": "2026-11-13",
+     "localTime": "22:30:00",
+     "timezone": "America/Los_Angeles",
+     "venue": "TAO Nightclub",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA774v",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AA774d",
+     "name": "P3so - Ages 21+",
+     "clubName": "TAO Nightclub",
+     "clubIndex": 5,
+     "localDate": "2026-11-14",
+     "localTime": "22:30:00",
+     "timezone": "America/Los_Angeles",
+     "venue": "TAO Nightclub",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA774d",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AA7747",
+     "name": "Official DesignerCon Closing Party with DJ Franzen - Ages 21+",
+     "clubName": "TAO Nightclub",
+     "clubIndex": 5,
+     "localDate": "2026-11-15",
+     "localTime": "22:30:00",
+     "timezone": "America/Los_Angeles",
+     "venue": "TAO Nightclub",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7747",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AA7KGx",
+     "name": "Franky Rizardo",
+     "clubName": "XS Nightclub",
+     "clubIndex": 1,
+     "localDate": "2026-11-18",
+     "localTime": "22:30:00",
+     "timezone": "America/Los_Angeles",
+     "venue": "XS Nightclub at Wynn Las Vegas",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7KGx",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AAv9uV",
+     "name": "Hugel",
+     "clubName": "XS Nightclub",
+     "clubIndex": 1,
+     "localDate": "2026-11-19",
+     "localTime": "22:00:00",
+     "timezone": "America/Los_Angeles",
+     "venue": "XS Nightclub at Wynn Las Vegas",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv9uV",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AA774A",
+     "name": "DJ E-Rock - Worship Thursdays - Race Weekend - Ages 21+",
+     "clubName": "TAO Nightclub",
+     "clubIndex": 5,
+     "localDate": "2026-11-19",
+     "localTime": "22:30:00",
+     "timezone": "America/Los_Angeles",
+     "venue": "TAO Nightclub",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA774A",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AAv9uU",
+     "name": "The Chainsmokers - Ages 21+",
+     "clubName": "XS Nightclub",
+     "clubIndex": 1,
+     "localDate": "2026-11-20",
+     "localTime": "22:30:00",
+     "timezone": "America/Los_Angeles",
+     "venue": "XS Nightclub at Wynn Las Vegas",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv9uU",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AAv9uM",
+     "name": "Calvin Harris (21 and Over)",
+     "clubName": "XS Nightclub",
+     "clubIndex": 1,
+     "localDate": "2026-11-21",
+     "localTime": "22:30:00",
+     "timezone": "America/Los_Angeles",
+     "venue": "XS Nightclub at Wynn Las Vegas",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv9uM",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AAv9uy",
+     "name": "Rufus Du Sol - Ages 21+",
+     "clubName": "XS Nightclub",
+     "clubIndex": 1,
+     "localDate": "2026-11-22",
+     "localTime": "22:30:00",
+     "timezone": "America/Los_Angeles",
+     "venue": "XS Nightclub at Wynn Las Vegas",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv9uy",
+     "source": "ticketmaster"
+    }
+   ]
   },
   {
    "cityId": "paris",
@@ -101,111 +234,15 @@
    "timezone": "America/Los_Angeles",
    "events": [
     {
-     "id": "rZ7HnEZ1A4vFod",
-     "name": "Infekt 360° w/ Leotrix + MVRDA",
-     "clubName": "Exchange LA",
-     "clubIndex": 0,
-     "localDate": "2026-11-13",
-     "localTime": "22:00:00",
+     "id": "Z7r9jZ1AAvIQK",
+     "name": "Fenix Flexin",
+     "clubName": "The Mayan",
+     "clubIndex": 6,
+     "localDate": "2026-11-25",
+     "localTime": "18:00:00",
      "timezone": "America/Los_Angeles",
-     "venue": "Exchange LA",
-     "url": "https://www.ticketweb.com/event/infekt-360-w-leotrix-exchange-la-tickets/15048443",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "rZ7HnEZ1A4vkrd",
-     "name": "Angrybaby",
-     "clubName": "Academy LA",
-     "clubIndex": 1,
-     "localDate": "2026-11-13",
-     "localTime": "22:00:00",
-     "timezone": "America/Los_Angeles",
-     "venue": "Academy LA",
-     "url": "https://www.ticketweb.com/event/angrybaby-academy-la-tickets/15046783",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "rZ7HnEZ1A4ZV7S",
-     "name": "Massano with Special Guest: Township Rebellion [360° Set]",
-     "clubName": "Exchange LA",
-     "clubIndex": 0,
-     "localDate": "2026-11-14",
-     "localTime": "22:00:00",
-     "timezone": "America/Los_Angeles",
-     "venue": "Exchange LA",
-     "url": "https://www.ticketweb.com/event/massano-with-special-guest-township-exchange-la-tickets/15034133",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "rZ7HnEZ1Af1F7f",
-     "name": "Desert Hearts x Justin Martin: All Night Long",
-     "clubName": "Academy LA",
-     "clubIndex": 1,
-     "localDate": "2026-11-14",
-     "localTime": "22:00:00",
-     "timezone": "America/Los_Angeles",
-     "venue": "Academy LA",
-     "url": "https://www.ticketweb.com/event/desert-hearts-x-justin-martin-academy-la-tickets/14288114",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "rZ7HnEZ1Af1kp7",
-     "name": "Will Sparks",
-     "clubName": "Exchange LA",
-     "clubIndex": 0,
-     "localDate": "2026-11-20",
-     "localTime": "22:00:00",
-     "timezone": "America/Los_Angeles",
-     "venue": "Exchange LA",
-     "url": "https://www.ticketweb.com/event/will-sparks-exchange-la-tickets/14286584",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "rZ7HnEZ1AfGgqf",
-     "name": "Grave Rave",
-     "clubName": "Academy LA",
-     "clubIndex": 1,
-     "localDate": "2026-11-20",
-     "localTime": "22:00:00",
-     "timezone": "America/Los_Angeles",
-     "venue": "Academy LA",
-     "url": "https://www.ticketweb.com/event/grave-rave-academy-la-tickets/14335754",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "rZ7HnEZ1AfGK4f",
-     "name": "ONE MORE TIME: A DAFT PUNK TRIBUTE PARTY",
-     "clubName": "Exchange LA",
-     "clubIndex": 0,
-     "localDate": "2026-11-21",
-     "localTime": "22:00:00",
-     "timezone": "America/Los_Angeles",
-     "venue": "Exchange LA",
-     "url": "https://www.ticketweb.com/event/one-more-time-a-daft-exchange-la-tickets/14313554",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "rZ7HnEZ1AfGPG0",
-     "name": "Sunday Scaries",
-     "clubName": "Academy LA",
-     "clubIndex": 1,
-     "localDate": "2026-11-21",
-     "localTime": "22:00:00",
-     "timezone": "America/Los_Angeles",
-     "venue": "Academy LA",
-     "url": "https://www.ticketweb.com/event/sunday-scaries-academy-la-tickets/14325324",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "Z7r9jZ1AA7eQ7",
-     "name": "House Party",
-     "clubName": "1720",
-     "clubIndex": 5,
-     "localDate": "2026-11-21",
-     "localTime": "22:00:00",
-     "timezone": "America/Los_Angeles",
-     "venue": "1720",
-     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7eQ7",
+     "venue": "Mayan Theatre",
+     "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvIQK",
      "source": "ticketmaster"
     }
    ]
