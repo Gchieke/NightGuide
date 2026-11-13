@@ -25,6 +25,14 @@ SLUGS = {
     "prague": "prague", "lisbon": "lisbon", "losangeles": "los-angeles",
     "neworleans": "new-orleans", "seoul": "seoul", "singapore": "singapore",
     "bali": "bali", "mexicocity": "mexico-city", "abuja": "abuja",
+    "kingston": "kingston", "montegobay": "montego-bay",
+    "sanjuan": "san-juan", "santodomingo": "santo-domingo",
+    "puntacana": "punta-cana", "nassau": "nassau",
+    "portofspain": "port-of-spain", "bridgetown": "bridgetown",
+    "havana": "havana", "oranjestad": "oranjestad",
+    "maldives": "maldives", "capetown": "cape-town",
+    "durban": "durban", "addisababa": "addis-ababa",
+    "washingtondc": "washington-dc",
 }
 COUNTRY_NAME = {
     "US": "United States", "GB": "United Kingdom", "DE": "Germany",
@@ -33,6 +41,9 @@ COUNTRY_NAME = {
     "BR": "Brazil", "JP": "Japan", "TH": "Thailand", "AU": "Australia",
     "IT": "Italy", "CZ": "Czechia", "PT": "Portugal", "KR": "South Korea",
     "SG": "Singapore", "ID": "Indonesia", "MX": "Mexico",
+    "JM": "Jamaica", "PR": "Puerto Rico", "DO": "Dominican Republic",
+    "BS": "Bahamas", "TT": "Trinidad & Tobago", "BB": "Barbados",
+    "CU": "Cuba", "AW": "Aruba", "MV": "Maldives", "ET": "Ethiopia",
 }
 
 

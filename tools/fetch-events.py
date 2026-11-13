@@ -30,6 +30,12 @@ CITY_COUNTRY = {
     "barcelona": "ES", "rome": "IT", "prague": "CZ", "lisbon": "PT",
     "losangeles": "US", "neworleans": "US", "seoul": "KR",
     "singapore": "SG", "bali": "ID", "mexicocity": "MX", "abuja": "NG",
+    "kingston": "JM", "montegobay": "JM", "sanjuan": "PR",
+    "santodomingo": "DO", "puntacana": "DO", "nassau": "BS",
+    "portofspain": "TT", "bridgetown": "BB", "havana": "CU",
+    "oranjestad": "AW", "maldives": "MV",
+    "capetown": "ZA", "durban": "ZA", "addisababa": "ET",
+    "washingtondc": "US",
 }
 CITY_TIMEZONE = {
     "nyc": "America/New_York", "miami": "America/New_York",
@@ -46,6 +52,16 @@ CITY_TIMEZONE = {
     "seoul": "Asia/Seoul", "singapore": "Asia/Singapore",
     "bali": "Asia/Makassar", "mexicocity": "America/Mexico_City",
     "abuja": "Africa/Lagos",
+    "kingston": "America/Jamaica", "montegobay": "America/Jamaica",
+    "sanjuan": "America/Puerto_Rico",
+    "santodomingo": "America/Santo_Domingo",
+    "puntacana": "America/Santo_Domingo", "nassau": "America/Nassau",
+    "portofspain": "America/Port_of_Spain",
+    "bridgetown": "America/Barbados", "havana": "America/Havana",
+    "oranjestad": "America/Aruba", "maldives": "Indian/Maldives",
+    "capetown": "Africa/Johannesburg", "durban": "Africa/Johannesburg",
+    "addisababa": "Africa/Addis_Ababa",
+    "washingtondc": "America/New_York",
 }
 
 # Normalized club-name -> extra venue-name fragments that count as a match.

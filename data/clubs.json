@@ -836,9 +836,6 @@
    "name": "New York"
   },
   {
-   "id": "berlin",
-   "name": "Berlin",
-   "flag": "🇩🇪",
    "clubs": [
     {
      "age": "18+",
@@ -1027,12 +1024,12 @@
      "priceTier": 1,
      "prices": "€12–€18 entry"
     }
-   ]
+   ],
+   "flag": "🇩🇪",
+   "id": "berlin",
+   "name": "Berlin"
   },
   {
-   "id": "ibiza",
-   "name": "Ibiza",
-   "flag": "🇪🇸",
    "clubs": [
     {
      "age": "18+",
@@ -1247,12 +1244,12 @@
      "priceTier": 2,
      "prices": "€15–€50 (€15 GA; up to ~€50 big-name nights)"
     }
-   ]
+   ],
+   "flag": "🇪🇸",
+   "id": "ibiza",
+   "name": "Ibiza"
   },
   {
-   "id": "miami",
-   "name": "Miami",
-   "flag": "🇺🇸",
    "clubs": [
     {
      "age": "21+ (physical photo ID required)",
@@ -1462,12 +1459,12 @@
      "priceTier": 2,
      "prices": "$15–$35 entry"
     }
-   ]
+   ],
+   "flag": "🇺🇸",
+   "id": "miami",
+   "name": "Miami"
   },
   {
-   "id": "vegas",
-   "name": "Las Vegas",
-   "flag": "🇺🇸",
    "clubs": [
     {
      "age": "21+ with valid government-issued photo ID",
@@ -1669,12 +1666,12 @@
      "priceTier": 1,
      "prices": "$10–$30 cover"
     }
-   ]
+   ],
+   "flag": "🇺🇸",
+   "id": "vegas",
+   "name": "Las Vegas"
   },
   {
-   "id": "paris",
-   "name": "Paris",
-   "flag": "🇫🇷",
    "clubs": [
     {
      "age": "18+",
@@ -1883,12 +1880,12 @@
      "priceTier": 1,
      "prices": "€10–€20 entry"
     }
-   ]
+   ],
+   "flag": "🇫🇷",
+   "id": "paris",
+   "name": "Paris"
   },
   {
-   "id": "amsterdam",
-   "name": "Amsterdam",
-   "flag": "🇳🇱",
    "clubs": [
     {
      "age": "18+ (ID required)",
@@ -2098,12 +2095,12 @@
      "priceTier": 1,
      "prices": "€10–€20 typical for club nights"
     }
-   ]
+   ],
+   "flag": "🇳🇱",
+   "id": "amsterdam",
+   "name": "Amsterdam"
   },
   {
-   "id": "tokyo",
-   "name": "Tokyo",
-   "flag": "🇯🇵",
    "clubs": [
     {
      "age": "20+, photo ID required (passport for foreigners)",
@@ -2315,12 +2312,12 @@
      "priceTier": 1,
      "prices": "Free or ¥1,000 cover (varies by night)"
     }
-   ]
+   ],
+   "flag": "🇯🇵",
+   "id": "tokyo",
+   "name": "Tokyo"
   },
   {
-   "id": "bangkok",
-   "name": "Bangkok",
-   "flag": "🇹🇭",
    "clubs": [
     {
      "age": "20+ (ID checked at the door)",
@@ -2489,12 +2486,12 @@
      "priceTier": 2,
      "prices": "Reservation-based — contact venue"
     }
-   ]
+   ],
+   "flag": "🇹🇭",
+   "id": "bangkok",
+   "name": "Bangkok"
   },
   {
-   "id": "saopaulo",
-   "name": "São Paulo",
-   "flag": "🇧🇷",
    "clubs": [
     {
      "age": "18+",
@@ -2683,12 +2680,12 @@
      "priceTier": 2,
      "prices": "Varies by event — from ~R$50"
     }
-   ]
+   ],
+   "flag": "🇧🇷",
+   "id": "saopaulo",
+   "name": "São Paulo"
   },
   {
-   "id": "joburg",
-   "name": "Johannesburg",
-   "flag": "🇿🇦",
    "clubs": [
     {
      "age": "18+",
@@ -2891,12 +2888,12 @@
      "priceTier": 3,
      "prices": "Day and night entry rates differ"
     }
-   ]
+   ],
+   "flag": "🇿🇦",
+   "id": "joburg",
+   "name": "Johannesburg"
   },
   {
-   "id": "sydney",
-   "name": "Sydney",
-   "flag": "🇦🇺",
    "clubs": [
     {
      "age": "18+ (photo ID required)",
@@ -3118,7 +3115,10 @@
      "priceTier": 2,
      "prices": "Moderate cover; reasonably priced drinks"
     }
-   ]
+   ],
+   "flag": "🇦🇺",
+   "id": "sydney",
+   "name": "Sydney"
   },
   {
    "clubs": [
@@ -5506,6 +5506,2764 @@
    "flag": "🇳🇬",
    "id": "abuja",
    "name": "Abuja"
+  },
+  {
+   "clubs": [
+    {
+     "age": "18+ (21+ Fri–Sat)",
+     "area": "Isla Verde",
+     "description": "Puerto Rico's marquee resort nightclub, inside the Fairmont El San Juan Hotel, with a main floor plus the upstairs Ultra Lounge and full bottle service.",
+     "djs": [
+      "Latin Billboard & reggaeton Saturdays",
+      "House & techno Fridays in Ultra Lounge",
+      "Guest DJ special events"
+     ],
+     "dressCode": "Strictly enforced upscale: no flip-flops, shorts, tank tops or athletic wear",
+     "entry": "Cover charge at the door; cheaper with advance RSVP",
+     "genres": [
+      "reggaeton",
+      "latin",
+      "hip hop",
+      "house"
+     ],
+     "hours": "Thu 10pm–4am; Fri–Sat 11pm–5am",
+     "name": "Club Brava",
+     "priceTier": 3,
+     "prices": "Cover about $20; bottle service from several hundred USD"
+    },
+    {
+     "age": "18+",
+     "area": "Santurce",
+     "description": "One of San Juan's biggest mainstream clubs, a large-capacity open-format room at 1420 Av. Ponce de León anchored in house and EDM with reggaeton and hip-hop mixed in.",
+     "djs": [
+      "Open-format resident DJs",
+      "EDM & house headline nights",
+      "Reggaeton & hip-hop sets"
+     ],
+     "dressCode": "Enforced: dress shoes/button-ups or dresses/nice jeans; no athletic wear, shorts or flip-flops",
+     "entry": "Cover at the door; free entry possible via guest list on some nights",
+     "genres": [
+      "house",
+      "edm",
+      "reggaeton",
+      "hip hop"
+     ],
+     "hours": "Thu–Sat 10pm–5am (some Wed nights)",
+     "name": "7eight7",
+     "priceTier": 2,
+     "prices": "Cover typically $10–$20; cocktails around $10–$14"
+    },
+    {
+     "age": "18+",
+     "area": "Condado",
+     "description": "Upscale resort nightclub at La Concha Resort on Ashford Avenue, with a dance floor that opens toward the beach and table service for groups.",
+     "djs": [
+      "Guest DJ nights",
+      "House & electronic sets",
+      "Special event parties"
+     ],
+     "dressCode": "Upscale and enforced: no shorts, flip-flops or athletic wear",
+     "entry": "Cover varies by event; table reservations recommended",
+     "genres": [
+      "house",
+      "electronic",
+      "latin",
+      "top 40"
+     ],
+     "hours": "Fri–Sat 10pm–4am (some Thu nights)",
+     "name": "Fifty Eight",
+     "priceTier": 3,
+     "prices": "Cover ranges from free to about $40 depending on the event"
+    },
+    {
+     "age": "18+",
+     "area": "Santurce (La Placita)",
+     "description": "Large bar-club with a packed dance floor in the middle of La Placita de Santurce, riding the energy of the surrounding open-air street party.",
+     "djs": [
+      "Reggaeton dance-floor nights",
+      "Open-format Latin DJs",
+      "Weekend party sets"
+     ],
+     "dressCode": "Casual to smart casual",
+     "entry": "Cover varies by night",
+     "genres": [
+      "reggaeton",
+      "latin",
+      "salsa",
+      "dembow"
+     ],
+     "hours": "Wed–Sun 9pm–4am",
+     "name": "Tulum La Placita",
+     "priceTier": 2,
+     "prices": "Moderate local prices; drinks well below Condado hotel rates"
+    },
+    {
+     "age": "18+",
+     "area": "Santurce",
+     "description": "Cultural music venue and club running since 2010, blending live bands, salsa, reggae, indie and electronic nights with art and theater programming.",
+     "djs": [
+      "Live salsa & reggae bands",
+      "Indie & electronic club nights",
+      "Themed party nights"
+     ],
+     "dressCode": "Casual, come as you are",
+     "entry": "Ticketed events; cover depends on the show",
+     "genres": [
+      "salsa",
+      "reggae",
+      "hip hop",
+      "electronic"
+     ],
+     "hours": "Event nights only, typically Wed, Sat & Sun from 8pm — check their socials",
+     "name": "La Respuesta",
+     "priceTier": 1,
+     "prices": "Covers roughly $10–$25 depending on the show; drinks $6–$12"
+    },
+    {
+     "age": "18+",
+     "area": "Santurce",
+     "description": "The island's premier LGBTIQ+ nightclub: a two-floor drag and dance club open since 2021, with a resident cast of Puerto Rican queens and international guest stars.",
+     "djs": [
+      "Drag shows several nights a week",
+      "International guest queens",
+      "Queer Night DJ sets Fri–Sat"
+     ],
+     "dressCode": "Casual to party wear; costumes welcome on themed nights",
+     "entry": "Free cover Wed–Thu; cover applies Fri–Sat and for special events",
+     "genres": [
+      "pop",
+      "latin",
+      "dance",
+      "house"
+     ],
+     "hours": "Wed–Sun, from about 9pm to 3–4am",
+     "name": "Kweens Klub",
+     "priceTier": 2,
+     "prices": "Free midweek; Fri–Sat cover about $5–$10, more for headline events; drinks $6–$12"
+    },
+    {
+     "age": "18+",
+     "area": "Santurce",
+     "description": "Santurce's main electronic-music room, a rooftop club with indoor and outdoor floors leaning techno and house, LGBTQ-friendly and known for sunrise sessions.",
+     "djs": [
+      "Techno & house DJ sets",
+      "Sunrise sessions",
+      "Guest electronic acts"
+     ],
+     "dressCode": "Casual",
+     "entry": "Free to a small cover after midnight",
+     "genres": [
+      "techno",
+      "house",
+      "electronic"
+     ],
+     "hours": "Late nights Thu–Sat, often until sunrise",
+     "name": "Santos Rooftop",
+     "priceTier": 1,
+     "prices": "Entry free to about $10 after midnight"
+    },
+    {
+     "age": "23+",
+     "area": "Old San Juan",
+     "description": "World-ranked multi-room cocktail bar on Calle San Sebastián — six bars in one, including a dedicated salsa dancing room; more bar than nightclub, but an essential San Juan night out.",
+     "djs": [
+      "Live salsa & Latin jazz nights",
+      "Multi-room DJ sets",
+      "Sunday salsa sessions"
+     ],
+     "dressCode": "Casual smart; come as you are",
+     "entry": "No cover; walk-ins only, expect a queue on weekends",
+     "genres": [
+      "salsa",
+      "latin jazz",
+      "cocktail lounge"
+     ],
+     "hours": "Open daily from late afternoon until late (around 2am)",
+     "name": "La Factoría",
+     "priceTier": 2,
+     "prices": "No cover; cocktails about $10–$20"
+    }
+   ],
+   "flag": "🇵🇷",
+   "id": "sanjuan",
+   "name": "San Juan"
+  },
+  {
+   "clubs": [
+    {
+     "age": "18+",
+     "area": "Piantini",
+     "description": "Compact, upscale club on Av. Gustavo Mejía Ricart popular with young professionals, known for themed parties and retro-reggaeton 'party de marquesina' nights with guest DJs.",
+     "djs": [
+      "Guest DJ events (e.g. DJ Playero marquesina parties)",
+      "Resident DJ Aris Fermín",
+      "Themed party nights"
+     ],
+     "dressCode": "Smart and enforced: no shorts, t-shirts or sneakers",
+     "entry": "Cover charge; table reservations recommended on event nights",
+     "genres": [
+      "reggaeton",
+      "dembow",
+      "latin",
+      "merengue"
+     ],
+     "hours": "Thu–Sat nights, roughly 10pm–4am",
+     "name": "Zambra",
+     "priceTier": 2,
+     "prices": "Cover about RD$1,000 per person on event nights"
+    },
+    {
+     "age": "18+",
+     "area": "Zona Colonial",
+     "description": "Lively bar-club on the colonial streets with a big terrace, a locals-and-travelers mix, and DJ nights that peak on Thursdays and Saturdays.",
+     "djs": [
+      "Thursday DJ parties",
+      "Saturday Latin DJ sets",
+      "Bachata & salsa socials"
+     ],
+     "dressCode": "Casual",
+     "entry": "Free entry most nights",
+     "genres": [
+      "bachata",
+      "reggaeton",
+      "salsa",
+      "latin"
+     ],
+     "hours": "Daily evenings; club nights Thu–Sat about 9pm–3am",
+     "name": "Onno's Zona Colonial",
+     "priceTier": 1,
+     "prices": "No cover most nights; local bar prices in DOP"
+    },
+    {
+     "age": "18+",
+     "area": "Zona Colonial",
+     "description": "Long-running bar-club on Calle Mercedes known for an eclectic crowd, electronic and rock alongside Latin sounds, and a laid-back cultural vibe.",
+     "djs": [
+      "Electronic & rock DJ sets",
+      "Themed cultural nights",
+      "Weekend dance parties"
+     ],
+     "dressCode": "Casual",
+     "entry": "Cover varies by event",
+     "genres": [
+      "electronic",
+      "rock",
+      "latin",
+      "house"
+     ],
+     "hours": "Wed–Sun 7pm–2am (Fri–Sat until 3am)",
+     "name": "La Espiral 313",
+     "priceTier": 2,
+     "prices": "Local bar prices in DOP; cover varies by event"
+    },
+    {
+     "age": "18+",
+     "area": "Naco (Av. Tiradentes)",
+     "description": "High-energy club on Av. Tiradentes running big Saturday 'Encuentro Sabatino' parties with beer happy hours and a glam, dressy crowd.",
+     "djs": [
+      "Saturday Encuentro Sabatino parties",
+      "Merengue & reggaeton DJs",
+      "Happy hour sessions until 9pm"
+     ],
+     "dressCode": "Dressy; smart evening wear expected",
+     "entry": "Cover varies by event; reservations via their socials",
+     "genres": [
+      "merengue",
+      "reggaeton",
+      "salsa",
+      "dembow"
+     ],
+     "hours": "Thu–Sat evenings until late; biggest night Saturday",
+     "name": "Miami Hot",
+     "priceTier": 2,
+     "prices": "Prices in DOP; drink specials advertised on their social media"
+    },
+    {
+     "age": "18+",
+     "area": "Piantini / Serrallés",
+     "description": "Modern lounge-club with pop-art murals and a compact dance floor, drawing a young mix of locals and expats for cocktails and Latin hits.",
+     "djs": [
+      "Reggaeton & dembow DJ sets",
+      "Latin hits nights",
+      "Cocktail-lounge parties"
+     ],
+     "dressCode": "Smart casual",
+     "entry": "Cover varies by night",
+     "genres": [
+      "reggaeton",
+      "dembow",
+      "latin"
+     ],
+     "hours": "Evenings Wed–Sat, until late",
+     "name": "75 Grados",
+     "priceTier": 2,
+     "prices": "Cover varies; mid-range DOP prices"
+    },
+    {
+     "age": "18+",
+     "area": "Zona Colonial",
+     "description": "The Zona Colonial pick for authentic Dominican dance music — salsa, merengue and bachata played properly, with a crowd that comes to dance rather than pose.",
+     "djs": [
+      "Live salsa & merengue bands",
+      "Bachata nights",
+      "Classic Latin dance sets"
+     ],
+     "dressCode": "Casual smart",
+     "entry": "Cover varies by night",
+     "genres": [
+      "salsa",
+      "merengue",
+      "bachata"
+     ],
+     "hours": "Evenings until late; busiest Fri–Sat",
+     "name": "Parada 77",
+     "priceTier": 1,
+     "prices": "Local DOP prices; modest cover on weekends"
+    },
+    {
+     "age": "18+",
+     "area": "Zona Colonial",
+     "description": "Inclusive LGBTQ+-friendly bar-club in the colonial zone with drag shows and a genre-hopping mix of pop, electronic, salsa and bachata.",
+     "djs": [
+      "Drag shows",
+      "Pop & electronic DJ nights",
+      "Salsa & bachata socials"
+     ],
+     "dressCode": "Casual",
+     "entry": "Cover varies by event",
+     "genres": [
+      "pop",
+      "electronic",
+      "salsa",
+      "bachata"
+     ],
+     "hours": "Evenings Thu–Sat, until late",
+     "name": "Esedeku Bar",
+     "priceTier": 1,
+     "prices": "Local DOP bar prices"
+    },
+    {
+     "age": "18+",
+     "area": "Zona Colonial",
+     "description": "Dominican cultural lounge on Calle La Atarazana celebrating merengue and tropical rhythms, with live music, dancing and a published monthly events calendar.",
+     "djs": [
+      "Live merengue & tropical bands",
+      "Thursday live-music nights",
+      "Seasonal calendar events"
+     ],
+     "dressCode": "Smart casual",
+     "entry": "No set cover listed; check their calendar for special-event nights",
+     "genres": [
+      "merengue",
+      "bachata",
+      "tropical"
+     ],
+     "hours": "Wed–Sun from 8pm (Thu until about 1:30am)",
+     "name": "Hasta La Tambora",
+     "priceTier": 2,
+     "prices": "Mid-range DOP prices; table reservations via social media"
+    }
+   ],
+   "flag": "🇩🇴",
+   "id": "santodomingo",
+   "name": "Santo Domingo"
+  },
+  {
+   "clubs": [
+    {
+     "age": "18+",
+     "area": "Downtown Punta Cana (Las Mercedes)",
+     "description": "Punta Cana's most famous night out — a Vegas-style show-club mixing DJ sets with tribute acts, acrobats and aerialists rather than a conventional dance club.",
+     "djs": [
+      "Tribute shows: Michael Jackson, Queen, Madonna",
+      "Acrobat and aerialist acts between DJ sets",
+      "Confetti and balloon-drop party moments all night"
+     ],
+     "dressCode": "Smart casual; no strict dress code",
+     "entry": "Ticketed packages only, most include open bar and hotel transfer",
+     "genres": [
+      "top 40",
+      "latin",
+      "pop",
+      "dance"
+     ],
+     "hours": "Nightly, doors around 10:30 PM, show runs to about 3 AM",
+     "name": "Coco Bongo Punta Cana",
+     "priceTier": 3,
+     "prices": "Open-bar packages roughly USD 80–200 (regular open bar around USD 85); venues here price in USD"
+    },
+    {
+     "age": "18+",
+     "area": "Friusa, between Bavaro and Downtown",
+     "description": "A multi-level nightclub built inside a natural limestone cave system, with different rooms playing different music under the stalactites.",
+     "djs": [
+      "Resident DJs across multiple cave levels",
+      "Reggaeton and Latin room",
+      "Fire-breathing and flair-bartending shows"
+     ],
+     "dressCode": "Smart casual; no flip-flops",
+     "entry": "Ticket packages, usually including open bar and hotel pickup",
+     "genres": [
+      "reggaeton",
+      "latin",
+      "house",
+      "edm"
+     ],
+     "hours": "Themed nights Thu–Sat, approx. 11 PM–4 AM (open bar typically until ~3 AM)",
+     "name": "Imagine Punta Cana (The Cave)",
+     "priceTier": 2,
+     "prices": "Around USD 50–75 including open bar"
+    },
+    {
+     "age": "18+",
+     "area": "Hard Rock Hotel & Casino, Arena Gorda corridor",
+     "description": "The area's luxury superclub — a 14,000+ sq ft two-level room inside the Hard Rock with a Funktion One sound system, open to non-guests.",
+     "djs": [
+      "International EDM headliners and guest DJs",
+      "Resident DJ nights across two levels",
+      "Themed party and tour-DJ events"
+     ],
+     "dressCode": "Upscale; dress to impress, no beachwear",
+     "entry": "Cover charge; ladies enter free on many club nights",
+     "genres": [
+      "edm",
+      "house",
+      "top 40"
+     ],
+     "hours": "Wed–Sat, approx. 11 PM–4 AM",
+     "name": "Oro Nightclub",
+     "priceTier": 3,
+     "prices": "Cover varies by night and event"
+    },
+    {
+     "age": "18+",
+     "area": "Downtown Punta Cana (Las Mercedes)",
+     "description": "A newer open-air, cenote-inspired club downtown with immersive visuals and a premium-but-relaxed party crowd.",
+     "djs": [
+      "International guest DJs",
+      "Reggaeton and Afro house nights",
+      "Themed open-air party nights"
+     ],
+     "dressCode": "Stylish smart casual",
+     "entry": "Open-bar packages, transport add-ons available",
+     "genres": [
+      "reggaeton",
+      "afro house",
+      "electronic"
+     ],
+     "hours": "Thu–Sun, approx. 11 PM–4 AM",
+     "name": "Maroca Club",
+     "priceTier": 2,
+     "prices": "Open-bar packages from around USD 65"
+    },
+    {
+     "age": "18+",
+     "area": "Casino Avalon, Ocean Drive, Bavaro",
+     "description": "One of the few off-resort Punta Cana clubs that runs every night — a locals-and-night-owls dance floor attached to Casino Avalon that peaks very late.",
+     "djs": [
+      "Resident DJs nightly",
+      "Latin and international dance sets",
+      "After-hours crowd builds from around 2 AM"
+     ],
+     "dressCode": "Casual to smart casual",
+     "entry": "Pay-as-you-go; no package required",
+     "genres": [
+      "latin",
+      "reggaeton",
+      "dance",
+      "top 40"
+     ],
+     "hours": "Nightly, approx. 11 PM–6 AM",
+     "name": "Legacy Disco",
+     "priceTier": 1,
+     "prices": "Moderate local prices, pay per drink"
+    },
+    {
+     "age": "18+",
+     "area": "Avenida España, Bavaro",
+     "description": "The classic open-air Bavaro street bar-disco — an authentic Dominican night out mixing locals and tourists on the Avenida España strip.",
+     "djs": [
+      "Local DJs spinning bachata, merengue and salsa",
+      "Hip-hop and afrobeats sets",
+      "Open-air street-party atmosphere"
+     ],
+     "dressCode": "Casual",
+     "entry": "Walk-in; entry usually free or minimal",
+     "genres": [
+      "bachata",
+      "merengue",
+      "salsa",
+      "hip hop"
+     ],
+     "hours": "Daily from evening until the early morning hours",
+     "name": "Drink Point Bavaro",
+     "priceTier": 1,
+     "prices": "Low local prices; drinks are cheap by resort standards"
+    },
+    {
+     "age": "18+",
+     "area": "Avenida España, Bavaro",
+     "description": "Bavaro's self-styled #1 hip-hop club — a stylish, high-energy lounge-club built around urban music.",
+     "djs": [
+      "Hip-hop and R&B DJ sets",
+      "Dembow and afrobeats nights",
+      "Guest DJ events"
+     ],
+     "dressCode": "Stylish smart casual",
+     "entry": "Cover varies by night",
+     "genres": [
+      "hip hop",
+      "r&b",
+      "dembow",
+      "afrobeats"
+     ],
+     "hours": "Open nightly until the early morning hours",
+     "name": "Infinity Bar & Lounge",
+     "priceTier": 2,
+     "prices": "Cover and drink prices vary by night"
+    },
+    {
+     "age": "18+",
+     "area": "Occidental Punta Cana, Bavaro",
+     "description": "A big two-floor resort disco (around 1,800 capacity, five bars): Latin and Caribbean sounds downstairs, the Sky Mangu techno/house room upstairs.",
+     "djs": [
+      "Latin and Caribbean floor downstairs",
+      "Sky Mangu: techno and house upstairs",
+      "Resident-DJ resort party nights"
+     ],
+     "dressCode": "Resort smart casual",
+     "entry": "Free for Occidental guests; small cover for non-guests",
+     "genres": [
+      "latin",
+      "caribbean",
+      "techno",
+      "house"
+     ],
+     "hours": "Nightly, approx. 11 PM–4 AM",
+     "name": "Mangu Disco",
+     "priceTier": 2,
+     "prices": "Free for hotel guests; modest cover for visitors"
+    }
+   ],
+   "flag": "🇩🇴",
+   "id": "puntacana",
+   "name": "Punta Cana"
+  },
+  {
+   "clubs": [
+    {
+     "age": "18+",
+     "area": "Atlantis Paradise Island, Paradise Island",
+     "description": "The Bahamas' most famous nightclub — a 9,000 sq ft adults-only club above the Atlantis casino floor with VIP booths and a serious sound system.",
+     "djs": [
+      "International guest DJs",
+      "Themed party nights Thu–Sat",
+      "Resident DJs and bottle-service nights"
+     ],
+     "dressCode": "Smart and dressy; no athletic wear or shorts",
+     "entry": "Cover charge; resort guests may get priority entry",
+     "genres": [
+      "edm",
+      "house",
+      "top 40",
+      "hip hop"
+     ],
+     "hours": "Thu–Sat, 10 PM–4 AM",
+     "name": "Aura Nightclub",
+     "priceTier": 3,
+     "prices": "Cover around USD/BSD 20–40"
+    },
+    {
+     "age": "18+",
+     "area": "SLS Baha Mar, Cable Beach",
+     "description": "Nassau's most upscale club — a 10,000 sq ft, spy-themed venue inside Baha Mar known for world-renowned DJs and VIP table service.",
+     "djs": [
+      "World-renowned guest DJs",
+      "Headline Fri–Sat nights",
+      "VIP bottle-service dance floor"
+     ],
+     "dressCode": "Upscale chic; dress to impress",
+     "entry": "Cover varies; VIP tables by reservation",
+     "genres": [
+      "house",
+      "edm",
+      "top 40"
+     ],
+     "hours": "Thu–Sat, 11 PM–4 AM (biggest nights Fri–Sat)",
+     "name": "Bond Nightclub",
+     "priceTier": 3,
+     "prices": "Cover varies by night and event"
+    },
+    {
+     "age": "18+",
+     "area": "Grand Hyatt Baha Mar, Cable Beach",
+     "description": "Baha Mar's live-music club created with Jon Batiste — an intimate, glamorous room where house bands play jazz and big-band takes on pop classics nightly.",
+     "djs": [
+      "House bands nightly (Essence, The Dazzle Band)",
+      "Live jazz and big-band sets from 8 PM",
+      "Guest-artist tribute nights"
+     ],
+     "dressCode": "Smart elegant / resort chic",
+     "entry": "Reservations recommended; no standard cover listed",
+     "genres": [
+      "jazz",
+      "soul",
+      "live band",
+      "big band"
+     ],
+     "hours": "Daily 6 PM–1 AM (Fri–Sat until 2 AM)",
+     "name": "Jon Batiste's Jazz Club",
+     "priceTier": 3,
+     "prices": "Premium drinks menu; any cover or minimum varies by night"
+    },
+    {
+     "age": "18+",
+     "area": "SLS Baha Mar rooftop (20th floor), Cable Beach",
+     "description": "The Bahamas' signature rooftop — craft cocktails and panoramic views by day, DJ-driven see-and-be-seen party energy after dark.",
+     "djs": [
+      "JPEG Thursdays weekly DJ party",
+      "DJ Tank weekend sets",
+      "Sunset-to-late rooftop DJ sessions"
+     ],
+     "dressCode": "Smart upscale",
+     "entry": "No cover; VIP tables by reservation only",
+     "genres": [
+      "house",
+      "lounge",
+      "top 40"
+     ],
+     "hours": "Sun–Thu 5:30/6 PM–midnight; Fri–Sat until 1 AM",
+     "name": "Skybar",
+     "priceTier": 3,
+     "prices": "No cover; premium cocktail prices"
+    },
+    {
+     "age": "18+",
+     "area": "Downtown Nassau (Woodes Rodgers Walk)",
+     "description": "A long-running downtown dance club popular with locals, cruise staff and visitors alike, rotating Caribbean and international sounds — looser and more local than the resort clubs.",
+     "djs": [
+      "Reggae, hip-hop and top-40 DJ rotation",
+      "Caribbean music nights",
+      "Local DJ sets"
+     ],
+     "dressCode": "Smart casual",
+     "entry": "Cover charge at the door",
+     "genres": [
+      "reggae",
+      "hip hop",
+      "top 40",
+      "soca"
+     ],
+     "hours": "Thu–Sun, approx. 9 PM–2 AM",
+     "name": "Bambu",
+     "priceTier": 2,
+     "prices": "Cover around USD/BSD 10–20"
+    },
+    {
+     "age": "18+",
+     "area": "East Bay Street, Nassau",
+     "description": "A Nassau institution in a converted lakeside mansion on East Bay Street, with indoor dance floors and outdoor space around the pool — the island's classic local night out.",
+     "djs": [
+      "Live Bahamian bands on Saturday nights (e.g. Tingum Dem Band)",
+      "DJ nights: hip-hop, reggae and calypso",
+      "Old-school and Bahamian classics parties"
+     ],
+     "dressCode": "Casual; no shorts or cut-off shirts (per event listings)",
+     "entry": "Admission at the door; Saturday band nights listed at $20 including one drink",
+     "genres": [
+      "reggae",
+      "calypso",
+      "soca",
+      "hip hop"
+     ],
+     "hours": "Fri–Sat 4 PM–2 AM; Wed–Thu evenings; Sunday afternoons",
+     "name": "Club Waterloo",
+     "priceTier": 1,
+     "prices": "Around USD/BSD 20 admission on band nights, including one drink"
+    },
+    {
+     "age": "18+",
+     "area": "Woodes Rodgers Walk, Downtown / cruise port",
+     "description": "The rowdy Mexican party-bar chain's Nassau outpost by the cruise dock — MC-led games, conga lines and dancing on the bar, spring-break energy year-round.",
+     "djs": [
+      "DJ and MC-hosted party games",
+      "Live music sets",
+      "Spring-break style theme nights"
+     ],
+     "dressCode": "Casual",
+     "entry": "No cover; pay as you go",
+     "genres": [
+      "top 40",
+      "latin",
+      "party classics"
+     ],
+     "hours": "Daily, approx. 11 AM–3 AM",
+     "name": "Señor Frog's Nassau",
+     "priceTier": 1,
+     "prices": "No cover; standard tourist-bar drink prices"
+    }
+   ],
+   "flag": "🇧🇸",
+   "id": "nassau",
+   "name": "Nassau"
+  },
+  {
+   "clubs": [
+    {
+     "age": "18+",
+     "area": "Cipriani Boulevard, Newtown",
+     "description": "Port of Spain's flagship big-room club, which took over the legendary 51 Degrees site on Cipriani Boulevard. Multi-room layout hosting major soca concerts, Carnival-season events and themed party nights.",
+     "djs": [
+      "Slam 100.5FM Soca Power concert series",
+      "Sunday 'Reggae in the Heart of the City' nights",
+      "Rotating local soca and dancehall DJs"
+     ],
+     "dressCode": "Smart and stylish — dress to impress",
+     "entry": "Cover charge at the door; advance tickets for headline concert nights",
+     "genres": [
+      "soca",
+      "dancehall",
+      "hip hop",
+      "edm"
+     ],
+     "hours": "Thu–Sat 10:00 PM–5:00 AM; Sun reggae nights 9:00 PM–2:00 AM",
+     "name": "VICE Nightclub",
+     "priceTier": 2,
+     "prices": "Reggae Sundays: ladies free before 11 PM, then TT$60; men TT$100. Other nights vary by event"
+    },
+    {
+     "age": "18+",
+     "area": "Keate Street, Downtown",
+     "description": "Trinidad's most famous dance-music institution, in a converted art-deco cinema on Keate Street. Recently renovated and reopened, it now operates mainly as a special-events venue with big production nights.",
+     "djs": [
+      "'One Night in Zen' headline DJ events",
+      "Guest international and regional DJs",
+      "Carnival fete takeovers"
+     ],
+     "dressCode": "Smart dress code strictly enforced",
+     "entry": "Ticketed events, sold via Island eTickets; cover varies by event",
+     "genres": [
+      "edm",
+      "house",
+      "dancehall",
+      "soca"
+     ],
+     "hours": "Event nights only, typically 10:00 PM–4:00 AM",
+     "name": "Zen Nightclub",
+     "priceTier": 3,
+     "prices": "Cover varies by event"
+    },
+    {
+     "age": "18+",
+     "area": "Rust Street, Woodbrook",
+     "description": "One of the Avenue district's most-reviewed club-lounges, on Rust Street just off Ariapita Avenue. Stylish cocktail-lounge front end that turns into a full dance floor as the night builds.",
+     "djs": [
+      "Resident DJs mixing Caribbean and international hits",
+      "Weekend party nights",
+      "Carnival season fetes"
+     ],
+     "dressCode": "Smart casual and dressy",
+     "entry": "Cover varies by event",
+     "genres": [
+      "soca",
+      "dancehall",
+      "hip hop",
+      "afrobeats"
+     ],
+     "hours": "Open late on weekends, typically from around 10:00 PM; nightly hours vary",
+     "name": "VAS Lounge",
+     "priceTier": 2,
+     "prices": "Cover varies by event"
+    },
+    {
+     "age": "18+",
+     "area": "Gray Street, Woodbrook",
+     "description": "Intimate club on Gray Street known for promoter-led themed parties rather than regular weekly opening — from retro 'grown and sexy' nights to EDM events.",
+     "djs": [
+      "Neon Nights electronic events (Frenesi)",
+      "Moms & Dads old-school celebration parties",
+      "Themed 80s and retro nights"
+     ],
+     "dressCode": "Smart casual",
+     "entry": "Ticketed events; some free-entry promotions",
+     "genres": [
+      "edm",
+      "soca",
+      "dancehall",
+      "old school"
+     ],
+     "hours": "Event nights only, typically 10:00 PM–5:00 AM",
+     "name": "Katalyst Nightclub",
+     "priceTier": 2,
+     "prices": "Event covers around TT$150"
+    },
+    {
+     "age": "18+",
+     "area": "Ariapita Avenue, Woodbrook",
+     "description": "Lively cocktail lounge near the top of Ariapita Avenue with bottomless-cocktail deals and a party crowd that stays into the small hours on weekends.",
+     "djs": [
+      "Weekend DJ sets",
+      "Bottomless cocktail party nights",
+      "After-work lime sessions"
+     ],
+     "dressCode": "Casual smart",
+     "entry": "Generally free entry; cover varies for special events",
+     "genres": [
+      "soca",
+      "dancehall",
+      "hip hop"
+     ],
+     "hours": "Open daily until late; Fri–Sat until around 6:00 AM",
+     "name": "Tipsy Ibis",
+     "priceTier": 2,
+     "prices": "No standard cover — cocktail lounge pricing"
+    },
+    {
+     "age": "18+",
+     "area": "Ariapita Avenue, Woodbrook",
+     "description": "One of the best-known pub-style party spots on The Avenue, with an outdoor terrace made for bar-hopping nights and people-watching on the strip.",
+     "djs": [
+      "Weekend DJ and party nights",
+      "Avenue street-party atmosphere on Fri–Sat",
+      "Live sports and social nights"
+     ],
+     "dressCode": "Casual",
+     "entry": "Generally free entry",
+     "genres": [
+      "soca",
+      "dancehall",
+      "pop"
+     ],
+     "hours": "Open daily until late; busiest Fri–Sat nights",
+     "name": "The Avenue Pub House",
+     "priceTier": 1,
+     "prices": "Free entry; standard bar prices"
+    },
+    {
+     "age": "18+",
+     "area": "Ariapita Avenue, Woodbrook",
+     "description": "Popular open-air rum bar on Ariapita Avenue with a laid-back street-party feel — a classic starting point for an Avenue pub crawl that can run until dawn on weekends.",
+     "djs": [
+      "DJ-led weekend lime nights",
+      "Street-party Fridays on The Avenue",
+      "Rum bar social sessions"
+     ],
+     "dressCode": "Casual",
+     "entry": "Free entry",
+     "genres": [
+      "soca",
+      "reggae",
+      "dancehall"
+     ],
+     "hours": "Open daily until late; liveliest Fri–Sat",
+     "name": "Shakers on the Avenue",
+     "priceTier": 1,
+     "prices": "Free entry; bar prices"
+    }
+   ],
+   "flag": "🇹🇹",
+   "id": "portofspain",
+   "name": "Port of Spain"
+  },
+  {
+   "clubs": [
+    {
+     "age": "18+",
+     "area": "St. Lawrence Gap",
+     "description": "The Gap's main full-scale nightclub — the venue formerly known as the Reggae Lounge, rebuilt as a multi-room club with several dance floors and bars. A cornerstone of south-coast nightlife for locals and tourists alike.",
+     "djs": [
+      "Free-entry Fridays (before 11 PM)",
+      "Thursday drink-special nights",
+      "Resident DJs across multiple rooms"
+     ],
+     "dressCode": "Smart casual",
+     "entry": "Free entry before 11 PM on Fridays; cover varies on other nights",
+     "genres": [
+      "soca",
+      "dancehall",
+      "reggae",
+      "hip hop"
+     ],
+     "hours": "Daily 8:00 PM–3:00 AM; Thu–Sat until 4:00 AM",
+     "name": "The Cove Barbados",
+     "priceTier": 2,
+     "prices": "Cover varies by night; free before 11 PM on Fridays"
+    },
+    {
+     "age": "18+ (original photo ID required for the nightclub)",
+     "area": "Bay Street, Carlisle Bay",
+     "description": "Barbados' most famous beach nightclub — an open-air venue on the sand at Carlisle Bay. Friday is club night with DJs and drinks-inclusive entry; Wednesdays and Thursdays host the long-running Beach Extravaganza dinner show.",
+     "djs": [
+      "Friday nightclub sessions with local DJs",
+      "Beach Extravaganza dinner show (Wed & Thu)",
+      "Live bands and cultural performances"
+     ],
+     "dressCode": "Casual beach-club attire",
+     "entry": "Cover charge at the door on club nights; dinner show is ticketed in advance",
+     "genres": [
+      "soca",
+      "dancehall",
+      "calypso",
+      "pop"
+     ],
+     "hours": "Fri club night 9:00 PM–2:00 AM; dinner shows Wed & Thu 7:00 PM–10:30 PM",
+     "name": "Harbour Lights",
+     "priceTier": 2,
+     "prices": "Friday club cover BBD $70 (US$35), including house drinks until 2:00 AM"
+    },
+    {
+     "age": "18+ (late-night events)",
+     "area": "Bay Street, Carlisle Bay",
+     "description": "Huge 24-hour beach bar and events venue on Carlisle Bay, ranked among Bridgetown's top nightlife spots. Food trucks by day; DJ sets, live music and themed beach parties after dark.",
+     "djs": [
+      "Weekend DJ sets and themed parties",
+      "Live reggae and steelpan sessions",
+      "Beach party events"
+     ],
+     "dressCode": "Casual",
+     "entry": "Free general entry; ticketed special events",
+     "genres": [
+      "soca",
+      "reggae",
+      "dancehall"
+     ],
+     "hours": "Open 24 hours daily",
+     "name": "Savvy On The Bay",
+     "priceTier": 1,
+     "prices": "Free entry for regular nights; event prices vary"
+    },
+    {
+     "age": "18+",
+     "area": "St. Lawrence Gap",
+     "description": "Rustic open-air rum-shop-style bar on the Gap waterfront with a fiercely loyal following, famous for live reggae band nights and a rowdy, friendly late-night crowd.",
+     "djs": [
+      "Saturday reggae nights with Right Side of Red",
+      "Live bands several nights a week",
+      "Karaoke and DJ sessions"
+     ],
+     "dressCode": "Casual",
+     "entry": "Usually free entry",
+     "genres": [
+      "reggae",
+      "calypso",
+      "soca"
+     ],
+     "hours": "Open daily until late, around 1:00–2:00 AM",
+     "name": "The Dive",
+     "priceTier": 1,
+     "prices": "Free entry; rum-shop bar prices"
+    },
+    {
+     "age": "18+",
+     "area": "Worthing Main Road, Worthing",
+     "description": "South-coast institution mixing a music-lover's bar (walls of musician portraits, a room dedicated to Bob Marley) with the Chopping Board Kitchen. Its Wednesday reggae night is a fixture for locals.",
+     "djs": [
+      "Wednesday Reggae Night",
+      "Live bands on music nights",
+      "Classic singalong DJ sets"
+     ],
+     "dressCode": "Casual",
+     "entry": "Free most nights; small cover on reggae nights",
+     "genres": [
+      "reggae",
+      "rock",
+      "soca",
+      "classics"
+     ],
+     "hours": "Mon–Sat 10:00 AM–1:30 AM; Sun 5:00 PM–1:00 AM",
+     "name": "Mojo",
+     "priceTier": 1,
+     "prices": "BBD $10 cover on Wednesday reggae nights (2025)"
+    },
+    {
+     "age": "18+",
+     "area": "Maxwell Coast Road, Oistins",
+     "description": "Small, locals-focused late-night club in the Maxwell/Oistins area near the south-coast hotel strip, open deep into the night every night of the week.",
+     "djs": [
+      "Nightly local DJ sets",
+      "Weekend party nights",
+      "Oistins Friday fish-fry after-parties"
+     ],
+     "dressCode": "Casual",
+     "entry": "Cover varies by night",
+     "genres": [
+      "soca",
+      "dancehall",
+      "hip hop"
+     ],
+     "hours": "Daily 10:00 PM–5:00 AM",
+     "name": "Incognito Night Club",
+     "priceTier": 1,
+     "prices": "Cover varies by night"
+    },
+    {
+     "age": "18+",
+     "area": "Maxwell Main Road, Oistins",
+     "description": "Late-night lounge-club on Maxwell Main Road serving the Oistins/Maxwell strip, popular with locals for midweek and weekend sessions that run until 5 AM.",
+     "djs": [
+      "Local DJ rotations",
+      "Midweek and weekend party nights",
+      "Fish-fry Friday spillover crowds"
+     ],
+     "dressCode": "Casual smart",
+     "entry": "Cover varies by night",
+     "genres": [
+      "soca",
+      "dancehall",
+      "r&b"
+     ],
+     "hours": "Wed–Sun 10:00 PM–5:00 AM",
+     "name": "Seduction Lounge",
+     "priceTier": 1,
+     "prices": "Cover varies by night"
+    }
+   ],
+   "flag": "🇧🇧",
+   "id": "bridgetown",
+   "name": "Bridgetown"
+  },
+  {
+   "clubs": [
+    {
+     "age": "18+",
+     "area": "Vedado (La Rampa, Calle 23)",
+     "description": "Havana's most respected jazz club — a tiny basement cellar entered through a red British phone box, where top Cuban jazz musicians play serious late sets to a listening crowd of about sixty.",
+     "djs": [
+      "Nightly live jazz sets from around 10:00 PM",
+      "Rotating Cuban jazz combos and guest soloists",
+      "Jazz Plaza festival stage in January"
+     ],
+     "dressCode": "Casual smart; no strict code",
+     "entry": "Walk-ins only, no reservations — queue forms from about 9:30 PM",
+     "genres": [
+      "jazz",
+      "latin jazz",
+      "live music"
+     ],
+     "hours": "Nightly from ~10:00 PM to ~2:00 AM",
+     "name": "La Zorra y el Cuervo",
+     "priceTier": 2,
+     "prices": "Around $10 USD for visitors and usually includes two drinks; prices in CUP for locals vary with exchange rates"
+    },
+    {
+     "age": "18+",
+     "area": "Miramar",
+     "description": "The city's temple of live salsa and timba since the mid-1990s — a big hall with table service where the major Cuban dance orchestras play to a crowd that actually dances.",
+     "djs": [
+      "Nightly headline salsa/timba orchestras",
+      "Matinee session 5:00–9:00 PM popular with local dancers",
+      "Late session from ~11:00 PM to 3:00 AM"
+     ],
+     "dressCode": "Smart casual",
+     "entry": "Pay at the door; tables can be held — check the night's billing the same day",
+     "genres": [
+      "salsa",
+      "timba",
+      "son",
+      "live music"
+     ],
+     "hours": "Daily, two sessions ~5:00–9:00 PM and ~11:00 PM–3:00 AM",
+     "name": "Casa de la Música Miramar",
+     "priceTier": 2,
+     "prices": "About $10–25 USD depending on the band; visitors generally pay in USD/EUR cash"
+    },
+    {
+     "age": "18+",
+     "area": "Marianao",
+     "description": "The legendary open-air cabaret running since 1939 — a huge feathered revue with a live orchestra and 200+ performers under the trees, Havana's most famous night out.",
+     "djs": [
+      "Nightly 'Paradise Under the Stars' revue",
+      "Live big-band orchestra",
+      "Dancing after the show"
+     ],
+     "dressCode": "Smart elegant — no shorts, T-shirts or sportswear",
+     "entry": "Ticketed by seat tier; book ahead in peak season, box office sells same-day in low season",
+     "genres": [
+      "cabaret",
+      "live music",
+      "latin",
+      "show"
+     ],
+     "hours": "Doors ~8:30–9:00 PM, show ~9:30–10:00 PM, closes ~1:00 AM (most nights; some sources say Wed–Sun)",
+     "name": "Cabaret Tropicana",
+     "priceTier": 3,
+     "prices": "Tourist ticket pricing in USD: roughly $85–150 per person by seat tier, more with dinner; rum included in most tickets"
+    },
+    {
+     "age": "18+",
+     "area": "Vedado (Calle O, near Hotel Nacional)",
+     "description": "The surviving home of filin and bolero since 1960 — an intimate concert café where veteran singers perform slow Cuban song up close; nobody dances, everybody listens.",
+     "djs": [
+      "Two live concerts nightly",
+      "Billed concerts Fri–Sat from ~11:30 PM",
+      "Bolero and filin singers with house musicians"
+     ],
+     "dressCode": "Casual smart",
+     "entry": "Walk-in; arrive soon after opening to secure a table",
+     "genres": [
+      "bolero",
+      "filin",
+      "trova",
+      "live music"
+     ],
+     "hours": "Nightly from ~10:00 PM to ~2:30 AM",
+     "name": "El Gato Tuerto",
+     "priceTier": 1,
+     "prices": "Entry around $5 USD / €5 for visitors; moderate drink prices"
+    },
+    {
+     "age": "18+",
+     "area": "Vedado (Galerías Paseo, opposite Meliá Cohiba)",
+     "description": "A table-service jazz supper club — the comfortable alternative to the basement rooms, with dinner, reservations and one long late set from name Cuban jazz players.",
+     "djs": [
+      "Late jazz set around 11:00 PM",
+      "Cuban jazz quartets and guest acts",
+      "Thu–Sun programming"
+     ],
+     "dressCode": "Smart casual",
+     "entry": "Reservations accepted; cover varies by night",
+     "genres": [
+      "jazz",
+      "latin jazz",
+      "live music"
+     ],
+     "hours": "Thu–Sun from ~9:00 PM, late set ~11:00 PM",
+     "name": "Jazz Café",
+     "priceTier": 2,
+     "prices": "Cover varies by act; visitors typically charged in USD/EUR"
+    },
+    {
+     "age": "18+",
+     "area": "Vedado (Calle 17)",
+     "description": "The Beatles-themed Yellow Submarine cultural centre — Havana's rock refuge, where Cuban bands play rock and pop covers plus 'rockoteca' DJ nights to a young local crowd.",
+     "djs": [
+      "Live rock cover bands",
+      "Rockoteca DJ nights",
+      "Sports-bar screenings on match nights"
+     ],
+     "dressCode": "Casual",
+     "entry": "Small cover at the door",
+     "genres": [
+      "rock",
+      "pop",
+      "live music"
+     ],
+     "hours": "Tue–Sun 9:00 PM–2:00 AM",
+     "name": "Submarino Amarillo",
+     "priceTier": 1,
+     "prices": "Cover about $5 USD for visitors; cheap local drinks pricing in CUP"
+    },
+    {
+     "age": "18+",
+     "area": "Vedado (Calle 13)",
+     "description": "A state cultural centre with the best Wednesday night in Havana — Roberto Carcassés' Interactivo fuses jazz, funk and timba in a theatre-bar setting that draws musicians and students.",
+     "djs": [
+      "Interactivo jazz-fusion sessions Wednesdays ~11:30 PM",
+      "Rotating concert programme",
+      "Theatre and comedy nights"
+     ],
+     "dressCode": "Casual",
+     "entry": "Ticket/cover at the door, varies by event",
+     "genres": [
+      "jazz",
+      "fusion",
+      "timba",
+      "live music"
+     ],
+     "hours": "Event nights; concerts typically from ~9:00 PM, Interactivo Wednesdays late",
+     "name": "Café Teatro Bertolt Brecht",
+     "priceTier": 1,
+     "prices": "Cover varies by event; generally a few USD for visitors, CUP pricing for locals"
+    },
+    {
+     "age": "18+",
+     "area": "Marianao (Calle 41 y 44)",
+     "description": "An enormous open-air dance hall where Havana itself — not the tourist circuit — goes to hear the big timba orchestras, mostly on Saturday nights. Raw, loud and local.",
+     "djs": [
+      "Saturday-night timba/salsa orchestras",
+      "Occasional weekday concerts",
+      "Daytime matinees some Sundays"
+     ],
+     "dressCode": "Casual",
+     "entry": "Pay at the gate; programming is sporadic — confirm locally the same week",
+     "genres": [
+      "timba",
+      "salsa",
+      "live music"
+     ],
+     "hours": "Mainly Saturday nights; occasional other sessions — check locally",
+     "name": "Salón Rosado Benny Moré de La Tropical",
+     "priceTier": 1,
+     "prices": "Local pricing in CUP, reported around 100–200 CUP entry — only a few USD even at tourist exchange rates"
+    },
+    {
+     "age": "18+",
+     "area": "Vedado (Hotel Nacional de Cuba)",
+     "description": "The Nacional's historic cabaret, staging the colourful 'Habana de Fiesta' / 'Cubano Cubano' revue with live band and dancers, followed by audience dancing — Tropicana glamour at half the price.",
+     "djs": [
+      "Nightly cabaret revue at 10:00 PM",
+      "Live orchestra and dance troupe",
+      "Dancing after the show"
+     ],
+     "dressCode": "Smart elegant — dress code enforced",
+     "entry": "Ticketed; show-only or dinner-and-show packages, bookable via the hotel",
+     "genres": [
+      "cabaret",
+      "live music",
+      "latin",
+      "show"
+     ],
+     "hours": "9:00 PM–2:00 AM, most nights (closed Wednesdays per hotel); show at 10:00 PM",
+     "name": "Cabaret Parisien",
+     "priceTier": 3,
+     "prices": "Show-only about $32–45 USD at the hotel (includes 2 drinks); dinner-and-show package listed at $75 USD"
+    },
+    {
+     "age": "18+",
+     "area": "Vedado (Hotel Meliá Cohiba, Paseo)",
+     "description": "A 1950s-themed nightclub-cabaret in the Meliá Cohiba with vintage cars as decor, staging traditional Cuban music shows — including Buena Vista-generation artists — with dinner and dancing.",
+     "djs": [
+      "Nightly traditional Cuban music show from ~9:00 PM",
+      "Buena Vista-style orchestras on hotel show nights",
+      "Dancing between sets"
+     ],
+     "dressCode": "Smart casual — hotel dress code applies",
+     "entry": "Cover/minimum spend at the door; often packaged as dinner-and-show by the hotel",
+     "genres": [
+      "son",
+      "traditional cuban",
+      "live music",
+      "cabaret"
+     ],
+     "hours": "Nightly from ~9:00 PM to ~1:00–2:30 AM",
+     "name": "Habana Café",
+     "priceTier": 2,
+     "prices": "Hotel cabaret pricing in USD; cover varies by act and package — confirm with the hotel"
+    }
+   ],
+   "flag": "🇨🇺",
+   "id": "havana",
+   "name": "Havana"
+  },
+  {
+   "clubs": [
+    {
+     "age": "21+",
+     "area": "Palm Beach (Paseo Herencia Mall)",
+     "description": "Aruba's flagship nightclub for over a decade — a high-energy dance club and terrace inside Paseo Herencia, repeatedly voted the island's number-one club, mixing tourists and locals.",
+     "djs": [
+      "Resident and guest DJs nightly",
+      "Daily happy hour 6:00–10:00 PM",
+      "Themed nights and drink specials through the week"
+     ],
+     "dressCode": "Smart casual / upscale casual",
+     "entry": "Free entry most nights; cover may apply for special events",
+     "genres": [
+      "house",
+      "dance",
+      "reggaeton",
+      "top 40"
+     ],
+     "hours": "Daily 6:00 PM–1:00 AM; Fri–Sat until 3:00 AM",
+     "name": "Gusto Nightclub Aruba",
+     "priceTier": 2,
+     "prices": "No standard cover; happy-hour beers around $4 USD. Prices quoted in USD and AWG (ƒ)"
+    },
+    {
+     "age": "21+",
+     "area": "Palm Beach / Noord (J.E. Irausquin Blvd 370)",
+     "description": "A deliberately hard-to-find club room behind the Palm Beach strip aimed at music lovers — modern sound system, respected local DJs and MCs, and a strict, grown-up door.",
+     "djs": [
+      "Local resident DJs and MCs",
+      "Top 40 and EDM dancefloor nights",
+      "Themed nights posted online"
+     ],
+     "dressCode": "Casual chic — strict door policy",
+     "entry": "No cover charge (per Aruba Tourism Authority listing)",
+     "genres": [
+      "edm",
+      "house",
+      "top 40",
+      "dance"
+     ],
+     "hours": "Tue–Thu 9:00 PM–1:00 AM; Fri–Sat 9:00 PM–3:00 AM (closed Sun–Mon)",
+     "name": "Hidden Nightclub",
+     "priceTier": 2,
+     "prices": "Free entry; drinks at standard Palm Beach club prices in USD/AWG"
+    },
+    {
+     "age": "18+",
+     "area": "Palm Beach (The Village Mall)",
+     "description": "One of Palm Beach's most talked-about newer clubs — stylish DJ room with VIP tables and bottle service, themed party nights and a mixed local/international crowd.",
+     "djs": [
+      "Tantra Tuesdays",
+      "Wicked Wednesdays",
+      "Live DJs nightly, happy hour 9:00–11:00 PM"
+     ],
+     "dressCode": "Smart casual",
+     "entry": "Cover varies by event; VIP tables bookable",
+     "genres": [
+      "dance",
+      "latin",
+      "house",
+      "top 40"
+     ],
+     "hours": "Daily 6:00 PM–1:00 AM; Fri–Sat until 3:00 AM",
+     "name": "Tantra Night Club",
+     "priceTier": 3,
+     "prices": "Cover varies by event; bottle service priced in USD"
+    },
+    {
+     "age": "18+",
+     "area": "Palm Beach (between Marriott and Holiday Inn)",
+     "description": "Aruba's most famous beach bar — an open-air palapa bar on the sand that turns into a dancefloor after dark, with DJs nightly and famous Sunday-night parties.",
+     "djs": [
+      "Live DJs every night",
+      "Live bands Mon, Fri and Sun",
+      "Sunday beach-party nights"
+     ],
+     "dressCode": "Beach casual",
+     "entry": "Free entry",
+     "genres": [
+      "live music",
+      "latin",
+      "dance",
+      "beach party"
+     ],
+     "hours": "Daily 8:00 AM–1:00 AM; Fri–Sun until 2:00 AM",
+     "name": "MooMba Beach Bar & Restaurant",
+     "priceTier": 2,
+     "prices": "No cover; happy hours 6:00–7:00 PM and 10:00–11:00 PM. USD and AWG accepted"
+    },
+    {
+     "age": "18+",
+     "area": "Palm Beach (De Palm Pier, between Hilton and RIU)",
+     "description": "A colour-splashed pier bar over the water, famous for sunset sessions, karaoke and some of the best live bands on the island playing to a dancing crowd.",
+     "djs": [
+      "Live bands Tue, Fri and Sun 7:00–10:00 PM",
+      "Daily live music at happy hours 5:00–6:00 PM and 10:00–11:00 PM",
+      "Karaoke nights"
+     ],
+     "dressCode": "Beach casual",
+     "entry": "Free entry",
+     "genres": [
+      "live music",
+      "karaoke",
+      "pop",
+      "latin"
+     ],
+     "hours": "Daily 8:00 AM–12:00 AM",
+     "name": "Bugaloe Beach Bar & Grill",
+     "priceTier": 2,
+     "prices": "No cover; cocktail deals at both daily happy hours. USD/AWG"
+    },
+    {
+     "age": "18+",
+     "area": "Palm Beach strip",
+     "description": "Billed as Aruba's number-one Latin bar — a two-storey open-air 'treehouse' club where live salsa bands hand over to DJs and the dancefloor stays packed with dancers.",
+     "djs": [
+      "Live Latin bands weekends from 9:00 PM",
+      "DJ 101 and DJs after 10:00–11:00 PM",
+      "White Party and Latin Night events"
+     ],
+     "dressCode": "Casual smart",
+     "entry": "Free entry most nights; table reservations for events",
+     "genres": [
+      "salsa",
+      "latin",
+      "merengue",
+      "live music"
+     ],
+     "hours": "Daily 4:00 PM–1:00 AM; Fri–Sat (and some Thu) until 3:00 AM",
+     "name": "Kalibra Bar",
+     "priceTier": 2,
+     "prices": "No standard cover; happy hours 5:00–7:00 PM and 11:00 PM–12:00 AM. USD/AWG"
+    },
+    {
+     "age": "18+",
+     "area": "Palm Beach (Arawak Garden)",
+     "description": "A polished open-air piano bar where a rotating international pianist takes requests all night — Sinatra to Elton John — with martinis, cigars and room-wide sing-alongs.",
+     "djs": [
+      "Resident pianist nightly (rotates monthly)",
+      "Audience request sing-alongs",
+      "Guest vocalists some nights"
+     ],
+     "dressCode": "Smart casual — the dressed-up option on the strip",
+     "entry": "Free entry",
+     "genres": [
+      "piano bar",
+      "live music",
+      "classics",
+      "jazz"
+     ],
+     "hours": "Daily 5:00 PM–1:00 AM",
+     "name": "The Sopranos Piano Bar",
+     "priceTier": 2,
+     "prices": "No cover; cocktail-bar prices in USD/AWG"
+    },
+    {
+     "age": "18+",
+     "area": "Downtown Oranjestad (L.G. Smith Blvd 60, opposite Wilhelmina Park)",
+     "description": "A Dutch brown-café pub and downtown institution since 2000 — imported Belgian beers, a loyal local crowd, and live bands from 10:00 PM that make it one of the last rooms open downtown.",
+     "djs": [
+      "Live bands Thu and Sat from 10:00 PM",
+      "Blues, reggae, funk, pop and rock acts",
+      "Happy hour daily 5:00–7:00 PM"
+     ],
+     "dressCode": "Casual",
+     "entry": "Free entry",
+     "genres": [
+      "live music",
+      "rock",
+      "reggae",
+      "funk"
+     ],
+     "hours": "Tue–Thu 5:00 PM–1:00 AM; Fri 5:00 PM–3:00 AM; Sat 8:00 PM–3:00 AM (closed Sun–Mon)",
+     "name": "Café Chaos",
+     "priceTier": 1,
+     "prices": "No cover; mid-range bar prices in AWG/USD"
+    },
+    {
+     "age": "18+",
+     "area": "Downtown Oranjestad (Koningstraat 1)",
+     "description": "A no-frills local sports bar in the centre of Oranjestad — cheap cold beers, big screens and a neighbourhood crowd that stays out until 3:00 AM on weekends.",
+     "djs": [
+      "Sports screenings day and night",
+      "DJ/party nights on weekends",
+      "Local bar scene — music and dominoes crowd"
+     ],
+     "dressCode": "Casual",
+     "entry": "Free entry",
+     "genres": [
+      "latin",
+      "pop",
+      "bar"
+     ],
+     "hours": "Mon–Thu 12:00 PM–12:00 AM; Fri–Sun until 3:00 AM",
+     "name": "Manuelito's Sport Bar",
+     "priceTier": 1,
+     "prices": "Budget local pricing in AWG; among the cheapest drinks downtown"
+    }
+   ],
+   "flag": "🇦🇼",
+   "id": "oranjestad",
+   "name": "Oranjestad"
+  },
+  {
+   "clubs": [
+    {
+     "age": "18+",
+     "area": "Niyama Private Islands, Dhaalu Atoll",
+     "description": "The world's first underwater nightclub, six metres below the lagoon and reached by speedboat from the resort; by day it serves underwater Nikkei dining, and on party nights the reef-facing room becomes a glowing dancefloor. Access is for Niyama resort guests only.",
+     "djs": [
+      "Resident DJ at the underwater Glow Parties",
+      "Glow Party nights, typically Wednesdays and Saturdays",
+      "International guest DJs during the festive season"
+     ],
+     "dressCode": "Smart resort wear; white or neon glows best under the UV party lighting",
+     "entry": "Niyama resort guests only; Glow Party entry free for guests (18+)",
+     "genres": [
+      "house",
+      "edm",
+      "top 40"
+     ],
+     "hours": "Glow Parties on selected nights, approx. 9:00 PM – 12:00 AM; underwater dining by day",
+     "name": "Subsix (Niyama Private Islands Maldives)",
+     "priceTier": 3,
+     "prices": "Glow Party entry free for resort guests; underwater set lunches around USD 120–250 per person"
+    },
+    {
+     "age": "18+",
+     "area": "Fesdu Island, North Ari Atoll",
+     "description": "The Maldives' only underground nightclub, buried beneath the beach at W Maldives and carried through the resort's full March 2025 relaunch, hosting international guest DJs. Access is for W Maldives guests only.",
+     "djs": [
+      "International guest DJs",
+      "Resident DJs on club nights",
+      "Sets curated under W Hotels' music programme"
+     ],
+     "dressCode": "Smart, stylish club wear; no swimwear",
+     "entry": "W Maldives resort guests only",
+     "genres": [
+      "house",
+      "dance",
+      "top 40"
+     ],
+     "hours": "Club nights on selected evenings, late night (weekly schedule set by the resort)",
+     "name": "15Below (W Maldives)",
+     "priceTier": 3,
+     "prices": "Pricing set by the resort; drinks-led, no published cover charge"
+    },
+    {
+     "age": "18+",
+     "area": "Finolhu, Baa Atoll",
+     "description": "Retro-chic beach club and pool deck at Seaside Finolhu — barefoot dancing to resident and guest DJs until 1 AM, an upper shisha deck, and the famous White Party out on the 1.8 km sandbank. Access is for Finolhu resort guests only.",
+     "djs": [
+      "Resident DJ with daily beach-club sets",
+      "International guest DJs on weekend residencies",
+      "Weekly White Party with DJ on the sandbank"
+     ],
+     "dressCode": "Barefoot beach-chic; all white for the White Party",
+     "entry": "Seaside Finolhu resort guests only",
+     "genres": [
+      "house",
+      "disco",
+      "retro"
+     ],
+     "hours": "Daily 10:00 AM – 1:00 AM",
+     "name": "Beach Club (Seaside Finolhu)",
+     "priceTier": 3,
+     "prices": "Pricing set by the resort; drinks by the glass, many party nights included for in-house guests"
+    },
+    {
+     "age": "18+",
+     "area": "Emboodhoo Lagoon, South Malé Atoll",
+     "description": "Music-obsessed resort at CROSSROADS with a Friday DJ pool party (underwater speakers included), weekly DJ nights and nightly live music at the oceanfront Hard Rock Cafe. The Marina @ CROSSROADS venues also welcome day visitors from Malé; the hotel pool scene is for guests.",
+     "djs": [
+      "Resident Deviate Band live at Hard Rock Cafe",
+      "Weekly DJ night at The Elephant and The Butterfly",
+      "Friday DJ pool party at the Pool Bar"
+     ],
+     "dressCode": "Casual rock-and-roll; swimwear fine at daytime pool parties",
+     "entry": "Hotel guests; Hard Rock Cafe and The Marina @ CROSSROADS open to day visitors by ferry/speedboat from Malé",
+     "genres": [
+      "rock",
+      "pop",
+      "top 40"
+     ],
+     "hours": "Pool Bar from 9:00 AM; Hard Rock Cafe 12:00 PM – 12:30 AM; Friday pool party 1:30 PM – 5:00 PM",
+     "name": "Hard Rock Hotel Maldives",
+     "priceTier": 3,
+     "prices": "Day-visitor access to The Marina is free; food and drinks at international resort-bar prices"
+    },
+    {
+     "age": "18+",
+     "area": "Vihamanaafushi, North Malé Atoll",
+     "description": "Open-air pavilion bar with a wide overwater deck at Niva Kurumba (formerly Kurumba), ten minutes by speedboat from Malé, running the country's most reliable nightly entertainment — live bands, DJ evenings and traditional Bodu Beru. Access is via the resort; guests only, with visits by arrangement.",
+     "djs": [
+      "DJ Paiday's weekly DJ evenings",
+      "Live bands most nights",
+      "Tuesday Bodu Beru traditional drum night"
+     ],
+     "dressCode": "Relaxed resort casual",
+     "entry": "Resort guests; day/evening visits possible by arrangement with the resort",
+     "genres": [
+      "pop",
+      "jazz",
+      "top 40"
+     ],
+     "hours": "Daily 10:00 AM – 1:00 AM",
+     "name": "Kandu Bar (Niva Kurumba Maldives)",
+     "priceTier": 2,
+     "prices": "Among the Maldives' more affordable resort bars; drinks by the glass, prices set by the resort"
+    },
+    {
+     "age": "18+",
+     "area": "Dhidhoofinolhu, South Ari Atoll",
+     "description": "LUX* South Ari Atoll's beach-club restaurant turns into a party on its floating dance floor after dark, powered by long-standing resident DJ Abee Sash's sunset-to-late deep house sets. Access is for LUX* resort guests only.",
+     "djs": [
+      "Resident DJ Abee Sash (deep house sunset sets)",
+      "Floating dance floor DJ nights",
+      "Live local entertainment at East Bar"
+     ],
+     "dressCode": "Beach-chic resort wear, barefoot-friendly",
+     "entry": "LUX* South Ari Atoll resort guests only",
+     "genres": [
+      "deep house",
+      "house",
+      "chillout"
+     ],
+     "hours": "Daytime into late evening; DJ sets from sunset (hours vary by season)",
+     "name": "Beach Rouge (LUX* South Ari Atoll)",
+     "priceTier": 3,
+     "prices": "Pricing set by the resort; drinks by the glass at luxury-resort rates"
+    },
+    {
+     "age": "18+",
+     "area": "Kuredu, Lhaviyani Atoll",
+     "description": "Kuredu's main entertainment bar and disco, home of the legendary Friday White Night Party — a big crowd dressed in white under UV lights, dancing to the resident DJ until late. Access is for Kuredu resort guests only.",
+     "djs": [
+      "Resident in-house DJ",
+      "Friday White Night Party under UV lights",
+      "Weekly disco and themed entertainment nights"
+     ],
+     "dressCode": "White outfit required for the Friday White Night Party; casual resort wear other nights",
+     "entry": "Kuredu resort guests only",
+     "genres": [
+      "top 40",
+      "dance",
+      "disco"
+     ],
+     "hours": "Daily approx. 9:00 AM – 1:00 AM; White Night Party Fridays from 8:00 PM",
+     "name": "Babuna Bar (Kuredu Island Resort & Spa)",
+     "priceTier": 2,
+     "prices": "Drinks included on Kuredu's popular all-inclusive plans; otherwise priced by the resort"
+    },
+    {
+     "age": "18+",
+     "area": "Maaranfushi, North Malé Atoll",
+     "description": "Mural-painted main bar beside the art-covered pool at Oaga Art Resort, with nightly live music by local acts, 'Liquid Groove' DJ nights and bonfire sessions on the beach. Access is for Oaga guests, with drinks covered by the resort's all-inclusive plans.",
+     "djs": [
+      "Liquid Groove DJ nights and pool parties",
+      "Live local acts such as Naail Trio and Dupa Trio",
+      "Guest DJs (e.g. DJ Afruh) at beach parties"
+     ],
+     "dressCode": "Barefoot casual — the whole resort goes barefoot",
+     "entry": "Oaga Art Resort guests; drinks included on its all-inclusive plans",
+     "genres": [
+      "house",
+      "chillout",
+      "live music"
+     ],
+     "hours": "Daily 10:00 AM – 12:00 AM",
+     "name": "Raa Baa (Oaga Art Resort)",
+     "priceTier": 2,
+     "prices": "Beverages at Raa Baa included in Oaga's all-inclusive plans; otherwise priced by the resort"
+    },
+    {
+     "age": "18+",
+     "area": "Hurawalhi, Lhaviyani Atoll",
+     "description": "Hurawalhi's sunken poolside bar becomes the island's party spot after dark, with live DJ disco nights and band evenings on the al fresco deck. Access is for Hurawalhi guests only; the resort is adults-oriented (ages 15+).",
+     "djs": [
+      "Resident DJ disco nights",
+      "Live band evenings at the pool deck",
+      "Weekly Maldivian cultural night"
+     ],
+     "dressCode": "Smart resort casual",
+     "entry": "Hurawalhi resort guests only",
+     "genres": [
+      "pop",
+      "dance",
+      "top 40"
+     ],
+     "hours": "Daily 10:00 AM – 1:00 AM",
+     "name": "Coco Bar (Hurawalhi Island Resort)",
+     "priceTier": 3,
+     "prices": "Drinks at Coco Bar included on Hurawalhi's all-inclusive plan during bar hours"
+    },
+    {
+     "age": "18+",
+     "area": "Nova Maldives, South Ari Atoll",
+     "description": "Nova Maldives' main bar — live music through the afternoon, then the lights drop and the resident DJ fills the dance floor until midnight, the social heart of this small 'soulful luxury' island. Access is for Nova resort guests only.",
+     "djs": [
+      "Resident DJ evening sets",
+      "Live music afternoons rolling into DJ nights",
+      "Late-night weekend DJ sets"
+     ],
+     "dressCode": "Relaxed island casual",
+     "entry": "Nova Maldives resort guests only",
+     "genres": [
+      "funk",
+      "soul",
+      "house"
+     ],
+     "hours": "Daily 10:00 AM – 12:00 AM",
+     "name": "Wink (Nova Maldives)",
+     "priceTier": 2,
+     "prices": "Drinks at Wink included during bar hours on Nova's Premium All-Inclusive plan"
+    }
+   ],
+   "flag": "🇲🇻",
+   "id": "maldives",
+   "name": "Maldives"
+  },
+  {
+   "clubs": [
+    {
+     "age": "18+",
+     "area": "Constant Spring Road",
+     "description": "Kingston's flagship uptown nightclub at the Marketplace Entertainment Centre for the Arts, drawing big crowds for themed dancehall parties, guest artistes and VIP section culture.",
+     "djs": [
+      "Dolly Sundays — the city's premier Sunday dancehall & R&B party",
+      "Squad Fridays and Élevé Saturdays",
+      "Ladies Night Out (ladies free before midnight)"
+     ],
+     "dressCode": "Stylish and upscale — dress to impress",
+     "entry": "Presold tickets online (themecaverse.net); sections and tables bookable by phone",
+     "genres": [
+      "dancehall",
+      "r&b",
+      "hip hop"
+     ],
+     "hours": "Thu 10pm–4am; Fri–Sun 11pm–4am",
+     "name": "Club MECA",
+     "priceTier": 2,
+     "prices": "Typically JMD 2,000 general / JMD 3,000 VIP (some nights presold at JMD 1,500 / 2,500)"
+    },
+    {
+     "age": "18+",
+     "area": "Constant Spring Road",
+     "description": "Cannabis-themed hookah lounge at Manor Centre hosting artist showcases and drink-inclusive party nights, popular with Kingston's uptown party crowd.",
+     "djs": [
+      "Cloud 9 Thursdays",
+      "Ballandor Saturdays",
+      "Live artiste nights (e.g. Nhance Live, Sept 2025)"
+     ],
+     "dressCode": "Trendy smart casual",
+     "entry": "Admission charged on event nights; tickets at the door",
+     "genres": [
+      "dancehall",
+      "reggae",
+      "hip hop"
+     ],
+     "hours": "Mon–Sat 6pm–2am (event nights run later)",
+     "name": "4/20 Lounge Kingston",
+     "priceTier": 2,
+     "prices": "Event admission typically JMD 1,500–2,000"
+    },
+    {
+     "age": "18+",
+     "area": "Jack's Hill",
+     "description": "Legendary open-air Sunday session on Skyline Drive overlooking the city — 100% undiluted roots reggae and dub played on the Rockers Sound Station at host Gabre Selassie's home.",
+     "djs": [
+      "Gabre Selassie & Rockers Sound Station (resident selector)",
+      "Guest roots selectors and live dub artistes",
+      "Weekly Sunday roots & dub session since 2002"
+     ],
+     "dressCode": "Casual — relaxed hilltop vibes",
+     "entry": "Contribution at the gate; food and drinks on sale",
+     "genres": [
+      "dub",
+      "roots reggae",
+      "reggae"
+     ],
+     "hours": "Sundays only, approx. 6pm–1am (gates from 5pm)",
+     "name": "Kingston Dub Club",
+     "priceTier": 1,
+     "prices": "Contribution JMD 2,000 (half price for UWI/UTech students with ID)"
+    },
+    {
+     "age": "18+",
+     "area": "New Kingston",
+     "description": "Food, art and music venue on Belmont Road built around live Jamaican music, with a themed event nearly every night of the week and a loyal local crowd.",
+     "djs": [
+      "SupaHeavy Wednesdays — live band night",
+      "Soca Thursdays and Freedom Fridays",
+      "ENERGY Saturdays"
+     ],
+     "dressCode": "Casual smart",
+     "entry": "Free entry most nights; reservations accepted",
+     "genres": [
+      "reggae",
+      "dancehall",
+      "soca",
+      "live music"
+     ],
+     "hours": "Mon–Thu 4pm–12am; Fri–Sat 4pm–2am; Sun 3pm–10pm",
+     "name": "Janga's Soundbar & Grill",
+     "priceTier": 2,
+     "prices": "Free entry most nights; cover may apply for special live shows"
+    },
+    {
+     "age": "18+",
+     "area": "New Kingston",
+     "description": "Premium ultralounge and ultraclub at Ardenne Emirates Plaza, known for late-night DJ sessions, good food served into the small hours and an upscale Kingston crowd.",
+     "djs": [
+      "Live DJ nights on Fridays and Sundays",
+      "Weekend ultraclub sessions until 5am",
+      "Guest selector and themed party nights"
+     ],
+     "dressCode": "Upscale smart — stylish dress encouraged",
+     "entry": "Free entry most nights; cover may apply on special event nights",
+     "genres": [
+      "dancehall",
+      "hip hop",
+      "r&b",
+      "soca"
+     ],
+     "hours": "Wed–Sun 4pm–3am; Fri–Sat until 5am",
+     "name": "Ribbiz UltraLounge",
+     "priceTier": 3,
+     "prices": "Free entry most nights; premium drinks and bottle service priced at the bar"
+    },
+    {
+     "age": "18+",
+     "area": "Constant Spring Road",
+     "description": "Usain Bolt's sports bar and restaurant at Marketplace, themed on his sprint career, that turns into a lively DJ-and-live-music nightlife stop after dark.",
+     "djs": [
+      "Resident DJs in the later hours",
+      "Live music performances",
+      "Big-screen sports and watch-party nights"
+     ],
+     "dressCode": "Casual",
+     "entry": "Free entry; walk-ins and reservations",
+     "genres": [
+      "reggae",
+      "dancehall",
+      "hip hop"
+     ],
+     "hours": "Daily 11:30am–12am",
+     "name": "Usain Bolt's Tracks & Records",
+     "priceTier": 2,
+     "prices": "Free entry; mid-range food and drink prices"
+    },
+    {
+     "age": "18+",
+     "area": "Kingston 10 (Burlington Avenue)",
+     "description": "Home base of the immortal Stone Love sound system, hosting Weddy Weddy Wednesdays — the legendary midweek dancehall session running for over 20 years.",
+     "djs": [
+      "Weddy Weddy Wednesdays with Stone Love selectors",
+      "Resident selectors incl. Randy Rich and Gugumental",
+      "Guest sounds and dancehall artistes passing through"
+     ],
+     "dressCode": "Casual — dancehall style",
+     "entry": "Contribution at the gate; drinks on sale",
+     "genres": [
+      "dancehall",
+      "reggae"
+     ],
+     "hours": "Wednesdays 11:30pm–3:30am (HQ events on other nights vary)",
+     "name": "Stone Love Headquarters",
+     "priceTier": 1,
+     "prices": "Contribution JMD 500"
+    },
+    {
+     "age": "18+",
+     "area": "New Kingston",
+     "description": "Small open-air Knutsford Boulevard spot that is a laid-back dominoes-and-drinks bar by day and an energetic dancehall club by night — current home of Bounty Killer's Bounty Sundays.",
+     "djs": [
+      "Bounty Sundays — Bounty Killer's weekly Sunday party",
+      "Monday karaoke nights",
+      "Weekend club nights with resident DJs"
+     ],
+     "dressCode": "Casual, leaning casually elegant",
+     "entry": "Ladies enter free; small contribution on party nights",
+     "genres": [
+      "dancehall",
+      "hip hop"
+     ],
+     "hours": "Mon–Thu 8:30am–2am; Fri–Sat 8:30am–4am; Sun 4pm–2am",
+     "name": "Escape 24/7 Bar & Grill",
+     "priceTier": 1,
+     "prices": "Party-night contribution around JMD 500; ladies free"
+    }
+   ],
+   "flag": "🇯🇲",
+   "id": "kingston",
+   "name": "Kingston"
+  },
+  {
+   "clubs": [
+    {
+     "age": "18+",
+     "area": "Waterfront (Howard Cooke Boulevard)",
+     "description": "Montego Bay's most iconic open-air party spot — a seafood restaurant and bar on a pier over the harbour, famous island-wide for its packed Friday night party.",
+     "djs": [
+      "Pier Pressure — Friday ladies' night party",
+      "Wednesday entertainment nights (DJs, karaoke, fashion shows)",
+      "Live DJs and guest artistes on event nights"
+     ],
+     "dressCode": "Casual to smart casual — beach chic",
+     "entry": "Free entry most days; cover charged on Friday party nights",
+     "genres": [
+      "reggae",
+      "dancehall",
+      "soca",
+      "hip hop"
+     ],
+     "hours": "Daily from 11am (Sun from 12pm); Wed nights to ~2am; Fri party night until 4am",
+     "name": "Pier 1",
+     "priceTier": 1,
+     "prices": "Friday party-night cover about US$10; free entry most other nights"
+    },
+    {
+     "age": "18+",
+     "area": "Hip Strip",
+     "description": "The Hip Strip's central party hub: waterslide-and-restaurant by day, it transforms after 10pm into 'Club Ville', a multi-level open-air nightclub mixing tourists and locals.",
+     "djs": [
+      "Club Ville after-dark DJ sessions nightly",
+      "Glow parties and Ladies Night theme nights",
+      "Resident entertainment crew and guest DJs"
+     ],
+     "dressCode": "Casual beach-to-club; smart casual at night",
+     "entry": "Cover charge after 10pm on club nights",
+     "genres": [
+      "dancehall",
+      "reggae",
+      "soca",
+      "hip hop"
+     ],
+     "hours": "Daily from 10am; nightclub approx. 10pm–4am",
+     "name": "Margaritaville Montego Bay (Club Ville)",
+     "priceTier": 2,
+     "prices": "Cover after 10pm around US$10 (higher on special theme nights)"
+    },
+    {
+     "age": "18+",
+     "area": "Hip Strip",
+     "description": "Award-winning ocean-view lounge on Jimmy Cliff Boulevard that pairs sunset cocktails and hookah with a full-on nightclub after dark, seven days a week.",
+     "djs": [
+      "Nightly resident DJ club sessions",
+      "Sunset-to-late rooftop sets",
+      "Themed party nights and guest DJs"
+     ],
+     "dressCode": "Smart and stylish — upscale lounge dress",
+     "entry": "Free entry; table reservations recommended (booked out weeks ahead at peak)",
+     "genres": [
+      "dancehall",
+      "hip hop",
+      "r&b",
+      "soca"
+     ],
+     "hours": "Daily 10am–3am; Fri–Sat until 4am",
+     "name": "Lounge 2727",
+     "priceTier": 2,
+     "prices": "No charge for tables; minimum spend applies to prepaid/VIP sections"
+    },
+    {
+     "age": "18+",
+     "area": "Freeport",
+     "description": "Montego Bay's premier rooftop venue overlooking Freeport — rooftop restaurant and sky bar up top, with an air-conditioned lounge and high-energy nightclub running bottle parades on club nights.",
+     "djs": [
+      "Weekend nightclub sessions with resident and guest DJs",
+      "Themed parties and live entertainment nights",
+      "Bottle-parade VIP club nights"
+     ],
+     "dressCode": "Enforced — smart casual for the lounge, club attire for the nightclub",
+     "entry": "Cover varies by event; VIP tables and bottle service bookable",
+     "genres": [
+      "dancehall",
+      "hip hop",
+      "reggae"
+     ],
+     "hours": "Rooftop/restaurant daily 5pm–1am; nightclub Thu–Sun from 10pm (to ~3:30am)",
+     "name": "Elevate Nightclub & Lounge",
+     "priceTier": 3,
+     "prices": "Cover varies by event (tour operators quote roughly US$10–20); VIP bottle service available"
+    },
+    {
+     "age": "18+",
+     "area": "Hip Strip",
+     "description": "MoBay's leading live-jazz venue since 2004 — a blue-lit, martini-heavy ultra lounge beside Marguerite's on Gloucester Avenue, drawing a mature crowd for jazz and blues before late-night DJ sets.",
+     "djs": [
+      "Live jazz and blues bands most nights",
+      "Late-night DJ sets after the live shows",
+      "Guest vocalists and jam sessions"
+     ],
+     "dressCode": "Smart casual — elegant lounge attire",
+     "entry": "Free entry most nights; cover may apply for special live shows",
+     "genres": [
+      "jazz",
+      "blues",
+      "soul"
+     ],
+     "hours": "Mon–Sat 6pm–5am; Sun 6pm–12am",
+     "name": "Blue Beat Ultra Lounge",
+     "priceTier": 2,
+     "prices": "Free entry most nights; mid-range cocktail prices"
+    },
+    {
+     "age": "18+",
+     "area": "Hip Strip",
+     "description": "Jamaica's premier 24-hour gaming and entertainment complex on Gloucester Avenue, pairing slots and table games with nightly live band shows, karaoke and the Lava Bar.",
+     "djs": [
+      "Bubble & Spice All-Stars — resident live band nightly",
+      "Karaoke nights",
+      "Rum Jungle stage shows and feature acts"
+     ],
+     "dressCode": "Casual",
+     "entry": "Free entry",
+     "genres": [
+      "live band",
+      "reggae",
+      "pop"
+     ],
+     "hours": "Open 24 hours, daily",
+     "name": "Coral Cliff Gaming & Entertainment",
+     "priceTier": 1,
+     "prices": "Free entry; gaming and drinks are pay-as-you-go"
+    },
+    {
+     "age": "18+",
+     "area": "Hip Strip",
+     "description": "English-style pub on Gloucester Avenue loved by locals — big-screen sport, pool and pub food by day, with live entertainment, karaoke and DJ nights that spill into dance parties after dark.",
+     "djs": [
+      "Live entertainment nights",
+      "Karaoke nights",
+      "DJ nights with reggae, dancehall and soca"
+     ],
+     "dressCode": "Casual",
+     "entry": "Free entry",
+     "genres": [
+      "reggae",
+      "dancehall",
+      "soca"
+     ],
+     "hours": "Daily 11am–late",
+     "name": "The Brewery",
+     "priceTier": 1,
+     "prices": "Free entry; budget-friendly drinks by Hip Strip standards"
+    },
+    {
+     "age": "18+",
+     "area": "Fairview (Alice Eldemire Drive)",
+     "description": "Montego Bay's flagship adult entertainment club — 'the ultimate adult playground' — pairing exotic dancer performances with dancehall DJs until 4am nightly. Adults only.",
+     "djs": [
+      "Dancer performances with resident DJs nightly",
+      "Headline artiste nights (e.g. Skillibeng anniversary show, Oct 2026)",
+      "Biggest nights on Fridays and Saturdays"
+     ],
+     "dressCode": "Smart casual",
+     "entry": "Cover charge at the door; ID required",
+     "genres": [
+      "dancehall",
+      "reggae",
+      "hip hop"
+     ],
+     "hours": "Nightly 10pm–4am",
+     "name": "Taboo Montego Bay",
+     "priceTier": 2,
+     "prices": "Entry typically US$20–30 depending on the night and events"
+    }
+   ],
+   "flag": "🇯🇲",
+   "id": "montegobay",
+   "name": "Montego Bay"
+  },
+  {
+   "clubs": [
+    {
+     "age": "18+ (19+ on some event nights per venue posts)",
+     "area": "Taitu Street, inside Sheraton Addis (near Meskel Square)",
+     "description": "Addis Ababa's flagship hotel nightclub, relaunched as Gazlight in 2026 — an upscale, Western-style disco inside the Sheraton with resident DJs, themed party nights and a well-dressed crowd.",
+     "djs": [
+      "Thursdays @ Gazlight with resident DJs Papa, Klutch & Foxx",
+      "All Out Saturdays party nights",
+      "International guest DJ tours (e.g. DJ Consequence, Aug 2026)"
+     ],
+     "dressCode": "Strict: elegant, stylish and sophisticated — no jeans or trainers",
+     "entry": "No entrance fee; drinks are premium hotel-priced",
+     "genres": [
+      "afrobeats",
+      "edm",
+      "house",
+      "hip hop"
+     ],
+     "hours": "Opens early evening (happy hour from ~5:30 PM); headline Thu and Sat nights run until the early morning hours",
+     "name": "Gazlight (Gaslight) at Sheraton Addis",
+     "priceTier": 3,
+     "prices": "No cover charge; premium drink prices in ETB"
+    },
+    {
+     "age": "18+",
+     "area": "Meskel Square, inside Hyatt Regency Addis Ababa",
+     "description": "Melaku Belay's legendary azmari bet, relocated into the Hyatt Regency after its Kazanchis home was demolished in 2024 — azmari singers improvise verses over masinko and kebero, with eskista dancing and Ethio-jazz sessions.",
+     "djs": [
+      "Azmari nights with masinko, kebero and eskista dancers",
+      "Intimate jazz sessions on select evenings (Mon/Wed/Fri per tour listings)",
+      "Melaku Belay's Ethiocolor and guest traditional acts"
+     ],
+     "dressCode": "Casual; come as you are",
+     "entry": "Small cover charge; tip the azmari when they sing for you",
+     "genres": [
+      "azmari",
+      "ethio-jazz",
+      "habesha",
+      "traditional"
+     ],
+     "hours": "Select evenings, music from around 9:30 PM; no fixed published schedule — check @fendika_live socials or the hotel on the day",
+     "name": "Fendika@Hyatt (Fendika Cultural Center)",
+     "priceTier": 1,
+     "prices": "Entry reported around 100–250 ETB; confirm on the day"
+    },
+    {
+     "age": "18+",
+     "area": "Meskel Square area, inside Ghion Hotel",
+     "description": "Ethio-jazz pioneer Mulatu Astatke's club in the Ghion Hotel grounds — live bands play Ethio-jazz in a relaxed garden setting several nights a week; the city's essential jazz pilgrimage.",
+     "djs": [
+      "Asli Band's long-running Thursday residency",
+      "Live Ethio-jazz bands on Mon, Thu and Fri nights",
+      "Guest legend nights (e.g. Admas Band)"
+     ],
+     "dressCode": "Smart casual",
+     "entry": "Cover charge at the door",
+     "genres": [
+      "ethio-jazz",
+      "jazz",
+      "habesha"
+     ],
+     "hours": "Show nights Mon, Thu and Fri; doors 7 PM, band from 9 PM (no live jazz Sat–Sun)",
+     "name": "African Jazz Village",
+     "priceTier": 2,
+     "prices": "Entry listed around 300 ETB (one listing also shows 'price on request' — take cash and confirm at the door)"
+    },
+    {
+     "age": "All ages (family-friendly dinner show)",
+     "area": "Bole Medhanialem",
+     "description": "Addis Ababa's best-known traditional cultural restaurant — a huge hall where singers and dozens of dancers perform music and dance from across Ethiopia's regions on stage while you eat; a nightly cultural showcase rather than a club.",
+     "djs": [
+      "Nightly traditional music and dance stage show, roughly 7:30–10:30 PM",
+      "Regional dance troupes and live singers",
+      "Traditional coffee ceremony"
+     ],
+     "dressCode": "Casual",
+     "entry": "No separate cover; you pay for food and drink — reservations recommended",
+     "genres": [
+      "traditional",
+      "habesha",
+      "folk",
+      "live music"
+     ],
+     "hours": "Open daily 6 AM–11 PM; the stage show runs in the evening",
+     "name": "Yod Abyssinia",
+     "priceTier": 2,
+     "prices": "No entry fee; moderate ETB menu prices"
+    },
+    {
+     "age": "18+",
+     "area": "Bole, Lucky Building, Cameroon Street",
+     "description": "Long-running Bole lounge-club mixing live Ethiopian music early in the evening with DJ sets later — afrobeats, 90s hip-hop and house for a mixed local and expat crowd.",
+     "djs": [
+      "Live local bands early evening",
+      "DJ sets: afrobeats, 90s hip-hop and house",
+      "Weekend party nights"
+     ],
+     "dressCode": "Smart casual",
+     "entry": "No cover listed; pay per drink",
+     "genres": [
+      "afrobeats",
+      "hip hop",
+      "house",
+      "habesha"
+     ],
+     "hours": "Daily 5 PM–3 AM (per venue listing)",
+     "name": "Flirt Lounge Addis",
+     "priceTier": 2,
+     "prices": "Moderate ETB drink prices"
+    },
+    {
+     "age": "18+",
+     "area": "Bole Medhanialem, Alemnesh Plaza (4th floor)",
+     "description": "Popular Bole lounge-club with a big local following, known for Saturday live-music nights where Ethiopian singers perform with house bands before the night turns into a DJ party.",
+     "djs": [
+      "Saturday live-music nights (e.g. Meselu Melat with the Groove Andis Band)",
+      "House bands and guest singers",
+      "Anniversary and themed party nights"
+     ],
+     "dressCode": "Smart casual",
+     "entry": "RSVP via the venue's social pages; cover varies by event",
+     "genres": [
+      "habesha",
+      "live music",
+      "afrobeats"
+     ],
+     "hours": "Event nights from around 9 PM; busiest on Saturdays",
+     "name": "Password Lounge",
+     "priceTier": 2,
+     "prices": "Cover and drink prices in ETB vary by event"
+    },
+    {
+     "age": "18+",
+     "area": "Lideta, under Ambassador Theatre, Ras Desta Damtew Street",
+     "description": "Addis Ababa's most raucous after-hours club, in the basement of the Ambassador Cinema — a packed, VIP-leaning dancefloor that fills late and is famous for dancing until dawn on weekends.",
+     "djs": [
+      "Resident DJ dance nights",
+      "Packed Friday and Saturday party nights",
+      "After-hours sessions running to around 5 AM"
+     ],
+     "dressCode": "Dress to impress; the door can be selective on busy nights",
+     "entry": "Cover charge; varies by night",
+     "genres": [
+      "habesha",
+      "afrobeats",
+      "hip hop",
+      "dance"
+     ],
+     "hours": "Late-night hours, busiest Thu–Sat until around 5 AM",
+     "name": "Club Illusion",
+     "priceTier": 3,
+     "prices": "Listed as an expensive venue; cover and drinks in ETB vary by night"
+    },
+    {
+     "age": "18+",
+     "area": "Hayahulet, Yoly Hotel, Mickey Leland Street",
+     "description": "Big, long-running dance club in the Yoly Hotel that eases in with a live-band happy hour, then switches to African and Western dance mixes; Friday is African night.",
+     "djs": [
+      "Daily happy hour with live slow-jazz band, ~7–10 PM",
+      "Friday African Night",
+      "DJ dance sets after 10 PM"
+     ],
+     "dressCode": "Casual smart",
+     "entry": "Entry terms vary by night",
+     "genres": [
+      "afrobeats",
+      "habesha",
+      "jazz",
+      "dance"
+     ],
+     "hours": "Evenings until late; happy hour from around 7 PM",
+     "name": "Club H2O",
+     "priceTier": 2,
+     "prices": "Moderate ETB prices"
+    }
+   ],
+   "flag": "🇪🇹",
+   "id": "addisababa",
+   "name": "Addis Ababa"
+  },
+  {
+   "clubs": [
+    {
+     "age": "18+ (most club nights; some events 21+)",
+     "area": "Langdon, Northeast DC",
+     "description": "DC's mega-club: a 30,000 sq ft, 3,000-capacity warehouse room near Ivy City run by Club Glow/Insomniac, repeatedly ranked in DJ Mag's world Top 10 (#1 in 2021) with festival-grade sound and LED production.",
+     "djs": [
+      "Club Glow headline nights with arena-tier touring EDM DJs",
+      "Project GLOW festival team events",
+      "Trance, bass, house and big-room bookings weekly"
+     ],
+     "dressCode": "Casual — no formal dress code unless an event states otherwise",
+     "entry": "Ticketed events; advance tickets online or at the box office on the night",
+     "genres": [
+      "edm",
+      "house",
+      "trance",
+      "bass music"
+     ],
+     "hours": "Event nights, mostly Fri–Sat, doors ~9–10 PM until ~3–4 AM",
+     "name": "Echostage",
+     "priceTier": 2,
+     "prices": "Big-name DJ nights typically ticketed around $30–$80+ depending on the headliner"
+    },
+    {
+     "age": "21+",
+     "area": "Shaw (Florida Ave NW)",
+     "description": "DC's serious dance-music room since 2013: a three-level club on Florida Ave with an acoustically treated main room built around a custom Funktion-One system, plus a ground-floor bar and a rooftop.",
+     "djs": [
+      "International house and techno headliners Fri–Sat",
+      "Rooftop sessions in season",
+      "Resident and local DJ nights on the bar level"
+     ],
+     "dressCode": "Casual",
+     "entry": "Cover or advance tickets at the door",
+     "genres": [
+      "house",
+      "techno"
+     ],
+     "hours": "Club nights Fri–Sat from ~10 PM–3 AM; bar and rooftop open earlier in the evening",
+     "name": "Flash",
+     "priceTier": 2,
+     "prices": "Typically $10–$40 depending on the lineup; resident nights from around $10"
+    },
+    {
+     "age": "21+",
+     "area": "Ivy City (Fenwick St NE)",
+     "description": "A 600-capacity warehouse-style event space in Ivy City hosting regular club programming — touring house and techno DJs, day parties and themed takeovers — rather than operating as a nightly walk-in club.",
+     "djs": [
+      "Nu Androids presents touring house/techno nights",
+      "Church on Sunday day-party series",
+      "Themed takeovers such as Afro Rave Weekend"
+     ],
+     "dressCode": "Casual; varies by event",
+     "entry": "Advance tickets via event platforms; door sales when available",
+     "genres": [
+      "house",
+      "techno",
+      "afrobeats"
+     ],
+     "hours": "Event-based: most club nights 10 PM–3 AM, occasional Sunday day parties from ~3 PM",
+     "name": "Culture",
+     "priceTier": 2,
+     "prices": "Ticket prices vary by event"
+    },
+    {
+     "age": "21+",
+     "area": "Downtown / Penn Quarter (F St NW)",
+     "description": "DC's longest-running multi-floor club, in a former bank at 911 F St NW: each level plays a different format — Top 40/hip hop on the main floor, Latin in the Bedroom, house in the basement Vault lounge and the Penthouse.",
+     "djs": [
+      "Main floor: Top 40 and hip hop",
+      "Bedroom level: Latin rhythms",
+      "Vault basement and Penthouse: house and international mashups"
+     ],
+     "dressCode": "Strictly enforced — dress to impress; no baggy jeans, athletic wear, sneakers, hats or work boots",
+     "entry": "Cover at the door; guest-list and free-admission promos run on the venue's site",
+     "genres": [
+      "hip hop",
+      "top 40",
+      "latin",
+      "house"
+     ],
+     "hours": "Fri–Sat 10 PM–3 AM",
+     "name": "Ultrabar",
+     "priceTier": 2,
+     "prices": "Cover varies by night, typically in the $10–$30 range"
+    },
+    {
+     "age": "21+",
+     "area": "Dupont Circle (Connecticut Ave NW)",
+     "description": "DC's retro mega-club: 15,000 sq ft across six levels and eight bars, with each floor dedicated to a different decade of music, plus a retractable rooftop and the Rewind diner.",
+     "djs": [
+      "Decade-themed floors — '80s, '90s, 2000s and 2010s rooms",
+      "Dedicated hip hop floor",
+      "Rooftop DJ sets"
+     ],
+     "dressCode": "Smart casual / fashionable",
+     "entry": "Cover charge; guest list available online",
+     "genres": [
+      "throwbacks",
+      "hip hop",
+      "pop",
+      "dance"
+     ],
+     "hours": "Thu 10 PM–2 AM; Fri 9:30 PM–3 AM; Sat 4 PM–3 AM; Sun 4 PM–2 AM",
+     "name": "Decades",
+     "priceTier": 2,
+     "prices": "Cover typically $20"
+    },
+    {
+     "age": "21+",
+     "area": "Dupont Circle (Connecticut Ave NW)",
+     "description": "An upscale rooftop club on the third floor of the historic Mayflower building — a Prohibition-era speakeasy reimagined as an indoor garden with a retractable glass roof, neon and cherry-blossom décor, hookah and bottle service.",
+     "djs": [
+      "Garden Thursdays rooftop party (open bar early, free entry before midnight)",
+      "Weekend DJs spinning hip hop, R&B, afrobeats and house",
+      "Late-night dance sets under the retractable roof"
+     ],
+     "dressCode": "Polished and fashion-forward; club attire required — no athletic wear or sandals/flats",
+     "entry": "Typically no cover; tables by reservation with minimum spend",
+     "genres": [
+      "hip hop",
+      "r&b",
+      "afrobeats",
+      "house"
+     ],
+     "hours": "Thu 10 PM–2 AM; Fri–Sat 10 PM–3 AM",
+     "name": "Zebbie's Garden",
+     "priceTier": 3,
+     "prices": "No cover most nights; bottle-service tables from around $500 minimum"
+    },
+    {
+     "age": "21+",
+     "area": "Dupont Circle (Connecticut Ave NW)",
+     "description": "A multi-level lounge and nightclub in a historic speakeasy building (sharing the address with Zebbie's Garden) that runs DC's biggest weekend Latin parties, alongside a Mediterranean dinner service earlier in the evening.",
+     "djs": [
+      "Seduction Saturdays — the city's flagship Latin party, ladies' open bar until midnight",
+      "Friday Latin nights: reggaeton, dembow and Top 40",
+      "Latin holiday and themed parties"
+     ],
+     "dressCode": "Upscale / chic",
+     "entry": "Free-entry promotions on many nights via RSVP platforms; bottle service available",
+     "genres": [
+      "latin",
+      "reggaeton",
+      "dembow",
+      "top 40"
+     ],
+     "hours": "Fri–Sat club nights 10 PM–3 AM (venue opens from ~6 PM for dinner and drinks); Sun 4–9:30 PM",
+     "name": "The Mayflower Club",
+     "priceTier": 3,
+     "prices": "Free entry on many promo nights; cover varies by event"
+    },
+    {
+     "age": "21+",
+     "area": "U Street Corridor (14th & U NW)",
+     "description": "DC's only dedicated LGBTQ+ nightclub, hidden below the corner of 14th and U: an industrial, fallout-shelter-themed underground room from the Kinetic Presents team with immersive lighting and high-energy dance parties.",
+     "djs": [
+      "Kinetic Presents circuit-style dance parties",
+      "Resident DJ nights Thu–Sun, including open-to-close tech house sets",
+      "Themed and drag-adjacent party nights"
+     ],
+     "dressCode": "Casual / expressive",
+     "entry": "Often free before 11 PM, small cover after",
+     "genres": [
+      "house",
+      "tech house",
+      "dance"
+     ],
+     "hours": "Thu 10 PM–2:30 AM; Fri–Sat 10 PM–3:30 AM; Sun 9 PM–1:30 AM",
+     "name": "BUNKER",
+     "priceTier": 1,
+     "prices": "No cover before 11 PM on many nights, around $10 after"
+    },
+    {
+     "age": "21+",
+     "area": "Dupont Circle (Jefferson Pl NW)",
+     "description": "A vault-inspired, upscale basement lounge-club in Dupont Circle — once voted #1 Lounge in America at the Nightclub & Bar Awards — built around a central DJ booth, dual bars and bottle-service tables, and a longtime celebrity draw.",
+     "djs": [
+      "Weekly Thu–Sat DJ lineups (house and open format)",
+      "Bottle-service party nights",
+      "Guest DJ sets"
+     ],
+     "dressCode": "Upscale — no shorts or athletic wear",
+     "entry": "Guest list and table reservations recommended; cover varies by night",
+     "genres": [
+      "house",
+      "hip hop",
+      "open format"
+     ],
+     "hours": "Thu 10 PM–2 AM; Fri–Sat 10 PM–3 AM",
+     "name": "Heist",
+     "priceTier": 3,
+     "prices": "Premium pricing; cover and table minimums vary by night"
+    }
+   ],
+   "flag": "🇺🇸",
+   "id": "washingtondc",
+   "name": "Washington DC"
+  },
+  {
+   "clubs": [
+    {
+     "age": "18+",
+     "area": "City Centre (Loop Street)",
+     "description": "Two dancefloors in the CBD with LED and holographic production, built for big-room house and techno nights with strong local and international line-ups.",
+     "djs": [
+      "Top local and international house & techno guests",
+      "Two-room line-ups across themed party nights"
+     ],
+     "dressCode": "Smart — no shorts, slops or sportswear",
+     "entry": "Cover charged, priced per event",
+     "genres": [
+      "house",
+      "techno",
+      "electronic"
+     ],
+     "hours": "Thu–Sat from 9:00 PM (typically until 4:00 AM)",
+     "name": "Halo",
+     "priceTier": 3,
+     "prices": "Cover varies by event; premium bottle service available"
+    },
+    {
+     "age": "21+",
+     "area": "City Centre (Riebeek Street)",
+     "description": "Cape Town's home of underground electronic music since 2017 — three rooms, serious sound and a strict no-photos policy that keeps the focus on the dancefloor.",
+     "djs": [
+      "Local techno and house residents",
+      "Elevation Nights and genre takeovers",
+      "International underground guests"
+     ],
+     "dressCode": "Casual; come as you are",
+     "entry": "Ticketed per event",
+     "genres": [
+      "techno",
+      "house",
+      "uk garage",
+      "bass"
+     ],
+     "hours": "Event nights (Tue/Thu/Fri/Sat) 10:00 PM – 4:00 AM",
+     "name": "Mødular",
+     "priceTier": 2,
+     "prices": "Tickets from around R150 via Xceed/Resident Advisor"
+    },
+    {
+     "age": "18+",
+     "area": "Long Street",
+     "description": "A Long Street institution for over a decade with a relaxed rooftop, eclectic crowds and genre-hopping parties above the strip.",
+     "djs": [
+      "Groovy Sensations 2000s hip hop & R&B throwbacks (Saturdays)",
+      "Rooftop techno and psytrance DJs (Fri–Sun)"
+     ],
+     "dressCode": "Casual",
+     "entry": "Small cover on party nights",
+     "genres": [
+      "hip hop",
+      "r&b",
+      "techno",
+      "psytrance"
+     ],
+     "hours": "Wed–Sun 7:00 PM – 2:00 AM",
+     "name": "The Waiting Room",
+     "priceTier": 1,
+     "prices": "Budget-friendly drinks and cover"
+    },
+    {
+     "age": "18+",
+     "area": "Long Street",
+     "description": "Pink-neon party bar with Grecian-statue kitsch and a dress-up crowd — a student-friendly Long Street favourite for amapiano and Afrobeats.",
+     "djs": [
+      "Amapiano and Afrobeats party sets",
+      "Young local DJ line-ups"
+     ],
+     "dressCode": "Dress up encouraged; smart casual",
+     "entry": "Cover on busy nights",
+     "genres": [
+      "amapiano",
+      "afrobeats"
+     ],
+     "hours": "Thu–Sun 6:00 PM – 2:00 AM",
+     "name": "Drama Bar",
+     "priceTier": 1,
+     "prices": "Student-friendly prices; cover varies by night"
+    },
+    {
+     "age": "18+",
+     "area": "District Six",
+     "description": "A District Six dance club with a rooftop second floor, built around South African sounds — Afro tech, amapiano, 3Step and gqom nights.",
+     "djs": [
+      "Afro tech and amapiano headline nights",
+      "3Step and gqom event takeovers"
+     ],
+     "dressCode": "Smart casual",
+     "entry": "Cover charged per event",
+     "genres": [
+      "afro tech",
+      "amapiano",
+      "gqom",
+      "deep house"
+     ],
+     "hours": "Thu–Sun 9:00 PM – 3:00 AM",
+     "name": "Club Paradise",
+     "priceTier": 2,
+     "prices": "Cover varies by event"
+    },
+    {
+     "age": "18+",
+     "area": "District Six",
+     "description": "Upmarket champagne bar and lounge that has hosted the likes of Black Coffee — premium drinks, cigars, shisha and a dressed-up crowd.",
+     "djs": [
+      "Amapiano, house and Afrobeats selectors",
+      "Celebrity guest DJ appearances"
+     ],
+     "dressCode": "Strictly smart and stylish",
+     "entry": "Reservations recommended; cover on big nights",
+     "genres": [
+      "amapiano",
+      "house",
+      "afrobeats"
+     ],
+     "hours": "Tue–Sun 10:00 PM – 2:00 AM",
+     "name": "Saint Champagne Bar & Lounge",
+     "priceTier": 3,
+     "prices": "Premium pricing; bottle service and VIP tables"
+    },
+    {
+     "age": "18+",
+     "area": "De Waterkant",
+     "description": "Cape Town's premier LGBTQ+ club in the gay village — drag performers, pop remixes and funky house until late. Named by Time Out among the world's great LGBTQ+ nightlife spots.",
+     "djs": [
+      "Drag shows and themed party nights",
+      "Funky house, techno and commercial dance DJs"
+     ],
+     "dressCode": "Dress to express; smart casual",
+     "entry": "Cover charged at the door",
+     "genres": [
+      "house",
+      "techno",
+      "disco",
+      "pop"
+     ],
+     "hours": "Fri–Sat 9:00 PM – 4:00 AM",
+     "name": "Pink Candy",
+     "priceTier": 1,
+     "prices": "Entry around R100"
+    },
+    {
+     "age": "18+",
+     "area": "Gardens (Kloof Street)",
+     "description": "A lifestyle lounge on Kloof Street with VIP booths, shisha and cocktails — where Cape Town's amapiano crowd starts the night and often ends it.",
+     "djs": [
+      "Daily DJ sessions from midday into the night",
+      "Amapiano and Afro house line-ups"
+     ],
+     "dressCode": "Smart casual",
+     "entry": "Table bookings recommended; cover on event nights",
+     "genres": [
+      "amapiano",
+      "afro house",
+      "deep house",
+      "hip hop"
+     ],
+     "hours": "Daily 12:00 PM – 2:00 AM",
+     "name": "Ayepyep Lifestyle Lounge",
+     "priceTier": 2,
+     "prices": "Moderate prices; VIP booth packages available"
+    },
+    {
+     "age": "18+",
+     "area": "Long Street",
+     "description": "Long-running Long Street venue, now led by its restaurant and lounge offering, with resident DJs and VIP booths — it celebrated its ninth anniversary in 2026.",
+     "djs": [
+      "Resident DJs playing amapiano, hip hop and R&B",
+      "Dinner-to-dancefloor weekend sessions"
+     ],
+     "dressCode": "Smart; reservations essential",
+     "entry": "Dining reservations; cover may apply on party nights",
+     "genres": [
+      "amapiano",
+      "hip hop",
+      "r&b",
+      "house"
+     ],
+     "hours": "Wed–Sun 6:00 PM – 2:00 AM",
+     "name": "SOUK",
+     "priceTier": 3,
+     "prices": "Premium lounge pricing"
+    },
+    {
+     "age": "18+",
+     "area": "Khayelitsha",
+     "description": "A 1,500-capacity Khayelitsha landmark and one of the Cape Flats' biggest party venues — massive house and gqom line-ups, braai food and VIP tables.",
+     "djs": [
+      "Big-name SA house and gqom DJs",
+      "Weekend festival-style event calendar"
+     ],
+     "dressCode": "Casual to smart",
+     "entry": "Ticketed for headline events",
+     "genres": [
+      "house",
+      "afro house",
+      "gqom",
+      "r&b"
+     ],
+     "hours": "Weekend event nights; hours set per event",
+     "name": "Rands",
+     "priceTier": 1,
+     "prices": "Affordable entry; VIP table packages available"
+    }
+   ],
+   "flag": "🇿🇦",
+   "id": "capetown",
+   "name": "Cape Town"
+  },
+  {
+   "clubs": [
+    {
+     "age": "18+",
+     "area": "Berea (Winston Hotel)",
+     "description": "Durban's new superclub — the evolution of the legendary Origin at the historic Winston Hotel, relaunched in December 2025 with three levels, five dancefloors and a rooftop terrace.",
+     "djs": [
+      "Multi-floor line-ups across five dancefloors",
+      "International and national electronic guests"
+     ],
+     "dressCode": "Smart casual",
+     "entry": "Ticketed per event",
+     "genres": [
+      "house",
+      "techno",
+      "hip hop",
+      "amapiano"
+     ],
+     "hours": "Fri–Sat 8:00 PM – 4:00 AM (event nights)",
+     "name": "CRCL",
+     "priceTier": 2,
+     "prices": "Cover varies by event"
+    },
+    {
+     "age": "18+",
+     "area": "Morningside (Moses Mabhida Stadium)",
+     "description": "A party institution next to Moses Mabhida Stadium with six bars and two dancefloors, known for student-friendly prices and commercial dance anthems.",
+     "djs": [
+      "Commercial and EDM party sets",
+      "Student night specials"
+     ],
+     "dressCode": "Smart casual",
+     "entry": "Cover charged at the door",
+     "genres": [
+      "commercial dance",
+      "edm",
+      "house",
+      "hip hop"
+     ],
+     "hours": "Fri–Sat 8:00 PM – 4:00 AM",
+     "name": "Tiger Tiger",
+     "priceTier": 1,
+     "prices": "Entry from around R100"
+    },
+    {
+     "age": "18+",
+     "area": "Point Waterfront",
+     "description": "Durban's premier jazz lounge — an intimate, design-led room on the Point where live bands and deep listening come before dancing.",
+     "djs": [
+      "Live jazz bands (sets from around 11:00 PM)",
+      "Ticketed concert nights"
+     ],
+     "dressCode": "Smart and elegant",
+     "entry": "Cover charge on live-music nights; ticketed shows",
+     "genres": [
+      "jazz",
+      "live music",
+      "soul"
+     ],
+     "hours": "Thu–Sat 7:00 PM – 2:00 AM",
+     "name": "The Chairman",
+     "priceTier": 3,
+     "prices": "Premium pricing; show tickets up to around R350"
+    },
+    {
+     "age": "18+",
+     "area": "Florida Road, Morningside",
+     "description": "Latino social café on Florida Road that shifts from Mojitos and cigars by day into a DJ-led lounge at night, with local gqom and kwaito in the mix.",
+     "djs": [
+      "Resident DJs including local gqom and kwaito",
+      "Weekend party nights"
+     ],
+     "dressCode": "Smart casual",
+     "entry": "Busiest Fri–Sat; cover on big nights",
+     "genres": [
+      "gqom",
+      "kwaito",
+      "afrobeat",
+      "hip hop"
+     ],
+     "hours": "Daily until 2:00 AM",
+     "name": "Cubaña Durban",
+     "priceTier": 2,
+     "prices": "Weekend cover reported around R100–R200"
+    },
+    {
+     "age": "18+",
+     "area": "Umhlanga",
+     "description": "Umhlanga's premium weekend club — rooftop sea views, bottle service and a strict door policy, pulling Durban's dressed-up crowd north of the city.",
+     "djs": [
+      "Amapiano, house and hip hop line-ups",
+      "Commercial headline DJs"
+     ],
+     "dressCode": "Strict — no shorts, slops, caps or sportswear; ID required",
+     "entry": "Cover charged; bottle service available",
+     "genres": [
+      "amapiano",
+      "house",
+      "hip hop"
+     ],
+     "hours": "Fri–Sat 9:00 PM – 4:00 AM",
+     "name": "Club 386",
+     "priceTier": 3,
+     "prices": "Entry around R150–R300; bottle service from R1,200"
+    },
+    {
+     "age": "21+",
+     "area": "Umhlanga",
+     "description": "Umhlanga party lounge with neon looks and a young, dressed-up crowd — weekend DJ line-ups heavy on hip hop, Afrobeat and amapiano.",
+     "djs": [
+      "Weekend resident DJ line-ups",
+      "Amapiano and Afrobeat sessions"
+     ],
+     "dressCode": "Smart and stylish",
+     "entry": "Cover charged on club nights",
+     "genres": [
+      "hip hop",
+      "afrobeat",
+      "amapiano"
+     ],
+     "hours": "Club nights Fri–Sat, running late from the evening",
+     "name": "Malibu Nights",
+     "priceTier": 2,
+     "prices": "Saturday cover reported around R100–R200"
+    },
+    {
+     "age": "18+",
+     "area": "Umlazi",
+     "description": "Umlazi's legendary shisanyama lounge and one of Durban's biggest party institutions — huge open-air sessions with top local DJs and live acts.",
+     "djs": [
+      "Lovers & Friends annual flagship party",
+      "Guest DJs and gqom/amapiano names",
+      "Live maskandi and artist performances"
+     ],
+     "dressCode": "Casual to smart",
+     "entry": "Ticketed headline events via Computicket/Webtickets",
+     "genres": [
+      "amapiano",
+      "gqom",
+      "house"
+     ],
+     "hours": "Open daily; headline events run late into the night",
+     "name": "Eyadini Lounge",
+     "priceTier": 1,
+     "prices": "Event tickets from around R50–R100"
+    }
+   ],
+   "flag": "🇿🇦",
+   "id": "durban",
+   "name": "Durban"
   }
  ]
 }
