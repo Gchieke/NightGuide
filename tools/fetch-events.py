@@ -136,6 +136,13 @@ def tm_search(keyword, city, country, start, end):
         data = json.loads(p.stdout)
     except json.JSONDecodeError:
         return None, "invalid JSON from CLI"
+    # The connector wraps failures in an envelope like
+    # {"ok": false, "status": 429, "error": "..."} with exit code 0 and no
+    # "_embedded" key. A successful Ticketmaster reply has no "ok" key, so
+    # only an explicit false means the broker failed — without this check a
+    # rate-limit reply is silently read as "zero events".
+    if isinstance(data, dict) and data.get("ok") is False:
+        return None, f"broker error {data.get('status')}: {str(data.get('error', ''))[:120]}"
     return data.get("_embedded", {}).get("events", []), None
 
 
@@ -208,6 +215,21 @@ def main():
             "timezone": CITY_TIMEZONE.get(cid, ""),
             "events": events,
         })
+
+    # Refuse to clobber a good events file with an empty one. A run that
+    # found 0 events while the existing file has some is almost certainly a
+    # broken run (e.g. every search rate-limited), not a world with no
+    # nightlife — keep the good file and fail loudly instead.
+    if total_events == 0 and EVENTS_JSON.exists():
+        try:
+            prev = json.loads(EVENTS_JSON.read_text(encoding="utf-8"))
+            prev_total = sum(len(c.get("events", [])) for c in prev.get("cities", []))
+        except Exception:
+            prev_total = 0
+        if prev_total > 0:
+            log(f"REFUSING to overwrite {EVENTS_JSON}: this run found 0 events "
+                f"but the existing file has {prev_total}. Keeping the good file.")
+            return 1
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
