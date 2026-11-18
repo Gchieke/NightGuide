@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T06:15:13.287557+00:00",
+ "generated_at": "2026-11-18T06:15:07.479195+00:00",
  "cities": [
   {
    "cityId": "london",
@@ -14,7 +14,7 @@
      "localTime": "19:00:00",
      "timezone": "Europe/London",
      "venue": "Heaven",
-     "url": "https://www.ticketmaster.co.uk/haute-freddy-london-18-11-2026/event/1F0064B4B68C4706",
+     "url": "https://ticketmaster.evyy.net/c/1815238/2038758/24023?u=https%3A%2F%2Fwww.ticketmaster.co.uk%2Fhaute-freddy-london-18-11-2026%2Fevent%2F1F0064B4B68C4706&utm_medium=affiliate",
      "source": "ticketmaster"
     },
     {
@@ -26,7 +26,7 @@
      "localTime": "19:00:00",
      "timezone": "Europe/London",
      "venue": "Heaven",
-     "url": "https://www.ticketmaster.co.uk/haute-freddy-london-19-11-2026/event/1F0064B4D68A645D",
+     "url": "https://ticketmaster.evyy.net/c/1815238/2038758/24023?u=https%3A%2F%2Fwww.ticketmaster.co.uk%2Fhaute-freddy-london-19-11-2026%2Fevent%2F1F0064B4D68A645D&utm_medium=affiliate",
      "source": "ticketmaster"
     }
    ]
@@ -44,7 +44,104 @@
   {
    "cityId": "nyc",
    "timezone": "America/New_York",
-   "events": []
+   "events": [
+    {
+     "id": "Z7r9jZ1A7Pg-b",
+     "name": "Ezra Collective (16 and Over)",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-11-18",
+     "localTime": "20:00:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://ticketmaster.evyy.net/c/1815238/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FZ7r9jZ1A7Pg-b&utm_medium=affiliate",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AAvsAs",
+     "name": "Menahan Street Band - Ages 16+",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-11-19",
+     "localTime": "20:00:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://ticketmaster.evyy.net/c/1815238/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FZ7r9jZ1AAvsAs&utm_medium=affiliate",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AAZ8jb",
+     "name": "Greg Freeman (16 and Over)",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-11-20",
+     "localTime": "19:30:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://ticketmaster.evyy.net/c/1815238/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FZ7r9jZ1AAZ8jb&utm_medium=affiliate",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AA7Ffa",
+     "name": "Earlybirds Club (21 and Over)",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-11-21",
+     "localTime": "18:00:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://ticketmaster.evyy.net/c/1815238/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FZ7r9jZ1AA7Ffa&utm_medium=affiliate",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AAZgrA",
+     "name": "Richard Finger - Ages 18+",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-11-21",
+     "localTime": "23:00:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://ticketmaster.evyy.net/c/1815238/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FZ7r9jZ1AAZgrA&utm_medium=affiliate",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1A7PE3o",
+     "name": "Yaelokre - All Ages (under 16 with adult)",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-11-22",
+     "localTime": "20:00:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://ticketmaster.evyy.net/c/1815238/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FZ7r9jZ1A7PE3o&utm_medium=affiliate",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AAvEjb",
+     "name": "Alyssa Grace (16 and Over)",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-11-24",
+     "localTime": "20:00:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://ticketmaster.evyy.net/c/1815238/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FZ7r9jZ1AAvEjb&utm_medium=affiliate",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AA7PPf",
+     "name": "M.E.A.T. x Webster Hall - Adham + Suri + More - Ages 21+",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-11-28",
+     "localTime": "22:30:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://ticketmaster.evyy.net/c/1815238/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FZ7r9jZ1AA7PPf&utm_medium=affiliate",
+     "source": "ticketmaster"
+    }
+   ]
   },
   {
    "cityId": "berlin",
@@ -104,56 +201,7 @@
   {
    "cityId": "barcelona",
    "timezone": "Europe/Madrid",
-   "events": [
-    {
-     "id": "Z698xZ2qZ16vkebVPE",
-     "name": "Jack & Jack: SYN/ANTI EUROPE 2026",
-     "clubName": "Razzmatazz",
-     "clubIndex": 0,
-     "localDate": "2026-11-16",
-     "localTime": "20:30:00",
-     "timezone": "Europe/Madrid",
-     "venue": "Sala Razzmatazz 3",
-     "url": "https://www.ticketmaster.es/event/jack--jack-syn-anti-europe-2026-tickets/1182634967?language=en-us",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "Z698xZ2qZ1kubf3pA",
-     "name": "Artemas - LOVERCORE / GETTING UP TO NO GOOD Tour",
-     "clubName": "Sala Apolo",
-     "clubIndex": 1,
-     "localDate": "2026-11-18",
-     "localTime": "20:30:00",
-     "timezone": "Europe/Madrid",
-     "venue": "Sala Apolo",
-     "url": "https://www.ticketmaster.es/event/artemas-lovercore-getting-up-to-no-good-tour-tickets/358512585?language=en-us",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "Z698xZ2qZ16vA8Gvrd",
-     "name": "Polyphia: BE NOT AFRAID World Tour",
-     "clubName": "Razzmatazz",
-     "clubIndex": 0,
-     "localDate": "2026-11-22",
-     "localTime": "20:30:00",
-     "timezone": "Europe/Madrid",
-     "venue": "Sala Razzmatazz 1",
-     "url": "https://www.ticketmaster.es/event/polyphia-be-not-afraid-world-tour-tickets/1150301783?language=en-us",
-     "source": "ticketmaster"
-    },
-    {
-     "id": "Z698xZ2qZ16vvYJaee",
-     "name": "Kingfishr - Europe 2026",
-     "clubName": "Sala Apolo",
-     "clubIndex": 1,
-     "localDate": "2026-11-24",
-     "localTime": "20:30:00",
-     "timezone": "Europe/Madrid",
-     "venue": "Sala Apolo",
-     "url": "https://www.ticketmaster.es/event/kingfishr-europe-2026-tickets/1070989082?language=en-us",
-     "source": "ticketmaster"
-    }
-   ]
+   "events": []
   },
   {
    "cityId": "rome",
