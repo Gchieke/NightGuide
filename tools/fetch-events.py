@@ -1,12 +1,27 @@
 #!/usr/bin/env python3
 """Fetch ticketed events from Ticketmaster for NightGuide clubs.
 
-For each club in data/clubs.json, search Ticketmaster for events at that
-venue over the next ~2 weeks, then keep only events whose venue name matches
-the club name (normalized). Writes data/events.json.
+Strategy (v2, 2026-11-21): the shared Ticketmaster connector key has a
+per-user request limit that a full 377-club sweep keeps hitting (429s,
+zero usable data for days). Ticketmaster keyword search matches venue
+names, so there is no single broad city query that surfaces events at
+our specific venues — the savings have to come from searching fewer
+venues per night, more cleverly:
 
-Polite by design: ~0.3s between API calls, per-club errors are logged and
-skipped, the run never crashes on a single failure.
+- Every night: each city's first two clubs (the curated lists lead with
+  the flagship venues) plus any club that produced an event last run.
+- Plus a rotating slice of 2 more clubs per city per night, so the
+  whole list is covered every few nights (events are fetched 14 days
+  out, so rotation never misses an event before it happens).
+- Results MERGE with the previous file per club: a club that was
+  searched successfully tonight has its old events replaced; a club
+  whose search failed (e.g. rate-limited) keeps its still-upcoming
+  events. One bad night no longer means a stale or wiped site.
+- If the night is a total quota wipeout (zero successful searches),
+  the previous file is kept untouched and the run fails loudly.
+
+Polite by design: ~0.6s between API calls, per-club errors are logged
+and skipped, the run never crashes on a single failure.
 """
 import json
 import re
@@ -20,7 +35,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 CLUBS_JSON = ROOT / "data" / "clubs.json"
 EVENTS_JSON = ROOT / "data" / "events.json"
+STATE_JSON = ROOT / "tools" / "rotation-state.json"
 TM = "/opt/hatch/bin/ticketmaster"
+
+FLAGSHIP_PER_CITY = 2     # first N clubs in each city, searched nightly
+ROTATION_PER_CITY = 2     # additional clubs per city, rotated nightly
+SLEEP_S = 0.6             # politeness between API calls
+QUOTA_STORM_LIMIT = 15    # consecutive rate-limits before aborting early
 
 CITY_COUNTRY = {
     "nyc": "US", "miami": "US", "vegas": "US",
@@ -171,15 +192,66 @@ def to_record(ev, club_name, club_idx):
     }
 
 
+def load_previous():
+    """Previous events.json as {cityId: [event, ...]}; {} if unreadable."""
+    if not EVENTS_JSON.exists():
+        return {}
+    try:
+        prev = json.loads(EVENTS_JSON.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+    return {c.get("cityId"): c.get("events", []) for c in prev.get("cities", [])}
+
+
+def load_state():
+    try:
+        return json.loads(STATE_JSON.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def pick_clubs(clubs, prev_events, offset):
+    """Club indices to search tonight for one city.
+
+    Flagships (list head) + last run's producers + a rotating slice.
+    Returns (indices_in_order, rotating_indices).
+    """
+    n = len(clubs)
+    picked = []
+    for i in range(min(FLAGSHIP_PER_CITY, n)):
+        picked.append(i)
+    producer_names = {e.get("clubName") for e in prev_events}
+    for i, club in enumerate(clubs):
+        if club.get("name") in producer_names and i not in picked:
+            picked.append(i)
+    rotating = []
+    if n > len(picked):
+        start = offset % n
+        for k in range(n):
+            i = (start + k) % n
+            if i not in picked:
+                rotating.append(i)
+            if len(rotating) >= ROTATION_PER_CITY:
+                break
+    return picked + rotating, rotating
+
+
 def main():
     clubs_data = json.loads(CLUBS_JSON.read_text(encoding="utf-8"))
     today = date.today()
     start = (today - timedelta(days=1)).isoformat()   # catch tonight everywhere
     end = (today + timedelta(days=14)).isoformat()
+    prev_by_city = load_previous()
+    state = load_state()
 
     out_cities = []
     total_events = 0
+    total_searches = 0
+    ok_searches = 0
     errors = 0
+    consecutive_limits = 0
+    aborted = False
+
     for city in clubs_data["cities"]:
         cid = city["id"]
         cc = CITY_COUNTRY.get(cid)
@@ -187,17 +259,37 @@ def main():
             log(f"[{cid}] no country code mapping, skipped")
             continue
         city_name = city["name"]
+        clubs = city["clubs"]
+        prev_events = prev_by_city.get(cid, [])
+        offset = int(state.get(cid, 0) or 0)
+        indices, rotating = pick_clubs(clubs, prev_events, offset)
+
+        fresh = []
         seen = set()
-        events = []
-        matched = 0
-        for idx, club in enumerate(city["clubs"]):
-            name = club.get("name", "")
+        searched_ok = set()
+        rotating_ok = False
+        for idx in indices:
+            if aborted:
+                break
+            name = clubs[idx].get("name", "")
             evs, err = tm_search(name, city_name, cc, start, end)
-            time.sleep(0.3)
+            total_searches += 1
+            time.sleep(SLEEP_S)
             if err:
                 errors += 1
+                if "rate" in err or "429" in err or "limit" in err:
+                    consecutive_limits += 1
                 log(f"[{cid}] {name}: skipped ({err})")
+                if consecutive_limits >= QUOTA_STORM_LIMIT:
+                    log(f"Quota storm: {consecutive_limits} consecutive "
+                        f"rate-limits — aborting the run early.")
+                    aborted = True
                 continue
+            consecutive_limits = 0
+            ok_searches += 1
+            searched_ok.add(idx)
+            if idx in rotating:
+                rotating_ok = True
             for ev in evs:
                 eid = ev.get("id", "")
                 if not eid or eid in seen:
@@ -205,31 +297,61 @@ def main():
                 rec = to_record(ev, name, idx)
                 if rec and rec["localDate"]:
                     seen.add(eid)
-                    events.append(rec)
-                    matched += 1
-        events.sort(key=lambda e: (e["localDate"], e["localTime"] or ""))
-        total_events += len(events)
-        log(f"[{cid}] {city_name}: {len(events)} events matched")
+                    fresh.append(rec)
+
+        # Advance the rotation only if this city's slice actually ran.
+        if rotating_ok and clubs:
+            state[cid] = (offset + ROTATION_PER_CITY) % len(clubs)
+
+        # Merge: previous events survive unless their club was searched
+        # successfully tonight (fresh results replace them) or the event
+        # has fallen out of the window.
+        merged = list(fresh)
+        merged_ids = {e["id"] for e in merged}
+        for e in prev_events:
+            if e.get("clubIndex") in searched_ok:
+                continue
+            if not (start <= (e.get("localDate") or "") <= end):
+                continue
+            if e.get("id") in merged_ids:
+                continue
+            merged.append(e)
+            merged_ids.add(e.get("id"))
+        merged.sort(key=lambda e: (e["localDate"], e["localTime"] or ""))
+        total_events += len(merged)
+        log(f"[{cid}] {city_name}: {len(fresh)} fresh, {len(merged)} total "
+            f"after merge ({len(indices)} clubs searched)")
         out_cities.append({
             "cityId": cid,
             "timezone": CITY_TIMEZONE.get(cid, ""),
-            "events": events,
+            "events": merged,
         })
+        if aborted:
+            # Remaining cities keep their previous events untouched.
+            for rest in clubs_data["cities"]:
+                rid = rest["id"]
+                if rid in {c["cityId"] for c in out_cities} or rid == cid:
+                    continue
+                kept = [e for e in prev_by_city.get(rid, [])
+                        if start <= (e.get("localDate") or "") <= end]
+                total_events += len(kept)
+                out_cities.append({
+                    "cityId": rid,
+                    "timezone": CITY_TIMEZONE.get(rid, ""),
+                    "events": kept,
+                })
+            break
 
-    # Refuse to clobber a good events file with an empty one. A run that
-    # found 0 events while the existing file has some is almost certainly a
-    # broken run (e.g. every search rate-limited), not a world with no
-    # nightlife — keep the good file and fail loudly instead.
-    if total_events == 0 and EVENTS_JSON.exists():
-        try:
-            prev = json.loads(EVENTS_JSON.read_text(encoding="utf-8"))
-            prev_total = sum(len(c.get("events", [])) for c in prev.get("cities", []))
-        except Exception:
-            prev_total = 0
-        if prev_total > 0:
-            log(f"REFUSING to overwrite {EVENTS_JSON}: this run found 0 events "
-                f"but the existing file has {prev_total}. Keeping the good file.")
-            return 1
+    # Total-wipeout guard: if not one search succeeded, this run learned
+    # nothing — keep the previous file exactly as it was and fail loudly.
+    if ok_searches == 0:
+        log("REFUSING to overwrite events.json: 0 successful searches "
+            "(quota wipeout). Keeping the previous file.")
+        return 1
+
+    # Order cities as in clubs.json for a stable file.
+    order = {c["id"]: i for i, c in enumerate(clubs_data["cities"])}
+    out_cities.sort(key=lambda c: order.get(c["cityId"], 999))
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -237,8 +359,10 @@ def main():
     }
     EVENTS_JSON.write_text(json.dumps(payload, indent=1, ensure_ascii=False) + "\n",
                            encoding="utf-8")
+    STATE_JSON.write_text(json.dumps(state, indent=1) + "\n", encoding="utf-8")
     log(f"DONE: {total_events} events across {len(out_cities)} cities "
-        f"({errors} club searches errored/skipped). Wrote {EVENTS_JSON}")
+        f"({ok_searches}/{total_searches} searches ok, {errors} errored). "
+        f"Wrote {EVENTS_JSON}")
 
 
 if __name__ == "__main__":
