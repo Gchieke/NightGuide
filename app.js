@@ -2,7 +2,7 @@
 let DATA = { cities: [] };
 let EVENTS = { cities: [] };
 let activeCity = null;
-let activeView = "clubs"; // "clubs" | "tonight"
+let activeView = "clubs"; // "clubs" | "coming-up"
 
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c =>
@@ -18,8 +18,13 @@ async function init() {
   buildCityBar();
   buildGenreFilter();
   if (DATA.cities.length) {
-    const startCity = new URLSearchParams(location.search).get("city");
+    const params = new URLSearchParams(location.search);
+    const startCity = params.get("city");
     selectCity(DATA.cities.some(c => c.id === startCity) ? startCity : DATA.cities[0].id);
+    // Deep links from city pages: ?city=<id>&view=coming-up
+    // ("tonight" is accepted as a legacy alias for the old view name.)
+    const startView = params.get("view");
+    if (["coming-up", "comingup", "events", "tonight"].includes(startView)) setView("coming-up");
   }
   wireEvents();
 }
@@ -52,18 +57,32 @@ function selectCity(id) {
   activeCity = DATA.cities.find(c => c.id === id);
   document.querySelectorAll(".city-btn").forEach(b =>
     b.classList.toggle("active", b.dataset.city === id));
-  if (activeView === "tonight") renderEvents();
+  updateEventsToggle();
+  if (activeView === "coming-up") {
+    // A city with no upcoming events has no events view at all.
+    if (!upcomingEvents().length) { setView("clubs"); return; }
+    renderEvents();
+  }
   else renderList();
 }
 
-// ---------- Tonight / events view ----------
+// ---------- Coming up / events view ----------
+
+// The "Coming up" toggle only exists for cities that actually have
+// upcoming events — no empty section, no dead end.
+function updateEventsToggle() {
+  const btn = $("view-coming-up");
+  if (btn) btn.classList.toggle("hidden", !upcomingEvents().length);
+}
 
 function setView(v) {
+  if (v === "tonight") v = "coming-up"; // legacy alias
+  if (v === "coming-up" && !upcomingEvents().length) v = "clubs";
   activeView = v;
   $("view-clubs").classList.toggle("active", v === "clubs");
-  $("view-tonight").classList.toggle("active", v === "tonight");
+  $("view-coming-up").classList.toggle("active", v === "coming-up");
   $("view-clubs").setAttribute("aria-selected", v === "clubs");
-  $("view-tonight").setAttribute("aria-selected", v === "tonight");
+  $("view-coming-up").setAttribute("aria-selected", v === "coming-up");
   const clubsMode = v === "clubs";
   ["search", "filter-genre", "filter-price"].forEach(id => {
     const el = $(id);
@@ -112,62 +131,49 @@ function cityEvents() {
   return { timezone: (c && c.timezone) || "", events: (c && c.events) || [] };
 }
 
+// Upcoming = today through the next 30 days, in the city's own timezone.
+// Past events are never presented as upcoming.
+function upcomingEvents() {
+  if (!activeCity) return [];
+  const { timezone, events } = cityEvents();
+  const today = cityTodayISO(timezone || undefined);
+  const end = addDaysISO(today, 30);
+  const byTime = (a, b) => (a.localDate < b.localDate ? -1 : a.localDate > b.localDate ? 1 : (a.localTime || "") < (b.localTime || "") ? -1 : 1);
+  return events.filter(e => e.localDate >= today && e.localDate <= end).sort(byTime);
+}
+
 function eventRow(e) {
-  const club = activeCity.clubs[e.clubIndex];
-  const clubLabel = club ? club.name : e.clubName;
+  // Label an event by its own name and its REAL venue (e.venue, as listed
+  // by the ticket seller) — never by a nearby club it was matched to.
+  // e.g. YAEGER is at Kantine am Berghain, not Berghain; Webster Hall
+  // shows are concerts at Webster Hall, not club nights.
+  const venue = e.venue || e.clubName || "";
   return `
     <div class="event-row">
       <div>
         <div class="event-name">${esc(e.name)}</div>
         <div class="event-meta">
+          <span>📅 ${esc(fmtDateLabel(e.localDate))}</span>
           ${e.localTime ? `<span class="event-time">🕐 ${esc(fmtTime(e.localTime))}</span>` : ""}
-          <span>📍 <button class="event-club-btn" data-club="${e.clubIndex}">${esc(clubLabel)}</button></span>
-          ${e.venue && club && e.venue !== club.name ? `<span>· ${esc(e.venue)}</span>` : ""}
+          ${venue ? `<span>📍 ${esc(venue)}</span>` : ""}
         </div>
       </div>
       ${e.url ? `<a class="tickets-btn" href="${esc(e.url)}" target="_blank" rel="noopener">🎟 Tickets</a>` : ""}
     </div>`;
 }
 
-function fallbackClubs() {
-  // The view is never dead: list the city's clubs with their regular hours.
-  return `
-    <div class="events-fallback-title">No ticketed events listed — the regulars are still open</div>
-    ${activeCity.clubs.map((k, i) => `
-      <button class="fallback-club" data-club="${i}">
-        <span class="fname">${esc(k.name)}</span>
-        <span class="fhours">${esc(k.hours || "")}</span>
-      </button>`).join("")}`;
-}
-
 function renderEvents() {
   const view = $("events-view");
   if (!activeCity) { view.innerHTML = ""; return; }
-  const { timezone, events } = cityEvents();
-  const today = cityTodayISO(timezone || undefined);
-  const weekEnd = addDaysISO(today, 7);
-  const byTime = (a, b) => (a.localDate < b.localDate ? -1 : a.localDate > b.localDate ? 1 : (a.localTime || "") < (b.localTime || "") ? -1 : 1);
-  const tonight = events.filter(e => e.localDate === today).sort(byTime);
-  const week = events.filter(e => e.localDate > today && e.localDate <= weekEnd).sort(byTime);
-
-  let html = "";
-  html += `<div><div class="events-section-title">⚡ Tonight<span class="date-sub">${esc(fmtDateLabel(today))} · ${esc(activeCity.name)} local time</span></div>`;
-  html += tonight.length
-    ? tonight.map(eventRow).join("")
-    : `<div class="events-empty"><div class="big">No ticketed events found for tonight</div><p>Ticketmaster has nothing listed at these venues today — but the clubs are still open.</p></div>`;
-  html += `</div>`;
-  if (week.length) {
-    html += `<div><div class="events-section-title">📅 This week<span class="date-sub">Upcoming ticketed events</span></div>`;
-    html += week.map(eventRow).join("") + `</div>`;
+  const upcoming = upcomingEvents();
+  if (!upcoming.length) {
+    // Hidden entirely for cities with nothing coming up — the toggle is
+    // hidden too (see updateEventsToggle), so this is just a guard.
+    view.innerHTML = "";
+    return;
   }
-  html += fallbackClubs();
-  view.innerHTML = html;
-  view.querySelectorAll("[data-club]").forEach(el => {
-    el.onclick = () => {
-      const k = activeCity.clubs[+el.dataset.club];
-      if (k) showDetail(k);
-    };
-  });
+  view.innerHTML = `<div><div class="events-section-title">📅 Coming up<span class="date-sub">Next 30 days · ${esc(activeCity.name)} local time</span></div>`
+    + upcoming.map(eventRow).join("") + `</div>`;
 }
 
 function filteredClubs() {
@@ -263,7 +269,7 @@ function showDetail(k) {
 function wireEvents() {
   $("btn-back").onclick = () => $("detail").classList.add("hidden");
   $("view-clubs").onclick = () => setView("clubs");
-  $("view-tonight").onclick = () => setView("tonight");
+  $("view-coming-up").onclick = () => setView("coming-up");
   ["search", "filter-genre", "filter-price"].forEach(id => {
     $(id).addEventListener("input", renderList);
     $(id).addEventListener("change", renderList);

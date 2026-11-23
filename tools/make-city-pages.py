@@ -10,11 +10,15 @@ import json
 import re
 import urllib.parse
 from collections import Counter
+from datetime import date, datetime, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
 BASE = "https://nightguide.club"
-TODAY = "2026-10-29"
+TODAY = date.today().isoformat()
+# "Coming up" window: today through the next 30 days, per city timezone.
+COMING_UP_DAYS = 30
 
 # Pretty URL slugs per city id (clubs.json ids are compact for the app).
 SLUGS = {
@@ -94,6 +98,10 @@ dl{display:grid;grid-template-columns:110px 1fr;gap:4px 12px;margin:0 0 12px;fon
 dt{color:#a99fc4;font-weight:600}
 dd{margin:0;color:#f2edf9}
 dd ul{margin:0;padding-left:16px}
+.event{border:1px solid #2c1e52;border-radius:16px;padding:14px 18px;margin:0 0 12px;background:linear-gradient(180deg,#120826,#0b0518)}
+.event h3{font-size:18px;margin:0 0 4px}
+.event .meta{color:#cfc4ea;font-size:14px;margin:0 0 8px}
+.event a.tickets{display:inline-block;padding:8px 16px;border-radius:999px;background:linear-gradient(90deg,#ff3ea5,#7b2ff7);color:#fff;font-weight:700;font-size:14px;text-decoration:none}
 .citygrid{display:flex;flex-wrap:wrap;gap:8px}
 .citygrid a{border:1px solid #3d2a75;border-radius:999px;padding:6px 14px;text-decoration:none;color:#e6def7;font-size:14px}
 .faq dt{font-size:16px;color:#fff;margin-top:14px}
@@ -146,7 +154,81 @@ def club_article(club, city_name):
 </article>"""
 
 
-def city_page(city, all_cities, codes):
+def load_events():
+    p = ROOT / "data" / "events.json"
+    if not p.exists():
+        return {}
+    data = json.loads(p.read_text(encoding="utf-8"))
+    return {c["cityId"]: c for c in data.get("cities", [])}
+
+
+def fmt_event_time(t):
+    m = re.match(r"^(\d{1,2}):(\d{2})", str(t or ""))
+    if not m:
+        return str(t or "")
+    h = int(m.group(1))
+    ap = "PM" if h >= 12 else "AM"
+    return f"{h % 12 or 12}:{m.group(2)} {ap}"
+
+
+def fmt_event_date(iso):
+    d = date.fromisoformat(iso)
+    return f"{d.strftime('%a %b')} {d.day}, {d.year}"
+
+
+def upcoming_events(city_entry):
+    """Events from today through the next COMING_UP_DAYS days, in the
+    city's own timezone. Past events are never presented as upcoming."""
+    if not city_entry:
+        return []
+    tz_name = city_entry.get("timezone") or "UTC"
+    try:
+        today = datetime.now(ZoneInfo(tz_name)).date()
+    except Exception:
+        today = date.today()
+    end = today + timedelta(days=COMING_UP_DAYS)
+    out = []
+    for e in city_entry.get("events", []):
+        try:
+            d = date.fromisoformat(e["localDate"])
+        except Exception:
+            continue
+        if today <= d <= end:
+            out.append(e)
+    return sorted(out, key=lambda e: (e["localDate"], e.get("localTime") or ""))
+
+
+def events_section(city, city_entry):
+    """A 'Coming up' section listing each event under its own name and its
+    REAL venue (e.venue, as listed by the ticket seller) — never under a
+    nearby club it was matched to. Returns '' when the city has no
+    upcoming events, so the section is hidden entirely rather than
+    rendering an empty dead end."""
+    upcoming = upcoming_events(city_entry)
+    if not upcoming:
+        return "", 0
+    rows = []
+    for e in upcoming:
+        venue = e.get("venue") or e.get("clubName") or ""
+        meta = " · ".join(p for p in [
+            esc(fmt_event_date(e["localDate"])),
+            esc(fmt_event_time(e.get("localTime"))) if e.get("localTime") else "",
+            f"📍 {esc(venue)}" if venue else "",
+        ] if p)
+        tickets = (f'<a class="tickets" href="{esc(e["url"])}" target="_blank" '
+                   f'rel="noopener">🎟 Tickets</a>') if e.get("url") else ""
+        rows.append(f"""<article class="event">
+<h3>{esc(e.get('name', ''))}</h3>
+<p class="meta">{meta}</p>
+{tickets}
+</article>""")
+    section = (f'<h2 class="sec">Coming up in {esc(city["name"])}</h2>\n'
+               f'<p class="sub">Ticketed events in the next {COMING_UP_DAYS} days — '
+               f'shown under each event\'s real venue.</p>\n' + "\n".join(rows))
+    return section, len(upcoming)
+
+
+def city_page(city, all_cities, codes, events_by_city=None):
     cid = city["id"]
     slug = SLUGS[cid]
     name = city["name"]
@@ -174,6 +256,11 @@ def city_page(city, all_cities, codes):
         others.append(f'<a href="{BASE}/cities/{SLUGS[c["id"]]}/">{esc(c.get("flag", ""))} {esc(c["name"])}</a>')
     others_html = "\n".join(others)
     articles = "\n".join(club_article(c, name) for c in clubs)
+    coming_up_section, n_upcoming = events_section(
+        city, (events_by_city or {}).get(cid))
+    coming_up_cta = (
+        f'<a class="cta ghost" href="{BASE}/?city={cid}&view=coming-up">'
+        f'Coming up in {esc(name)}</a>') if n_upcoming else ""
     faq = [
         (f"What are the best nightclubs in {name}?",
          f"NightGuide's curated list for {name} includes {top_names} among its {n} listed "
@@ -258,7 +345,8 @@ def city_page(city, all_cities, codes):
 <p class="sub">{esc(city.get('flag', ''))} {esc(place)} · {n} clubs · hours, DJs, dress codes, entry prices & rules</p>
 <p class="intro">{intro}</p>
 <a class="cta" href="{BASE}/?city={cid}">Open {esc(name)} in the interactive guide</a>
-<a class="cta ghost" href="{BASE}/">What's on tonight</a>
+{coming_up_cta}
+{coming_up_section}
 <h2 class="sec">The {n} clubs</h2>
 {articles}
 <h2 class="sec">{esc(name)} nightlife FAQ</h2>
@@ -304,10 +392,11 @@ def main():
     missing = [c["id"] for c in cities if c["id"] not in SLUGS]
     if missing:
         raise SystemExit(f"Missing slugs for: {missing}")
+    events_by_city = load_events()
     for city in cities:
         out = ROOT / "cities" / SLUGS[city["id"]] / "index.html"
         out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(city_page(city, cities, codes), encoding="utf-8")
+        out.write_text(city_page(city, cities, codes, events_by_city), encoding="utf-8")
         print(f"wrote {out.relative_to(ROOT)} ({len(city['clubs'])} clubs)")
     write_sitemap(cities)
     print(f"sitemap.xml regenerated with {len(cities)} city URLs")
