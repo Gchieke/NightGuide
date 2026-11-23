@@ -8,6 +8,7 @@ the city URLs. Run from the repo root:  python3 tools/make-city-pages.py
 import html
 import json
 import re
+import urllib.parse
 from collections import Counter
 from pathlib import Path
 
@@ -86,6 +87,9 @@ h2.sec{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:24px;letter
 .chips{margin:0 0 10px}
 .chip{display:inline-block;border:1px solid #3d2a75;border-radius:999px;padding:2px 10px;font-size:12px;color:#cfc4ea;margin:0 6px 6px 0;text-transform:capitalize}
 .club p.desc{margin:0 0 10px;color:#e6def7}
+.club .actions{margin:0 0 12px}
+.club .actions a{display:inline-block;padding:9px 18px;border-radius:999px;background:linear-gradient(90deg,#ff3ea5,#7b2ff7);color:#fff;font-weight:700;font-size:14px;text-decoration:none;margin:0 8px 6px 0}
+.club .actions a.website{background:none;border:1px solid #22d3ee;color:#9be9f7}
 dl{display:grid;grid-template-columns:110px 1fr;gap:4px 12px;margin:0 0 12px;font-size:14px}
 dt{color:#a99fc4;font-weight:600}
 dd{margin:0;color:#f2edf9}
@@ -98,8 +102,17 @@ footer{border-top:1px solid #2c1e52;margin-top:36px;padding-top:16px;color:#a99f
 """
 
 
+def maps_url(club, city_name):
+    # Built only from fields that exist in the data (name, area, city) —
+    # never a fabricated address.
+    q = " ".join(p for p in [club.get("name", ""), club.get("area", ""), city_name] if p)
+    return "https://www.google.com/maps/search/?api=1&query=" + urllib.parse.quote_plus(q)
+
+
 def club_article(club, city_name):
     rows = []
+    if club.get("address"):
+        rows.append(("Address", esc(club["address"])))
     if club.get("hours"):
         rows.append(("Hours", esc(club["hours"])))
     if club.get("djs"):
@@ -119,12 +132,17 @@ def club_article(club, city_name):
     meta = esc(club.get("area", ""))
     if tier:
         meta = f"{meta} · {tier}" if meta else tier
+    website_link = ""
+    if club.get("website"):
+        website_link = (f'<a class="website" href="{esc(club["website"])}" '
+                        f'target="_blank" rel="noopener">🌐 Website</a>')
     return f"""<article class="club" id="{slugify(club['name'])}">
 <h3>{esc(club['name'])}</h3>
 <p class="area">{meta} · {esc(city_name)}</p>
 <p class="chips">{genres}</p>
 <p class="desc">{esc(club.get('description', ''))}</p>
 <dl>{dl}</dl>
+<p class="actions"><a href="{maps_url(club, city_name)}" target="_blank" rel="noopener">📍 Directions</a>{website_link}</p>
 </article>"""
 
 

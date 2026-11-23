@@ -187,6 +187,22 @@ function priceLabel(tier) {
   return "$".repeat(tier || 1);
 }
 
+// Directions are built only from fields that exist in the data (club name,
+// area, city name) — never a fabricated address. Address and website render
+// only when those fields are present on the club record.
+function mapsUrl(k) {
+  const q = [k.name, k.area, activeCity ? activeCity.name : ""].filter(Boolean).join(" ");
+  return "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(q);
+}
+
+function clubActions(k) {
+  const links = [`<a class="action-btn directions-btn" href="${esc(mapsUrl(k))}" target="_blank" rel="noopener">📍 Directions</a>`];
+  if (k.website) links.push(`<a class="action-btn website-btn" href="${esc(k.website)}" target="_blank" rel="noopener">🌐 Website</a>`);
+  return `
+    ${k.address ? `<div class="club-address">📍 ${esc(k.address)}</div>` : ""}
+    <div class="club-actions">${links.join("")}</div>`;
+}
+
 function renderList() {
   const list = $("club-list");
   const clubs = filteredClubs();
@@ -207,7 +223,10 @@ function renderList() {
         <span>${esc(k.hours || "")}</span>
         <span class="price-tier">${priceLabel(k.priceTier)}</span>
       </div>
+      ${clubActions(k)}
     </article>`).join("");
+  list.querySelectorAll(".club-actions a").forEach(a =>
+    a.addEventListener("click", e => e.stopPropagation()));
   list.querySelectorAll(".club-card").forEach(card => {
     const open = () => showDetail(clubs[+card.dataset.idx]);
     card.onclick = open;
@@ -224,6 +243,7 @@ function showDetail(k) {
       <div class="area">${esc(k.area)} · ${esc(activeCity.name)}</div>
       <div class="genre-tags" style="margin-top:10px">${(k.genres || []).map(g => `<span class="genre-tag">${esc(g)}</span>`).join("")}</div>
     </div>
+    ${clubActions(k)}
     <div class="info-grid">
       <div class="info-card"><h4>🕐 Hours</h4><p>${esc(k.hours || "—")}</p></div>
       <div class="info-card"><h4>🎧 DJs & Nights</h4>${djs}</div>

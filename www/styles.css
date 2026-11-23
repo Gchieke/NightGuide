@@ -180,6 +180,26 @@ body {
   text-shadow: 0 0 10px rgba(34,211,238,.8);
 }
 
+/* ---------- club actions: Directions / Website ---------- */
+.club-address { color: var(--muted); font-size: 13px; margin-top: 10px; }
+.club-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.action-btn {
+  display: inline-block; padding: 9px 16px; border-radius: 999px;
+  font-size: 13px; font-weight: 700; letter-spacing: .4px; text-decoration: none;
+  min-height: 38px; line-height: 20px;
+}
+.directions-btn {
+  background: linear-gradient(90deg, var(--neon-pink), #7b2ff7); color: #fff;
+  box-shadow: 0 0 14px rgba(255,46,196,.35);
+}
+.website-btn {
+  background: rgba(34,211,238,.08); color: #9be9f7;
+  border: 1px solid rgba(34,211,238,.5);
+}
+#detail-body .club-actions { margin: 0 0 18px; }
+#detail-body .club-address { margin: 0 0 10px; font-size: 14px; }
+#detail-body .action-btn { padding: 12px 22px; font-size: 14px; min-height: 46px; line-height: 22px; }
+
 /* ---------- detail: VIP pass ---------- */
 .detail {
   position: fixed; inset: 0; background: rgba(7,3,16,.97); z-index: 20;
