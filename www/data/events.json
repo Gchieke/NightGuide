@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T06:12:44.631910+00:00",
+ "generated_at": "2026-11-24T06:12:52.480820+00:00",
  "cities": [
   {
    "cityId": "london",
@@ -103,6 +103,18 @@
      "venue": "Webster Hall",
      "url": "https://ticketmaster.evyy.net/c/1815238/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FZ7r9jZ1A7P-q8&utm_medium=affiliate",
      "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AAeaoE",
+     "name": "Hunxho - Ages 18+",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-12-07",
+     "localTime": "20:00:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://ticketmaster.evyy.net/c/1815238/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FZ7r9jZ1AAeaoE&utm_medium=affiliate",
+     "source": "ticketmaster"
     }
    ]
   },
@@ -138,18 +150,6 @@
    "cityId": "vegas",
    "timezone": "America/Los_Angeles",
    "events": [
-    {
-     "id": "Z7r9jZ1AAv9uy",
-     "name": "Rufus Du Sol - Ages 21+",
-     "clubName": "XS Nightclub",
-     "clubIndex": 1,
-     "localDate": "2026-11-22",
-     "localTime": "22:30:00",
-     "timezone": "America/Los_Angeles",
-     "venue": "XS Nightclub at Wynn Las Vegas",
-     "url": "https://ticketmaster.evyy.net/c/1815238/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FZ7r9jZ1AAv9uy&utm_medium=affiliate",
-     "source": "ticketmaster"
-    },
     {
      "id": "Z7r9jZ1AAv9Cv",
      "name": "Loud Luxury - Ages 21+",
