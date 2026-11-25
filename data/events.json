@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T06:12:52.480820+00:00",
+ "generated_at": "2026-11-25T06:12:43.303327+00:00",
  "cities": [
   {
    "cityId": "london",
@@ -14,24 +14,49 @@
   {
    "cityId": "dubai",
    "timezone": "Asia/Dubai",
-   "events": []
+   "events": [
+    {
+     "id": "Z698xZ52Z16vxor8ZJ",
+     "name": "AITCH | MASH-UP FRIDAYS",
+     "clubName": "The Penthouse",
+     "clubIndex": 4,
+     "localDate": "2026-11-27",
+     "localTime": "22:00:00",
+     "timezone": "Asia/Dubai",
+     "venue": "The Penthouse | FIVE Palm",
+     "url": "https://ticketmaster.evyy.net/c/1815238/2038771/23904?u=https%3A%2F%2Fwww.ticketmaster.ae%2Fevent%2Faitch-%257C-mash-up-fridays-tickets%2F1891790026&utm_medium=affiliate",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z698xZ52Z16vOY4Sf3",
+     "name": "Skyline Saturdays Presents RAFAEL",
+     "clubName": "The Penthouse",
+     "clubIndex": 4,
+     "localDate": "2026-11-28",
+     "localTime": "22:00:00",
+     "timezone": "Asia/Dubai",
+     "venue": "The Penthouse | FIVE Palm",
+     "url": "https://ticketmaster.evyy.net/c/1815238/2038771/23904?u=https%3A%2F%2Fwww.ticketmaster.ae%2Fevent%2Fskyline-saturdays-presents-rafael-tickets%2F1830573512&utm_medium=affiliate",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z698xZ52Z16vuzbdPx",
+     "name": "HOUSE RULES | Nic Fanciulli",
+     "clubName": "The Penthouse",
+     "clubIndex": 4,
+     "localDate": "2026-12-05",
+     "localTime": "22:00:00",
+     "timezone": "Asia/Dubai",
+     "venue": "The Penthouse | FIVE Palm",
+     "url": "https://ticketmaster.evyy.net/c/1815238/2038771/23904?u=https%3A%2F%2Fwww.ticketmaster.ae%2Fevent%2Fhouse-rules-%257C-nic-fanciulli-tickets%2F1378603962&utm_medium=affiliate",
+     "source": "ticketmaster"
+    }
+   ]
   },
   {
    "cityId": "nyc",
    "timezone": "America/New_York",
    "events": [
-    {
-     "id": "Z7r9jZ1AAvEjb",
-     "name": "Alyssa Grace (16 and Over)",
-     "clubName": "Webster Hall",
-     "clubIndex": 0,
-     "localDate": "2026-11-24",
-     "localTime": "20:00:00",
-     "timezone": "America/New_York",
-     "venue": "Webster Hall",
-     "url": "https://ticketmaster.evyy.net/c/1815238/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FZ7r9jZ1AAvEjb&utm_medium=affiliate",
-     "source": "ticketmaster"
-    },
     {
      "id": "Z7r9jZ1AA7PPf",
      "name": "M.E.A.T. x Webster Hall - Adham + Suri + More - Ages 21+",
@@ -114,6 +139,18 @@
      "timezone": "America/New_York",
      "venue": "Webster Hall",
      "url": "https://ticketmaster.evyy.net/c/1815238/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FZ7r9jZ1AAeaoE&utm_medium=affiliate",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1A7P3vz",
+     "name": "Jalen NGonda (16 and Over)",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-12-08",
+     "localTime": "20:00:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://ticketmaster.evyy.net/c/1815238/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FZ7r9jZ1A7P3vz&utm_medium=affiliate",
      "source": "ticketmaster"
     }
    ]
