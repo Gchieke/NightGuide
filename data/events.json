@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T06:12:43.303327+00:00",
+ "generated_at": "2026-11-26T06:12:49.315517+00:00",
  "cities": [
   {
    "cityId": "london",
@@ -57,6 +57,30 @@
    "cityId": "nyc",
    "timezone": "America/New_York",
    "events": [
+    {
+     "id": "Z7r9jZ1AAvgPe",
+     "name": "Guy Gerber - Ages 21+",
+     "clubName": "Pacha New York",
+     "clubIndex": 7,
+     "localDate": "2026-11-27",
+     "localTime": "22:00:00",
+     "timezone": "America/New_York",
+     "venue": "Pacha New York",
+     "url": "https://ticketmaster.evyy.net/c/1815238/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FZ7r9jZ1AAvgPe&utm_medium=affiliate",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AAvOox",
+     "name": "Mathame - Ages 21+",
+     "clubName": "Pacha New York",
+     "clubIndex": 7,
+     "localDate": "2026-11-28",
+     "localTime": "22:00:00",
+     "timezone": "America/New_York",
+     "venue": "Pacha New York",
+     "url": "https://ticketmaster.evyy.net/c/1815238/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FZ7r9jZ1AAvOox&utm_medium=affiliate",
+     "source": "ticketmaster"
+    },
     {
      "id": "Z7r9jZ1AA7PPf",
      "name": "M.E.A.T. x Webster Hall - Adham + Suri + More - Ages 21+",
@@ -151,6 +175,18 @@
      "timezone": "America/New_York",
      "venue": "Webster Hall",
      "url": "https://ticketmaster.evyy.net/c/1815238/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FZ7r9jZ1A7P3vz&utm_medium=affiliate",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1A70PGY",
+     "name": "Shakey Graves w/ Jobi Riccio",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-12-09",
+     "localTime": "20:00:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://ticketmaster.evyy.net/c/1815238/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FZ7r9jZ1A70PGY&utm_medium=affiliate",
      "source": "ticketmaster"
     }
    ]
