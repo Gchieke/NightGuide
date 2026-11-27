@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T06:12:49.315517+00:00",
+ "generated_at": "2026-11-27T06:12:44.718179+00:00",
  "cities": [
   {
    "cityId": "london",
@@ -187,6 +187,18 @@
      "timezone": "America/New_York",
      "venue": "Webster Hall",
      "url": "https://ticketmaster.evyy.net/c/1815238/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FZ7r9jZ1A70PGY&utm_medium=affiliate",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AAvVp6",
+     "name": "Chicks In The Office - Ages 18+",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-12-10",
+     "localTime": "20:00:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://ticketmaster.evyy.net/c/1815238/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FZ7r9jZ1AAvVp6&utm_medium=affiliate",
      "source": "ticketmaster"
     }
    ]
