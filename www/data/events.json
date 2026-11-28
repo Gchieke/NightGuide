@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T06:12:44.718179+00:00",
+ "generated_at": "2026-11-28T06:12:54.717171+00:00",
  "cities": [
   {
    "cityId": "london",
@@ -15,18 +15,6 @@
    "cityId": "dubai",
    "timezone": "Asia/Dubai",
    "events": [
-    {
-     "id": "Z698xZ52Z16vxor8ZJ",
-     "name": "AITCH | MASH-UP FRIDAYS",
-     "clubName": "The Penthouse",
-     "clubIndex": 4,
-     "localDate": "2026-11-27",
-     "localTime": "22:00:00",
-     "timezone": "Asia/Dubai",
-     "venue": "The Penthouse | FIVE Palm",
-     "url": "https://ticketmaster.evyy.net/c/1815238/2038771/23904?u=https%3A%2F%2Fwww.ticketmaster.ae%2Fevent%2Faitch-%257C-mash-up-fridays-tickets%2F1891790026&utm_medium=affiliate",
-     "source": "ticketmaster"
-    },
     {
      "id": "Z698xZ52Z16vOY4Sf3",
      "name": "Skyline Saturdays Presents RAFAEL",
@@ -57,18 +45,6 @@
    "cityId": "nyc",
    "timezone": "America/New_York",
    "events": [
-    {
-     "id": "Z7r9jZ1AAvgPe",
-     "name": "Guy Gerber - Ages 21+",
-     "clubName": "Pacha New York",
-     "clubIndex": 7,
-     "localDate": "2026-11-27",
-     "localTime": "22:00:00",
-     "timezone": "America/New_York",
-     "venue": "Pacha New York",
-     "url": "https://ticketmaster.evyy.net/c/1815238/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FZ7r9jZ1AAvgPe&utm_medium=affiliate",
-     "source": "ticketmaster"
-    },
     {
      "id": "Z7r9jZ1AAvOox",
      "name": "Mathame - Ages 21+",
@@ -199,6 +175,30 @@
      "timezone": "America/New_York",
      "venue": "Webster Hall",
      "url": "https://ticketmaster.evyy.net/c/1815238/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FZ7r9jZ1AAvVp6&utm_medium=affiliate",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AAveb9",
+     "name": "Lucy Bedroque - Ages 16+",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-12-11",
+     "localTime": "19:30:00",
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://ticketmaster.evyy.net/c/1815238/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FZ7r9jZ1AAveb9&utm_medium=affiliate",
+     "source": "ticketmaster"
+    },
+    {
+     "id": "Z7r9jZ1AAv7-b",
+     "name": "Amtrac - Ages 18+",
+     "clubName": "Webster Hall",
+     "clubIndex": 0,
+     "localDate": "2026-12-12",
+     "localTime": null,
+     "timezone": "America/New_York",
+     "venue": "Webster Hall",
+     "url": "https://ticketmaster.evyy.net/c/1815238/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FZ7r9jZ1AAv7-b&utm_medium=affiliate",
      "source": "ticketmaster"
     }
    ]
